@@ -56,12 +56,12 @@ double base_altitude = 21; // Altitude of Menlo Park in (m)
 
 
 // CODE FOR CUTDOWN
-const int cutdownPin = 5; // put pin here
-int minPressure = 28; // Corresponds to 0.406 lb/in^2 (80,000 ft)
+const int cutdownPin = 8; // put pin here
+int minPressure = 50; // For testing
 // END CODE FOR CUTDOWN
 
-// CODE FOR HEATING PAD
-const int heatingPin = 6; // put pin here
+//// CODE FOR HEATING PAD
+const int heatingPin = 9; // put pin here
 int minTemp = 32; // in F
 
 
@@ -77,6 +77,7 @@ void setup() {
   pressure_baseline = sensor.getPressure(ADC_4096);
 
   pinMode(cutdownPin, OUTPUT); // For cutdown
+  pinMode(heatingPin, OUTPUT);
 
 }
 
@@ -113,13 +114,16 @@ void loop() {
   altitude_delta = altitude(pressure_abs , pressure_baseline);
 
   // Report values via UART
-//  Serial.print("Temperature C = ");
-//  Serial.println(temperature_c);
-//
-//  Serial.print("Temperature F = ");
-//  Serial.println(temperature_f);
+  Serial.print("Temperature C = ");
+  Serial.println(temperature_c);
 
-  Serial.print("Pressure (mbar)= ");
+  Serial.print("Temperature F = ");
+  Serial.println(temperature_f);
+
+  Serial.print("Pressure raw (mbar)= ");
+  Serial.println(pressure_abs);
+
+  Serial.print("Pressure corrected (mbar)= ");
   Serial.println(pressure_corrected);
 
 //  Serial.print("Pressure relative (mbar)= ");
@@ -133,6 +137,7 @@ void loop() {
   // CODE FOR CUTDOWN
   if (pressure_corrected < minPressure) {
     digitalWrite(cutdownPin, HIGH);
+    // Serial.print("yayay");
   } // END CODE FOR CUTDOWN
 
 
