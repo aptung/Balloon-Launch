@@ -1,5 +1,6 @@
 // TO DO: calibrate temperature (?)
 // Buzzer, strobe
+// Separate code into methods for each different function
 
 
 // millis() is a sort of relative time function
