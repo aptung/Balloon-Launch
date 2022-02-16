@@ -2,37 +2,9 @@
 // Buzzer, strobe
 // Separate code into methods for each different function
 
-
 // millis() is a sort of relative time function
 // https://forum.arduino.cc/t/internal-clock-function/265591/4
 
-
-/******************************************************************************
-  SparkFun_MS5803_Demo.ino
-  Demo Program for MS5803 pressure sensors.
-  Casey Kuhns @ SparkFun Electronics
-  7/20/2014
-  https://github.com/sparkfun/MS5803-14BA_Breakout/
-
-  The MS58XX MS57XX and MS56XX by Measurement Specialties is a low cost I2C pressure
-  sensor.  This sensor can be used in weather stations and for altitude
-  estimations. It can also be used underwater for water depth measurements.
-
-  Resources:
-  This library uses the Arduino Wire.h to complete I2C transactions.
-
-  Development environment specifics:
-  IDE: Arduino 1.0.5
-  Hardware Platform: Arduino Pro 3.3V/8MHz
-  T5403 Breakout Version: 1.0
-
-**Updated for Arduino 1.8.8 5/2019**
-
-  This code is beerware. If you see me (or any other SparkFun employee) at the
-  local pub, and you've found our code helpful, please buy us a round!
-
-  Distributed as-is; no warranty is given.
-******************************************************************************/
 
 // #include <Wire.h>
 #include <SparkFun_MS5803_I2C.h> // Click here to get the library: http://librarymanager/All#SparkFun_MS5803-14BA
@@ -57,15 +29,11 @@ double base_altitude = 21; // Altitude of Menlo Park in (m)
 
 unsigned long time;
 
-
-// CODE FOR CUTDOWN
 const int cutdownPin = 8; // put pin here
-int minPressure = 50; // For testing
-// END CODE FOR CUTDOWN
+int minPressure = 14; // From Michael (?)
 
-//// CODE FOR HEATING PAD
 const int heatingPin = 9; // put pin here
-int minTemp = 32; // in F
+int minTemp = -10; // in C
 
 
 void setup() {
@@ -97,27 +65,24 @@ void loop() {
   
   time = millis();
   
-  // Read temperature from the sensor in deg C. This operation takes about
-  temperature_c = sensor.getTemperature(CELSIUS, ADC_512);
+  temperature_c = sensor.getTemperature(CELSIUS, ADC_4096);
 
   // Read temperature from the sensor in deg F. Converting
   // to Fahrenheit is not internal to the sensor.
   // Additional math is done to convert a Celsius reading.
-  temperature_f = sensor.getTemperature(FAHRENHEIT, ADC_512); // MIGHT NEED TO CORRECT/CALIBRATE THIS
+  temperature_f = sensor.getTemperature(FAHRENHEIT, ADC_4096); // MIGHT NEED TO CORRECT/CALIBRATE THIS -- RETEST WITH HIGHER PRECISION?
 
-  // Read pressure from the sensor in mbar.
+  // Pressure is in mbar.
   pressure_abs = sensor.getPressure(ADC_4096);
   pressure_corrected = (pressure_abs+9.96392)/1.00249; // Correction based on calibration testing
 
-  // Let's do something interesting with our data.
-
-  // Convert abs pressure with the help of altitude into relative pressure
-  // This is used in Weather stations.
-  pressure_relative = sealevel(pressure_abs, base_altitude);
-
-  // Taking our baseline pressure at the beginning we can find an approximate
-  // change in altitude based on the differences in pressure.
-  altitude_delta = altitude(pressure_abs , pressure_baseline);
+//  // Convert abs pressure with the help of altitude into relative pressure
+//  // This is used in Weather stations.
+//  pressure_relative = sealevel(pressure_abs, base_altitude);
+//
+//  // Taking our baseline pressure at the beginning we can find an approximate
+//  // change in altitude based on the differences in pressure.
+//  altitude_delta = altitude(pressure_abs , pressure_baseline);
 
   Serial.print("Current relative time (millis) = ");
   Serial.println(time);
@@ -150,10 +115,10 @@ void loop() {
 }
 
 void heatingPad() {
-  if (temperature_f > minTemp+2){
+  if (temperature_c > minTemp+2){
     digitalWrite(heatingPin, LOW);
   }
-  if (temperature_f < minTemp){
+  if (temperature_c < minTemp){
     digitalWrite(heatingPin, HIGH);
   }
 }
@@ -164,6 +129,13 @@ void checkCutdown() {
     // Serial.print("yayay");
   }
 }
+
+
+
+
+
+
+
 
 // Thanks to Mike Grusin for letting me borrow the functions below from
 // the BMP180 example code.
