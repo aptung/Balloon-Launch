@@ -55,6 +55,8 @@ double pressure_corrected;
 double base_altitude = 21; // Altitude of Menlo Park in (m)
 
 
+unsigned long time;
+
 
 // CODE FOR CUTDOWN
 const int cutdownPin = 8; // put pin here
@@ -80,10 +82,10 @@ void setup() {
   pinMode(cutdownPin, OUTPUT); // For cutdown
   pinMode(heatingPin, OUTPUT);
 
+  time = millis();
 }
 
 void loop() {
-  // Serial.print("yay");
 
   // To measure to higher degrees of precision use the following sensor settings:
   // ADC_256
@@ -91,7 +93,10 @@ void loop() {
   // ADC_1024
   // ADC_2048
   // ADC_4096
-
+  
+  
+  time = millis();
+  
   // Read temperature from the sensor in deg C. This operation takes about
   temperature_c = sensor.getTemperature(CELSIUS, ADC_512);
 
@@ -114,7 +119,9 @@ void loop() {
   // change in altitude based on the differences in pressure.
   altitude_delta = altitude(pressure_abs , pressure_baseline);
 
-  // Report values via UART
+  Serial.print("Current relative time (millis) = ");
+  Serial.println(time);
+  
   Serial.print("Temperature C = ");
   Serial.println(temperature_c);
 
@@ -135,25 +142,28 @@ void loop() {
 
   Serial.println(" ");//padding between outputs
 
-  // CODE FOR CUTDOWN
-  if (pressure_corrected < minPressure) {
-    digitalWrite(cutdownPin, HIGH);
-    // Serial.print("yayay");
-  } // END CODE FOR CUTDOWN
+  checkCutdown();
+  heatingPad();
+  
+  delay(1000);
 
+}
 
-  // CODE FOR HEATING PAD
+void heatingPad() {
   if (temperature_f > minTemp+2){
     digitalWrite(heatingPin, LOW);
   }
   if (temperature_f < minTemp){
     digitalWrite(heatingPin, HIGH);
-  } // END CODE FOR HEATING PAD
-
-  delay(1000);
-
+  }
 }
 
+void checkCutdown() {
+  if (pressure_corrected < minPressure) {
+    digitalWrite(cutdownPin, HIGH);
+    // Serial.print("yayay");
+  }
+}
 
 // Thanks to Mike Grusin for letting me borrow the functions below from
 // the BMP180 example code.
