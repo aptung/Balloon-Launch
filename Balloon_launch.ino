@@ -22,6 +22,7 @@ MS5803 sensor(ADDRESS_HIGH);
 float temperature_c;
 double pressure_abs, pressure_relative, altitude_delta, pressure_baseline;
 double pressure_corrected;
+int hallChip;
 
 // Create Variable to store altitude in (m) for calculations;
 double base_altitude = 21; // Altitude of Menlo Park in (m)
@@ -35,6 +36,8 @@ int minPressure = 14; // From Michael (?)
 const int heatingPin = 9; // put pin here
 int minTemp = -10; // in C
 
+const int hallChipPin = A1;
+
 
 void setup() {
   // Start your preferred I2C object
@@ -47,8 +50,9 @@ void setup() {
 
   pressure_baseline = sensor.getPressure(ADC_4096);
 
-  pinMode(cutdownPin, OUTPUT); // For cutdown
+  pinMode(cutdownPin, OUTPUT);
   pinMode(heatingPin, OUTPUT);
+  pinMode(hallChipPin, INPUT);
 
   time = millis();
 }
@@ -66,7 +70,8 @@ void loop() {
   time = millis();
   
   temperature_c = sensor.getTemperature(CELSIUS, ADC_4096); // MIGHT NEED TO CORRECT/CALIBRATE THIS -- RETEST WITH HIGHER PRECISION?
-  
+
+  hallChip = analogRead(hallChipPin);
 
   // Pressure is in mbar.
   pressure_abs = sensor.getPressure(ADC_4096);
@@ -80,17 +85,17 @@ void loop() {
 //  // change in altitude based on the differences in pressure.
 //  altitude_delta = altitude(pressure_abs , pressure_baseline);
 
-  Serial.print("Current relative time (millis) = ");
-  Serial.println(time);
-  
-  Serial.print("Temperature C = ");
-  Serial.println(temperature_c);
-
-  Serial.print("Pressure raw (mbar)= ");
-  Serial.println(pressure_abs);
-
-  Serial.print("Pressure corrected (mbar)= ");
-  Serial.println(pressure_corrected);
+//  Serial.print("Current relative time (millis) = ");
+//  Serial.println(time);
+//  
+//  Serial.print("Temperature C = ");
+//  Serial.println(temperature_c);
+//
+//  Serial.print("Pressure raw (mbar)= ");
+//  Serial.println(pressure_abs);
+//
+//  Serial.print("Pressure corrected (mbar)= ");
+//  Serial.println(pressure_corrected);
 
 //  Serial.print("Pressure relative (mbar)= ");
 //  Serial.println(pressure_relative);
@@ -98,12 +103,20 @@ void loop() {
 //  Serial.print("Altitude change (m) = ");
 //  Serial.println(altitude_delta);
 
-  Serial.println(" ");//padding between outputs
+  Serial.print("Hall Chip on/off: ");
+  if (hallChip>1000){
+    Serial.println("ON");
+  }
+  else{
+    Serial.println("OFF");
+  }
+
+  // Serial.println(" ");//padding between outputs
 
   checkCutdown();
   heatingPad();
   
-  delay(1000);
+  delay(50);
 
 }
 
@@ -122,11 +135,6 @@ void checkCutdown() {
     // Serial.print("yayay");
   }
 }
-
-
-
-
-
 
 
 
