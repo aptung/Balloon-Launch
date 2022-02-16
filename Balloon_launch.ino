@@ -19,7 +19,7 @@
 MS5803 sensor(ADDRESS_HIGH);
 
 //Create variables to store results
-float temperature_c, temperature_f;
+float temperature_c;
 double pressure_abs, pressure_relative, altitude_delta, pressure_baseline;
 double pressure_corrected;
 
@@ -65,12 +65,8 @@ void loop() {
   
   time = millis();
   
-  temperature_c = sensor.getTemperature(CELSIUS, ADC_4096);
-
-  // Read temperature from the sensor in deg F. Converting
-  // to Fahrenheit is not internal to the sensor.
-  // Additional math is done to convert a Celsius reading.
-  temperature_f = sensor.getTemperature(FAHRENHEIT, ADC_4096); // MIGHT NEED TO CORRECT/CALIBRATE THIS -- RETEST WITH HIGHER PRECISION?
+  temperature_c = sensor.getTemperature(CELSIUS, ADC_4096); // MIGHT NEED TO CORRECT/CALIBRATE THIS -- RETEST WITH HIGHER PRECISION?
+  
 
   // Pressure is in mbar.
   pressure_abs = sensor.getPressure(ADC_4096);
@@ -89,9 +85,6 @@ void loop() {
   
   Serial.print("Temperature C = ");
   Serial.println(temperature_c);
-
-  Serial.print("Temperature F = ");
-  Serial.println(temperature_f);
 
   Serial.print("Pressure raw (mbar)= ");
   Serial.println(pressure_abs);
