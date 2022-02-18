@@ -61,21 +61,21 @@ void setup() {
 }
 
 void loop() {
+  // Makes sure that it was exactly 1s since the last iteration
+  if (millis()-time>=1000){
+    updateTime();
 
-  updateTime();
+    getPressure();
+    getTemperature();
+    // temperature_c = -20;
+    
+    hallChip();
 
-  getPressure();
-  getTemperature();
-  
-  hallChip();
+    checkCutdown();
+    heatingPad();
 
-  checkCutdown();
-  heatingPad();
-
-  Serial.println(" ");//padding between outputs
-  
-  delay(1000);
-
+    Serial.println(" ");//padding between outputs
+  }
 }
 
 void updateTime() {
@@ -105,8 +105,8 @@ void getPressure(){
 //  // change in altitude based on the differences in pressure.
 //  altitude_delta = altitude(pressure_abs , pressure_baseline);
   
-  Serial.print("Pressure raw (mbar)= ");
-  Serial.println(pressure_abs);
+//  Serial.print("Pressure raw (mbar)= ");
+//  Serial.println(pressure_abs);
 
   Serial.print("Pressure corrected (mbar)= ");
   Serial.println(pressure_corrected);
@@ -120,8 +120,8 @@ void getPressure(){
 
 void getTemperature(){
   temperatureVal = analogRead(tempSensor);
-  Serial.print("Temperature voltage= ");
-  Serial.println(temperatureVal);
+//  Serial.print("Temperature voltage= ");
+//  Serial.println(temperatureVal);
   
 
   // t actual = -133 + 25.3 ln val
@@ -143,13 +143,14 @@ void hallChip(){
 }
 
 void heatingPad() {
+  Serial.print("Heating pad on/off: ");
   if (temperature_c > maxTemp){
     digitalWrite(heatingPin, LOW);
-    Serial.println("Heating pad off");
+    Serial.println("OFF");
   }
   if (temperature_c < minTemp){
     digitalWrite(heatingPin, HIGH);
-    Serial.println("Heating pad on");
+    Serial.println("ON");
   }
 }
 
