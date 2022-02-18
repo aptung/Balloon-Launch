@@ -1,13 +1,12 @@
 // TO DO: calibrate temperature (?)
 // Buzzer, strobe
-// Separate code into methods for each different function
 
 // millis() is a sort of relative time function
 // https://forum.arduino.cc/t/internal-clock-function/265591/4
 
 
-// #include <Wire.h>
 #include <SparkFun_MS5803_I2C.h> // Click here to get the library: http://librarymanager/All#SparkFun_MS5803-14BA
+#include <math.h>
 
 // Begin class with selected address
 // available addresses (selected by jumper on board)
@@ -22,7 +21,8 @@ MS5803 sensor(ADDRESS_HIGH);
 float temperature_c;
 double pressure_abs, pressure_relative, altitude_delta, pressure_baseline;
 double pressure_corrected;
-int hallChip;
+int temperatureVal;
+int hallChipVal;
 
 // Create Variable to store altitude in (m) for calculations;
 double base_altitude = 21; // Altitude of Menlo Park in (m)
@@ -33,8 +33,10 @@ unsigned long time;
 const int cutdownPin = 8; // put pin here
 int minPressure = 14; // From Michael (?)
 
-const int heatingPin = 9; // put pin here
+const int heatingPin = 6; // put pin here
+const int tempSensor = A3; // temperature sensor
 int minTemp = -10; // in C
+int maxTemp = 10;
 
 const int hallChipPin = A1;
 
@@ -52,12 +54,37 @@ void setup() {
 
   pinMode(cutdownPin, OUTPUT);
   pinMode(heatingPin, OUTPUT);
+  pinMode(tempSensor, INPUT);
   pinMode(hallChipPin, INPUT);
 
   time = millis();
 }
 
 void loop() {
+
+  updateTime();
+
+  getPressure();
+  getTemperature();
+  
+  hallChip();
+
+  checkCutdown();
+  heatingPad();
+
+  Serial.println(" ");//padding between outputs
+  
+  delay(1000);
+
+}
+
+void updateTime() {
+  time = millis();
+  Serial.print("Current relative time (millis) = ");
+  Serial.println(time);
+}
+
+void getPressure(){
 
   // To measure to higher degrees of precision use the following sensor settings:
   // ADC_256
@@ -66,17 +93,10 @@ void loop() {
   // ADC_2048
   // ADC_4096
   
-  
-  time = millis();
-  
-  temperature_c = sensor.getTemperature(CELSIUS, ADC_4096); // MIGHT NEED TO CORRECT/CALIBRATE THIS -- RETEST WITH HIGHER PRECISION?
-
-  hallChip = analogRead(hallChipPin);
-
   // Pressure is in mbar.
   pressure_abs = sensor.getPressure(ADC_4096);
   pressure_corrected = (pressure_abs+9.96392)/1.00249; // Correction based on calibration testing
-
+  
 //  // Convert abs pressure with the help of altitude into relative pressure
 //  // This is used in Weather stations.
 //  pressure_relative = sealevel(pressure_abs, base_altitude);
@@ -84,48 +104,52 @@ void loop() {
 //  // Taking our baseline pressure at the beginning we can find an approximate
 //  // change in altitude based on the differences in pressure.
 //  altitude_delta = altitude(pressure_abs , pressure_baseline);
+  
+  Serial.print("Pressure raw (mbar)= ");
+  Serial.println(pressure_abs);
 
-//  Serial.print("Current relative time (millis) = ");
-//  Serial.println(time);
-//  
-//  Serial.print("Temperature C = ");
-//  Serial.println(temperature_c);
-//
-//  Serial.print("Pressure raw (mbar)= ");
-//  Serial.println(pressure_abs);
-//
-//  Serial.print("Pressure corrected (mbar)= ");
-//  Serial.println(pressure_corrected);
+  Serial.print("Pressure corrected (mbar)= ");
+  Serial.println(pressure_corrected);
 
 //  Serial.print("Pressure relative (mbar)= ");
 //  Serial.println(pressure_relative);
 //
 //  Serial.print("Altitude change (m) = ");
 //  Serial.println(altitude_delta);
+}
 
+void getTemperature(){
+  temperatureVal = analogRead(tempSensor);
+  Serial.print("Temperature voltage= ");
+  Serial.println(temperatureVal);
+  
+
+  // t actual = -133 + 25.3 ln val
+  temperature_c = -133 + 25.3 * log(temperatureVal);
+  Serial.print("Temperature (C) = ");
+  Serial.println(temperature_c);
+}
+
+void hallChip(){
+  hallChipVal = analogRead(hallChipPin);
   Serial.print("Hall Chip on/off: ");
-  if (hallChip>1000){
+//Serial.println(hallChip);
+  if (hallChipVal>1000){
     Serial.println("ON");
   }
   else{
     Serial.println("OFF");
   }
-
-  // Serial.println(" ");//padding between outputs
-
-  checkCutdown();
-  heatingPad();
-  
-  delay(50);
-
 }
 
 void heatingPad() {
-  if (temperature_c > minTemp+2){
+  if (temperature_c > maxTemp){
     digitalWrite(heatingPin, LOW);
+    Serial.println("Heating pad off");
   }
   if (temperature_c < minTemp){
     digitalWrite(heatingPin, HIGH);
+    Serial.println("Heating pad on");
   }
 }
 
