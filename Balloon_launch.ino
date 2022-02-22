@@ -1,5 +1,5 @@
-// TO DO: calibrate temperature (?)
-// Buzzer, strobe
+// TO DO: Adjust timing for different components (e.g. hall chip needs data to be sampled every ~0.1 sec)
+// Strobe
 
 // millis() is a sort of relative time function
 // https://forum.arduino.cc/t/internal-clock-function/265591/4
@@ -83,10 +83,10 @@ void loop() {
       buzzerOff();
     }
     
-    hallChip();
+    readHallChip();
 
     checkCutdown();
-    heatingPad();
+    adjustHeatingPad();
 
     Serial.println(" ");//padding between outputs
   }
@@ -144,7 +144,7 @@ void getTemperature(){
   Serial.println(temperature_c);
 }
 
-void hallChip(){
+void readHallChip(){
   hallChipVal = analogRead(hallChipPin);
   Serial.print("Hall Chip on/off: ");
 //Serial.println(hallChip);
@@ -156,7 +156,7 @@ void hallChip(){
   }
 }
 
-void heatingPad() {
+void adjustHeatingPad() {
   Serial.print("Heating pad on/off: ");
   if (temperature_c > maxTemp){
     digitalWrite(heatingPin, LOW);
