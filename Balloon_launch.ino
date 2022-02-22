@@ -30,13 +30,17 @@ double base_altitude = 21; // Altitude of Menlo Park in (m)
 
 unsigned long time;
 
-const int cutdownPin = 8; // put pin here
-int minPressure = 14; // From Michael (?)
+const int cutdownPin = 8; // put pin to control cutdown here
+const int heatingPin = 6; // put pin to control heating sensor here
+const int tempSensorPin = A3; // put pin to read in temperature sensor
+const int buzzerPin = 9; // put pin to control buzzer
 
-const int heatingPin = 6; // put pin here
-const int tempSensor = A3; // temperature sensor
+int minPressure = 14; // From Michael (?)
 int minTemp = -10; // in C
 int maxTemp = 10;
+
+
+int counter = 0; // For buzzer alternation purposes
 
 const int hallChipPin = A1;
 
@@ -54,7 +58,8 @@ void setup() {
 
   pinMode(cutdownPin, OUTPUT);
   pinMode(heatingPin, OUTPUT);
-  pinMode(tempSensor, INPUT);
+  pinMode(buzzerPin, OUTPUT);
+  pinMode(tempSensorPin, INPUT);
   pinMode(hallChipPin, INPUT);
 
   time = millis();
@@ -68,6 +73,15 @@ void loop() {
     getPressure();
     getTemperature();
     // temperature_c = -20;
+
+    if (counter==0){
+      counter=1;
+      buzzerOn();
+    }
+    else if (counter==1){
+      counter=0;
+      buzzerOff();
+    }
     
     hallChip();
 
@@ -119,7 +133,7 @@ void getPressure(){
 }
 
 void getTemperature(){
-  temperatureVal = analogRead(tempSensor);
+  temperatureVal = analogRead(tempSensorPin);
 //  Serial.print("Temperature voltage= ");
 //  Serial.println(temperatureVal);
   
@@ -153,6 +167,10 @@ void heatingPad() {
     Serial.println("ON");
   }
 }
+
+void buzzerOn() { tone(buzzerPin, 3000); } // optimal frequency as determined by testing that made grace (and everyone else) want to die
+
+void buzzerOff() { noTone(buzzerPin); }
 
 void checkCutdown() {
   if (pressure_corrected < minPressure) {
