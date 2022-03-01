@@ -114,7 +114,7 @@ void loop() {
     printHallChip();
   }
 
-  if (millis()-timeOzone>60000){
+  if (millis()-timeOzone>10000){
     readOzone();
   }
 
