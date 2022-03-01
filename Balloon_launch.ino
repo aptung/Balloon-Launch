@@ -69,16 +69,17 @@ void setup() {
   // Sensor analog read on pin A0
   // Model low concentration
   // Load resistance RL of 1MOhms (1000000 Ohms)
+  Serial.println("Calibrating...");
   MQ131.begin(2, A0, LOW_CONCENTRATION, 1000000); // From Emory
   MQ131.calibrate();
   Serial.println("Calibration done!");
-  Serial.print("R0 = ");
-  Serial.print(MQ131.getR0());
-  Serial.println("Ohms");
-  Serial.print("Time to heat = ");
-  Serial.print(MQ131.getTimeToRead()); // time until heated
-  Serial.println("s");
-  Serial.println("Sampling...");
+//  Serial.print("R0 = ");
+//  Serial.print(MQ131.getR0());
+//  Serial.println("Ohms");
+//  Serial.print("Time to heat = ");
+//  Serial.print(MQ131.getTimeToRead()); // time until heated
+//  Serial.println("s");
+//  Serial.println("Sampling...");
 
   pinMode(cutdownPin, OUTPUT);
   pinMode(heatingPin, OUTPUT);
@@ -92,6 +93,7 @@ void setup() {
   timeHeating = millis();
   timeBuzzer = millis();
   timeCutdown = millis();
+  timeOzone = millis();
 }
 
 void loop() {
@@ -107,14 +109,15 @@ void loop() {
     // temperature_c = -20;
   }
 
-  if (millis()-timeHall>250){
+  if (millis()-timeHall>100){
     timeHall = millis();
     readHallChip();
     // printPressure();
     printHallChip();
   }
 
-  if (millis()-timeOzone>10000){
+  if (millis()-timeOzone>60000){
+    timeOzone = millis();
     readOzone();
   }
 
@@ -219,16 +222,16 @@ void printHallChip(){
 void readOzone(){
   MQ131.sample();
   Serial.print("Concentration O3 ppm: ");
-  Serial.print(MQ131.getO3(PPM)); // concentration in ppm
-  Serial.print(" , ");
-  Serial.print("Concentration O3 ppb: ");
-  Serial.print(MQ131.getO3(PPB)); // concentration in ppb
-  Serial.print(" , ");
-  Serial.print("Concentration O3 mg/m3: ");
-  Serial.print(MQ131.getO3(MG_M3)); // concentration in mg/m3
-  Serial.print(" , ");
-  Serial.print("Concentration O3 ug/m3: ");
-  Serial.println(MQ131.getO3(UG_M3)); // concentration in ug/m3
+  Serial.println(MQ131.getO3(PPM)); // concentration in ppm
+//  Serial.print(" , ");
+//  Serial.print("Concentration O3 ppb: ");
+//  Serial.print(MQ131.getO3(PPB)); // concentration in ppb
+//  Serial.print(" , ");
+//  Serial.print("Concentration O3 mg/m3: ");
+//  Serial.print(MQ131.getO3(MG_M3)); // concentration in mg/m3
+//  Serial.print(" , ");
+//  Serial.print("Concentration O3 ug/m3: ");
+//  Serial.println(MQ131.getO3(UG_M3)); // concentration in ug/m3
 }
 
 void adjustHeatingPad() {
