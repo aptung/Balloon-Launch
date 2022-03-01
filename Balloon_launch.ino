@@ -27,21 +27,26 @@ int hallChipVal;
 // Create Variable to store altitude in (m) for calculations;
 double base_altitude = 21; // Altitude of Menlo Park in (m)
 
+// These are unsigned to increase the range
+// Each of these is updated at different times for each component
+unsigned long timePressure;
+unsigned long timeTemperature;
+unsigned long timeHall;
+unsigned long timeHeating;
+unsigned long timeBuzzer;
+unsigned long timeCutdown;
 
-unsigned long time;
+bool cutdown = false;
+int minPressure = 14; // From Michael (?)
+int minTemp = -10; // in C
+int maxTemp = 10;
+
+int counter = 0; // For buzzer alternation purposes
 
 const int cutdownPin = 8; // put pin to control cutdown here
 const int heatingPin = 6; // put pin to control heating sensor here
 const int tempSensorPin = A3; // put pin to read in temperature sensor
 const int buzzerPin = 9; // put pin to control buzzer
-
-int minPressure = 14; // From Michael (?)
-int minTemp = -10; // in C
-int maxTemp = 10;
-
-
-int counter = 0; // For buzzer alternation purposes
-
 const int hallChipPin = A1;
 
 
@@ -62,43 +67,67 @@ void setup() {
   pinMode(tempSensorPin, INPUT);
   pinMode(hallChipPin, INPUT);
 
-  time = millis();
+  timePressure = millis();
+  timeTemperature = millis();
+  timeHall = millis();
+  timeHeating = millis();
+  timeBuzzer = millis();
+  timeCutdown = millis();
 }
 
 void loop() {
-  // Makes sure that it was exactly 1s since the last iteration
-  if (millis()-time>=1000){
-    updateTime();
-
-    getPressure();
-    getTemperature();
-    // temperature_c = -20;
-
-    if (counter==0){
-      counter=1;
-      buzzerOn();
-    }
-    else if (counter==1){
-      counter=0;
-      buzzerOff();
-    }
-    
-    readHallChip();
-
-    checkCutdown();
-    adjustHeatingPad();
-
-    Serial.println(" ");//padding between outputs
+  if (millis()-timePressure>1000){
+    timePressure = millis();
+    updatePressure();
+    printPressure();
   }
+  if (millis()-timeTemperature>1000){
+    timeTemperature = millis();
+    updateTemperature();
+    printTemperature();
+    // temperature_c = -20;
+  }
+
+  if (millis()-timeHall>250){
+    timeHall = millis();
+    readHallChip();
+    // printPressure();
+    printHallChip();
+  }
+
+  if (cutdown) {
+    if (millis()-timeBuzzer>1000){
+      timeBuzzer = millis();
+      if (counter==0){
+        counter=1;
+        buzzerOn();
+      }
+     else if (counter==1){
+        counter=0;
+        buzzerOff();
+     }
+   }
+  }
+
+  if (millis()-timeCutdown>5000){
+    timeCutdown = millis();
+    checkCutdown();
+  }
+
+  if (millis()-timeHeating>5000){
+    timeHeating = millis();
+    adjustHeatingPad();
+  }
+  
 }
 
-void updateTime() {
-  time = millis();
-  Serial.print("Current relative time (millis) = ");
-  Serial.println(time);
-}
+//void updateTime() {
+//  time = millis();
+//  Serial.print("Current relative time (millis) = ");
+//  Serial.println(time);
+//}
 
-void getPressure(){
+void updatePressure(){
 
   // To measure to higher degrees of precision use the following sensor settings:
   // ADC_256
@@ -118,7 +147,9 @@ void getPressure(){
 //  // Taking our baseline pressure at the beginning we can find an approximate
 //  // change in altitude based on the differences in pressure.
 //  altitude_delta = altitude(pressure_abs , pressure_baseline);
-  
+}
+
+void printPressure(){
 //  Serial.print("Pressure raw (mbar)= ");
 //  Serial.println(pressure_abs);
 
@@ -132,7 +163,7 @@ void getPressure(){
 //  Serial.println(altitude_delta);
 }
 
-void getTemperature(){
+void updateTemperature(){
   temperatureVal = analogRead(tempSensorPin);
 //  Serial.print("Temperature voltage= ");
 //  Serial.println(temperatureVal);
@@ -140,12 +171,18 @@ void getTemperature(){
 
   // t actual = -133 + 25.3 ln val
   temperature_c = -133 + 25.3 * log(temperatureVal);
+}
+
+void printTemperature(){
   Serial.print("Temperature (C) = ");
   Serial.println(temperature_c);
 }
 
 void readHallChip(){
   hallChipVal = analogRead(hallChipPin);
+}
+
+void printHallChip(){
   Serial.print("Hall Chip on/off: ");
 //Serial.println(hallChip);
   if (hallChipVal>1000){
@@ -174,8 +211,11 @@ void buzzerOff() { noTone(buzzerPin); }
 
 void checkCutdown() {
   if (pressure_corrected < minPressure) {
-    digitalWrite(cutdownPin, HIGH);
-    // Serial.print("yayay");
+    if (timePressure > 5400000){ // Extra check to make sure it doesn't cut down before 90 min
+      digitalWrite(cutdownPin, HIGH);
+      Serial.print("omg cutdown");
+      cutdown = true;
+    }
   }
 }
 
