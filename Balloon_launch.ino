@@ -6,6 +6,7 @@
 
 
 #include <SparkFun_MS5803_I2C.h> // Click here to get the library: http://librarymanager/All#SparkFun_MS5803-14BA
+#include <MQ131.h>
 #include <math.h>
 
 // Begin class with selected address
@@ -41,6 +42,8 @@ int minPressure = 14; // From Michael (?)
 int minTemp = -10; // in C
 int maxTemp = 10;
 
+float R0; // "base resistance for circuit" (from Emory)
+
 int counter = 0; // For buzzer alternation purposes
 
 const int cutdownPin = 8; // put pin to control cutdown here
@@ -58,8 +61,19 @@ void setup() {
   //Retrieve calibration constants for conversion math.
   sensor.reset();
   sensor.begin();
-
+  
   pressure_baseline = sensor.getPressure(ADC_4096);
+
+  MQ131.begin(2, A0, LOW_CONCENTRATION, 1000000); // From Emory
+  MQ131.calibrate();
+  Serial.println("Calibration done!");
+  Serial.print("R0 = ");
+  Serial.print(MQ131.getR0());
+  Serial.println("Ohms");
+  Serial.print("Time to heat = ");
+  Serial.print(MQ131.getTimeToRead()); // time until heated
+  Serial.println("s");
+  Serial.println("Sampling...");
 
   pinMode(cutdownPin, OUTPUT);
   pinMode(heatingPin, OUTPUT);
@@ -191,6 +205,21 @@ void printHallChip(){
   else{
     Serial.println("OFF");
   }
+}
+
+void readOzone(){
+  MQ131.sample();
+  Serial.print("Concentration O3 ppm: ");
+  Serial.print(MQ131.getO3(PPM)); // concentration in ppm
+  Serial.print(" , ");
+  Serial.print("Concentration O3 ppb: ");
+  Serial.print(MQ131.getO3(PPB)); // concentration in ppb
+  Serial.print(" , ");
+  Serial.print("Concentration O3 mg/m3: ");
+  Serial.print(MQ131.getO3(MG_M3)); // concentration in mg/m3
+  Serial.print(" , ");
+  Serial.print("Concentration O3 ug/m3: ");
+  Serial.println(MQ131.getO3(UG_M3)); // concentration in ug/m3
 }
 
 void adjustHeatingPad() {
