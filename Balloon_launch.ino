@@ -1,5 +1,4 @@
-// TO DO: Adjust timing for different components (e.g. hall chip needs data to be sampled every ~0.1 sec)
-// Strobe
+// TO DO: Strobe (?)
 
 // millis() is a sort of relative time function
 // https://forum.arduino.cc/t/internal-clock-function/265591/4
@@ -36,6 +35,7 @@ unsigned long timeHall;
 unsigned long timeHeating;
 unsigned long timeBuzzer;
 unsigned long timeCutdown;
+unsigned long timeOzone;
 
 bool cutdown = false;
 int minPressure = 14; // From Michael (?)
@@ -64,6 +64,11 @@ void setup() {
   
   pressure_baseline = sensor.getPressure(ADC_4096);
 
+  // Initiate sensor
+  // Heater control on pin 2
+  // Sensor analog read on pin A0
+  // Model low concentration
+  // Load resistance RL of 1MOhms (1000000 Ohms)
   MQ131.begin(2, A0, LOW_CONCENTRATION, 1000000); // From Emory
   MQ131.calibrate();
   Serial.println("Calibration done!");
@@ -107,6 +112,10 @@ void loop() {
     readHallChip();
     // printPressure();
     printHallChip();
+  }
+
+  if (millis()-timeOzone>60000){
+    readOzone();
   }
 
   if (cutdown) {
