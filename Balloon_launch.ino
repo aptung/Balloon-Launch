@@ -1,4 +1,5 @@
 // TO DO: Strobe (?)
+// Integrate GPS chip, change Serial commands to Serial1, integrate Michelle's indvidual experiment, Grace's individual experiment
 
 // millis() is a sort of relative time function
 // https://forum.arduino.cc/t/internal-clock-function/265591/4
