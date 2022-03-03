@@ -1,5 +1,4 @@
 // TO DO: Strobe (?)
-// Integrate GPS chip, change Serial commands to Serial1, integrate Michelle's indvidual experiment, Grace's individual experiment
 
 // millis() is a sort of relative time function
 // https://forum.arduino.cc/t/internal-clock-function/265591/4
@@ -8,6 +7,10 @@
 #include <SparkFun_MS5803_I2C.h> // Click here to get the library: http://librarymanager/All#SparkFun_MS5803-14BA
 #include <MQ131.h>
 #include <math.h>
+#include <Wire.h> //Needed for I2C to GNSS
+
+#include <SparkFun_u-blox_GNSS_Arduino_Library.h> //http://librarymanager/All#SparkFun_u-blox_GNSS
+SFE_UBLOX_GNSS myGNSS;
 
 // Begin class with selected address
 // available addresses (selected by jumper on board)
@@ -37,6 +40,7 @@ unsigned long timeHeating;
 unsigned long timeBuzzer;
 unsigned long timeCutdown;
 unsigned long timeOzone;
+unsigned long timeGPS;
 
 bool cutdown = false;
 int minPressure = 14; // From Michael (?)
@@ -44,6 +48,9 @@ int minTemp = -10; // in C
 int maxTemp = 10;
 
 float R0; // "base resistance for circuit" (from Emory)
+
+long latitude, longitude, altitude;
+byte SIV;
 
 int counter = 0; // For buzzer alternation purposes
 
@@ -62,6 +69,17 @@ void setup() {
   //Retrieve calibration constants for conversion math.
   sensor.reset();
   sensor.begin();
+
+  Wire.begin();
+
+  if (myGNSS.begin() == false) //Connect to the u-blox module using Wire port
+  {
+    Serial1.println(F("u-blox GNSS not detected at default I2C address. Please check wiring. Freezing."));
+    while (1);
+  }
+
+  myGNSS.setI2COutput(COM_TYPE_UBX); //Set the I2C port to output UBX only (turn off NMEA noise)
+  myGNSS.saveConfigSelective(VAL_CFG_SUBSEC_IOPORT); //Save (only) the communications port settings to flash and BBR
   
   pressure_baseline = sensor.getPressure(ADC_4096);
 
@@ -74,13 +92,6 @@ void setup() {
   MQ131.begin(2, A0, LOW_CONCENTRATION, 1000000); // From Emory
   MQ131.calibrate();
   Serial.println("Calibration done!");
-//  Serial.print("R0 = ");
-//  Serial.print(MQ131.getR0());
-//  Serial.println("Ohms");
-//  Serial.print("Time to heat = ");
-//  Serial.print(MQ131.getTimeToRead()); // time until heated
-//  Serial.println("s");
-//  Serial.println("Sampling...");
 
   pinMode(cutdownPin, OUTPUT);
   pinMode(heatingPin, OUTPUT);
@@ -95,10 +106,13 @@ void setup() {
   timeBuzzer = millis();
   timeCutdown = millis();
   timeOzone = millis();
+  timeGPS = millis();
 }
 
 void loop() {
   if (millis()-timePressure>1000){
+    Serial.print("Time=");
+    Serial.println(millis());
     timePressure = millis();
     updatePressure();
     printPressure();
@@ -108,6 +122,12 @@ void loop() {
     updateTemperature();
     printTemperature();
     // temperature_c = -20;
+  }
+
+  if (millis()-timeGPS>1000){
+    timeGPS = millis();
+    updateGPS();
+    printGPS();
   }
 
   if (millis()-timeHall>100){
@@ -205,6 +225,31 @@ void printTemperature(){
   Serial.println(temperature_c);
 }
 
+void updateGPS(){
+  latitude = myGNSS.getLatitude();
+  longitude = myGNSS.getLongitude();
+  altitude = myGNSS.getAltitude();
+  SIV = myGNSS.getSIV();
+}
+
+void printGPS(){
+  Serial1.print(F("Lat: "));
+  Serial1.print(latitude);
+  
+  Serial1.print(F(" Long: "));
+  Serial1.print(longitude);
+  
+  Serial1.print(F(" (degrees * 10^-7)"));
+  Serial1.print(F(" Alt: "));
+  Serial1.print(altitude);
+  Serial1.print(F(" (mm)"));
+
+  Serial1.print(F(" SIV: "));
+  Serial1.print(SIV);
+
+  Serial1.println();
+}
+
 void readHallChip(){
   hallChipVal = analogRead(hallChipPin);
 }
@@ -275,7 +320,7 @@ double sealevel(double P, double A)
 }
 
 
-double altitude(double P, double P0)
+double altitudeCalculator(double P, double P0)
 // Given a pressure measurement P (mbar) and the pressure at a baseline P0 (mbar),
 // return altitude (meters) above baseline.
 {
