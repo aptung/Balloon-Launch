@@ -64,7 +64,7 @@ void setup() {
   // Start your preferred I2C object
   // Wire.begin();
   //Initialize Serial Monitor
-  Serial.begin(9600);
+  Serial1.begin(9600);
   //Retrieve calibration constants for conversion math.
   sensor.reset();
   sensor.begin();
@@ -87,10 +87,10 @@ void setup() {
   // Sensor analog read on pin A0
   // Model low concentration
   // Load resistance RL of 1MOhms (1000000 Ohms)
-  Serial.println("Calibrating...");
+  Serial1.println("Calibrating...");
   MQ131.begin(2, A0, LOW_CONCENTRATION, 1000000); // From Emory
   MQ131.calibrate();
-  Serial.println("Calibration done!");
+  Serial1.println("Calibration done!");
 
   pinMode(cutdownPin, OUTPUT);
   pinMode(heatingPin, OUTPUT);
@@ -110,8 +110,8 @@ void setup() {
 
 void loop() {
   if (millis()-timePressure>1000){
-    Serial.print("Time=");
-    Serial.println(millis());
+    Serial1.print("Time=");
+    Serial1.println(millis());
     timePressure = millis();
     updatePressure();
     printPressure();
@@ -169,8 +169,8 @@ void loop() {
 
 //void updateTime() {
 //  time = millis();
-//  Serial.print("Current relative time (millis) = ");
-//  Serial.println(time);
+//  Serial1.print("Current relative time (millis) = ");
+//  Serial1.println(time);
 //}
 
 void updatePressure(){
@@ -196,23 +196,23 @@ void updatePressure(){
 }
 
 void printPressure(){
-//  Serial.print("Pressure raw (mbar)= ");
-//  Serial.println(pressure_abs);
+//  Serial1.print("Pressure raw (mbar)= ");
+//  Serial1.println(pressure_abs);
 
-  Serial.print("Pressure corrected (mbar)= ");
-  Serial.println(pressure_corrected);
+  Serial1.print("Pressure corrected (mbar)= ");
+  Serial1.println(pressure_corrected);
 
-//  Serial.print("Pressure relative (mbar)= ");
-//  Serial.println(pressure_relative);
+//  Serial1.print("Pressure relative (mbar)= ");
+//  Serial1.println(pressure_relative);
 //
-//  Serial.print("Altitude change (m) = ");
-//  Serial.println(altitude_delta);
+//  Serial1.print("Altitude change (m) = ");
+//  Serial1.println(altitude_delta);
 }
 
 void updateTemperature(){
   temperatureVal = analogRead(tempSensorPin);
-//  Serial.print("Temperature voltage= ");
-//  Serial.println(temperatureVal);
+//  Serial1.print("Temperature voltage= ");
+//  Serial1.println(temperatureVal);
   
 
   // t actual = -133 + 25.3 ln val
@@ -220,8 +220,8 @@ void updateTemperature(){
 }
 
 void printTemperature(){
-  Serial.print("Temperature (C) = ");
-  Serial.println(temperature_c);
+  Serial1.print("Temperature (C) = ");
+  Serial1.println(temperature_c);
 }
 
 void updateGPS(){
@@ -254,40 +254,40 @@ void readHallChip(){
 }
 
 void printHallChip(){
-  Serial.print("Hall Chip on/off: ");
-//Serial.println(hallChip);
+  Serial1.print("Hall Chip on/off: ");
+//Serial1.println(hallChip);
   if (hallChipVal>1000){
-    Serial.println("ON");
+    Serial1.println("ON");
   }
   else{
-    Serial.println("OFF");
+    Serial1.println("OFF");
   }
 }
 
 void readOzone(){
   MQ131.sample();
-  Serial.print("Concentration O3 ppm: ");
-  Serial.println(MQ131.getO3(PPM)); // concentration in ppm
-//  Serial.print(" , ");
-//  Serial.print("Concentration O3 ppb: ");
-//  Serial.print(MQ131.getO3(PPB)); // concentration in ppb
-//  Serial.print(" , ");
-//  Serial.print("Concentration O3 mg/m3: ");
-//  Serial.print(MQ131.getO3(MG_M3)); // concentration in mg/m3
-//  Serial.print(" , ");
-//  Serial.print("Concentration O3 ug/m3: ");
-//  Serial.println(MQ131.getO3(UG_M3)); // concentration in ug/m3
+  Serial1.print("Concentration O3 ppm: ");
+  Serial1.println(MQ131.getO3(PPM)); // concentration in ppm
+//  Serial1.print(" , ");
+//  Serial1.print("Concentration O3 ppb: ");
+//  Serial1.print(MQ131.getO3(PPB)); // concentration in ppb
+//  Serial1.print(" , ");
+//  Serial1.print("Concentration O3 mg/m3: ");
+//  Serial1.print(MQ131.getO3(MG_M3)); // concentration in mg/m3
+//  Serial1.print(" , ");
+//  Serial1.print("Concentration O3 ug/m3: ");
+//  Serial1.println(MQ131.getO3(UG_M3)); // concentration in ug/m3
 }
 
 void adjustHeatingPad() {
-  Serial.print("Heating pad on/off: ");
+  Serial1.print("Heating pad on/off: ");
   if (temperature_c > maxTemp){
     digitalWrite(heatingPin, LOW);
-    Serial.println("OFF");
+    Serial1.println("OFF");
   }
   if (temperature_c < minTemp){
     digitalWrite(heatingPin, HIGH);
-    Serial.println("ON");
+    Serial1.println("ON");
   }
 }
 
@@ -299,7 +299,7 @@ void checkCutdown() {
   if (pressure_corrected < minPressure) {
     if (timePressure > 5400000){ // Extra check to make sure it doesn't cut down before 90 min
       digitalWrite(cutdownPin, HIGH);
-      Serial.print("omg cutdown");
+      Serial1.print("omg cutdown");
       cutdown = true;
     }
   }
