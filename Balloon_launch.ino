@@ -2,15 +2,42 @@
 // Integrate GPS chip, change Serial commands to Serial1, integrate Michelle's indvidual experiment, Grace's individual experiment
 
 
-
 #include <SparkFun_MS5803_I2C.h> // Click here to get the library: http://librarymanager/All#SparkFun_MS5803-14BA
 #include <MQ131.h>
 #include <math.h>
 #include <Wire.h> //Needed for I2C to GNSS
 
+
+// For Michelle's humidity sensor
+#include <DHT.h>
+#include <DHT_U.h>
+#include <Adafruit_Sensor.h>
+#include "DHT.h"
+// REQUIRES the following Arduino libraries:
+// - DHT Sensor Library: https://github.com/adafruit/DHT-sensor-library
+// - Adafruit Unified Sensor Lib: https://github.com/adafruit/Adafruit_Sensor
+
+
+#define DHTPIN 3     // Digital pin connected to the DHT sensor
+// Feather HUZZAH ESP8266 note: use pins 3, 4, 5, 12, 13 or 14
+
+#define DHTTYPE DHT22   // DHT 22  (AM2302), AM2321
+
+// Connect pin 1 (on the left) of the sensor to +5V
+// Connect pin 2 of the sensor to whatever your DHTPIN is
+// Connect pin 4 (on the right) of the sensor to GROUND and leave the pin 3 EMPTY (if your sensor has 4 pins)
+// Connect a 10K resistor from pin 2 (data) to pin 1 (power) of the sensor
+
+// Initialize DHT sensor.
+DHT dht(DHTPIN, DHTTYPE);
+
+
+// For GPS
 #include <SparkFun_u-blox_GNSS_Arduino_Library.h> //http://librarymanager/All#SparkFun_u-blox_GNSS
 SFE_UBLOX_GNSS myGNSS;
 
+
+// For pressure sensor
 // Begin class with selected address
 // available addresses (selected by jumper on board)
 // default is ADDRESS_HIGH
@@ -19,6 +46,8 @@ SFE_UBLOX_GNSS myGNSS;
 //  ADDRESS_LOW  = 0x77
 
 MS5803 sensor(ADDRESS_HIGH);
+
+
 
 //Create variables to store results
 float temperature_c;
@@ -40,6 +69,7 @@ unsigned long timeBuzzer;
 unsigned long timeCutdown;
 unsigned long timeOzone;
 unsigned long timeGPS;
+unsigned long timeHumidity;
 
 bool cutdown = false;
 int minPressure = 14; // From Michael (?)
@@ -61,36 +91,42 @@ const int hallChipPin = A1;
 
 
 void setup() {
+  
   // Start your preferred I2C object
-  // Wire.begin();
+  //Wire.begin();
   //Initialize Serial Monitor
-  Serial1.begin(9600);
+  Serial.begin(9600);
+
+  dht.begin(); // For Michelle's humidity sensor
+  
   //Retrieve calibration constants for conversion math.
-  sensor.reset();
-  sensor.begin();
+  // sensor.reset();
+  sensor.begin(); // For pressure sensor
 
   Wire.begin();
 
+  // For GPS
   if (myGNSS.begin() == false) //Connect to the u-blox module using Wire port
   {
-    Serial1.println(F("u-blox GNSS not detected at default I2C address. Please check wiring. Freezing."));
+    Serial.println(F("u-blox GNSS not detected at default I2C address. Please check wiring. Freezing."));
     while (1);
   }
-
   myGNSS.setI2COutput(COM_TYPE_UBX); //Set the I2C port to output UBX only (turn off NMEA noise)
   myGNSS.saveConfigSelective(VAL_CFG_SUBSEC_IOPORT); //Save (only) the communications port settings to flash and BBR
   
-  pressure_baseline = sensor.getPressure(ADC_4096);
+  pressure_baseline = sensor.getPressure(ADC_2048); // For pressure
 
+  // For Emory's ozone
   // Initiate sensor
   // Heater control on pin 2
   // Sensor analog read on pin A0
   // Model low concentration
   // Load resistance RL of 1MOhms (1000000 Ohms)
-  Serial1.println("Calibrating...");
+  Serial.println("Calibrating...");
   MQ131.begin(2, A0, LOW_CONCENTRATION, 1000000); // From Emory
   MQ131.calibrate();
-  Serial1.println("Calibration done!");
+  Serial.println("Calibration done!");
+
 
   pinMode(cutdownPin, OUTPUT);
   pinMode(heatingPin, OUTPUT);
@@ -106,12 +142,13 @@ void setup() {
   timeCutdown = millis();
   timeOzone = millis();
   timeGPS = millis();
+  timeHumidity = millis();
 }
 
 void loop() {
   if (millis()-timePressure>1000){
-    Serial1.print("Time=");
-    Serial1.println(millis());
+    Serial.print("Time=");
+    Serial.println(millis());
     timePressure = millis();
     updatePressure();
     printPressure();
@@ -129,11 +166,29 @@ void loop() {
     printGPS();
   }
 
-  if (millis()-timeHall>100){
+  if (millis()-timeHall>80){
     timeHall = millis();
     readHallChip();
     // printPressure();
     printHallChip();
+  }
+
+  if (millis()-timeHumidity>30000){
+    // Reading temperature or humidity takes about 250 milliseconds!
+    // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
+    float h = dht.readHumidity();
+    // Read temperature as Celsius (the default)
+    float t = dht.readTemperature();
+    // Read temperature as Fahrenheit (isFahrenheit = true)
+    float f = dht.readTemperature(true);
+
+    // Compute heat index in Fahrenheit (the default)
+    float hif = dht.computeHeatIndex(f, h);
+    // Compute heat index in Celsius (isFahreheit = false)
+    float hic = dht.computeHeatIndex(t, h, false);
+  
+    Serial.print(F("Humidity: "));
+    Serial.print(h);
   }
 
   if (millis()-timeOzone>60000){
@@ -169,8 +224,8 @@ void loop() {
 
 //void updateTime() {
 //  time = millis();
-//  Serial1.print("Current relative time (millis) = ");
-//  Serial1.println(time);
+//  Serial.print("Current relative time (millis) = ");
+//  Serial.println(time);
 //}
 
 void updatePressure(){
@@ -183,7 +238,7 @@ void updatePressure(){
   // ADC_4096
   
   // Pressure is in mbar.
-  pressure_abs = sensor.getPressure(ADC_4096);
+  pressure_abs = sensor.getPressure(ADC_2048);
   pressure_corrected = (pressure_abs+9.96392)/1.00249; // Correction based on calibration testing
   
 //  // Convert abs pressure with the help of altitude into relative pressure
@@ -196,23 +251,23 @@ void updatePressure(){
 }
 
 void printPressure(){
-//  Serial1.print("Pressure raw (mbar)= ");
-//  Serial1.println(pressure_abs);
+  Serial.print("Pressure raw (mbar)= ");
+  Serial.println(pressure_abs);
 
-  Serial1.print("Pressure corrected (mbar)= ");
-  Serial1.println(pressure_corrected);
+  Serial.print("Pressure corrected (mbar)= ");
+  Serial.println(pressure_corrected);
 
-//  Serial1.print("Pressure relative (mbar)= ");
-//  Serial1.println(pressure_relative);
+//  Serial.print("Pressure relative (mbar)= ");
+//  Serial.println(pressure_relative);
 //
-//  Serial1.print("Altitude change (m) = ");
-//  Serial1.println(altitude_delta);
+//  Serial.print("Altitude change (m) = ");
+//  Serial.println(altitude_delta);
 }
 
 void updateTemperature(){
   temperatureVal = analogRead(tempSensorPin);
-//  Serial1.print("Temperature voltage= ");
-//  Serial1.println(temperatureVal);
+//  Serial.print("Temperature voltage= ");
+//  Serial.println(temperatureVal);
   
 
   // t actual = -133 + 25.3 ln val
@@ -220,8 +275,8 @@ void updateTemperature(){
 }
 
 void printTemperature(){
-  Serial1.print("Temperature (C) = ");
-  Serial1.println(temperature_c);
+  Serial.print("Temperature (C) = ");
+  Serial.println(temperature_c);
 }
 
 void updateGPS(){
@@ -232,21 +287,21 @@ void updateGPS(){
 }
 
 void printGPS(){
-  Serial1.print(F("Lat: "));
-  Serial1.print(latitude);
+  Serial.print(F("Lat: "));
+  Serial.print(latitude);
   
-  Serial1.print(F(" Long: "));
-  Serial1.print(longitude);
+  Serial.print(F(" Long: "));
+  Serial.print(longitude);
   
-  Serial1.print(F(" (degrees * 10^-7)"));
-  Serial1.print(F(" Alt: "));
-  Serial1.print(altitude);
-  Serial1.print(F(" (mm)"));
+  Serial.print(F(" (degrees * 10^-7)"));
+  Serial.print(F(" Alt: "));
+  Serial.print(altitude);
+  Serial.print(F(" (mm)"));
 
-  Serial1.print(F(" SIV: "));
-  Serial1.print(SIV);
+  Serial.print(F(" SIV: "));
+  Serial.print(SIV);
 
-  Serial1.println();
+  Serial.println();
 }
 
 void readHallChip(){
@@ -254,40 +309,40 @@ void readHallChip(){
 }
 
 void printHallChip(){
-  Serial1.print("Hall Chip on/off: ");
-//Serial1.println(hallChip);
+  Serial.print("Hall Chip on/off: ");
+  // Serial.println(hallChipVal);
   if (hallChipVal>1000){
-    Serial1.println("ON");
+    Serial.println("ON");
   }
   else{
-    Serial1.println("OFF");
+    Serial.println("OFF");
   }
 }
 
 void readOzone(){
   MQ131.sample();
-  Serial1.print("Concentration O3 ppm: ");
-  Serial1.println(MQ131.getO3(PPM)); // concentration in ppm
-//  Serial1.print(" , ");
-//  Serial1.print("Concentration O3 ppb: ");
-//  Serial1.print(MQ131.getO3(PPB)); // concentration in ppb
-//  Serial1.print(" , ");
-//  Serial1.print("Concentration O3 mg/m3: ");
-//  Serial1.print(MQ131.getO3(MG_M3)); // concentration in mg/m3
-//  Serial1.print(" , ");
-//  Serial1.print("Concentration O3 ug/m3: ");
-//  Serial1.println(MQ131.getO3(UG_M3)); // concentration in ug/m3
+  Serial.print("Concentration O3 ppm: ");
+  Serial.println(MQ131.getO3(PPM)); // concentration in ppm
+//  Serial.print(" , ");
+//  Serial.print("Concentration O3 ppb: ");
+//  Serial.print(MQ131.getO3(PPB)); // concentration in ppb
+//  Serial.print(" , ");
+//  Serial.print("Concentration O3 mg/m3: ");
+//  Serial.print(MQ131.getO3(MG_M3)); // concentration in mg/m3
+//  Serial.print(" , ");
+//  Serial.print("Concentration O3 ug/m3: ");
+//  Serial.println(MQ131.getO3(UG_M3)); // concentration in ug/m3
 }
 
 void adjustHeatingPad() {
-  Serial1.print("Heating pad on/off: ");
+  Serial.print("Heating pad on/off: ");
   if (temperature_c > maxTemp){
     digitalWrite(heatingPin, LOW);
-    Serial1.println("OFF");
+    Serial.println("OFF");
   }
-  if (temperature_c < minTemp){
+  else{
     digitalWrite(heatingPin, HIGH);
-    Serial1.println("ON");
+    Serial.println("ON");
   }
 }
 
@@ -299,7 +354,7 @@ void checkCutdown() {
   if (pressure_corrected < minPressure) {
     if (timePressure > 5400000){ // Extra check to make sure it doesn't cut down before 90 min
       digitalWrite(cutdownPin, HIGH);
-      Serial1.print("omg cutdown");
+      Serial.print("omg cutdown");
       cutdown = true;
     }
   }
