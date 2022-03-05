@@ -1,5 +1,4 @@
-// TO DO: Strobe (?)
-// Integrate GPS chip, change Serial commands to Serial1, integrate Michelle's indvidual experiment, Grace's individual experiment
+// TO DO: Integrate Michelle's indvidual experiment, Grace's individual experiment
 
 
 #include <SparkFun_MS5803_I2C.h> // Click here to get the library: http://librarymanager/All#SparkFun_MS5803-14BA
@@ -73,8 +72,8 @@ unsigned long timeHumidity;
 
 bool cutdown = false;
 int minPressure = 14; // From Michael (?)
-int minTemp = -10; // in C
-int maxTemp = 10;
+int minTemp = 40; // in C -10
+int maxTemp = 50; // 10
 
 float R0; // "base resistance for circuit" (from Emory)
 
@@ -166,37 +165,37 @@ void loop() {
     printGPS();
   }
 
-  if (millis()-timeHall>80){
+  if (millis()-timeHall>50){
     timeHall = millis();
     readHallChip();
     // printPressure();
     printHallChip();
   }
 
-  if (millis()-timeHumidity>30000){
-    // Reading temperature or humidity takes about 250 milliseconds!
-    // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
-    float h = dht.readHumidity();
-    // Read temperature as Celsius (the default)
-    float t = dht.readTemperature();
-    // Read temperature as Fahrenheit (isFahrenheit = true)
-    float f = dht.readTemperature(true);
-
-    // Compute heat index in Fahrenheit (the default)
-    float hif = dht.computeHeatIndex(f, h);
-    // Compute heat index in Celsius (isFahreheit = false)
-    float hic = dht.computeHeatIndex(t, h, false);
-  
-    Serial.print(F("Humidity: "));
-    Serial.print(h);
-  }
+//  if (millis()-timeHumidity>30000){
+//    // Reading temperature or humidity takes about 250 milliseconds!
+//    // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
+//    float h = dht.readHumidity();
+//    // Read temperature as Celsius (the default)
+//    float t = dht.readTemperature();
+//    // Read temperature as Fahrenheit (isFahrenheit = true)
+//    float f = dht.readTemperature(true);
+//
+//    // Compute heat index in Fahrenheit (the default)
+//    float hif = dht.computeHeatIndex(f, h);
+//    // Compute heat index in Celsius (isFahreheit = false)
+//    float hic = dht.computeHeatIndex(t, h, false);
+//  
+//    Serial.print(F("Humidity: "));
+//    Serial.print(h);
+//  }
 
   if (millis()-timeOzone>60000){
     timeOzone = millis();
     readOzone();
   }
 
-  if (cutdown) {
+  //if (cutdown) {
     if (millis()-timeBuzzer>1000){
       timeBuzzer = millis();
       if (counter==0){
@@ -208,7 +207,7 @@ void loop() {
         buzzerOff();
      }
    }
-  }
+  //}
 
   if (millis()-timeCutdown>5000){
     timeCutdown = millis();
