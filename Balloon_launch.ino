@@ -72,8 +72,8 @@ unsigned long timeHumidity;
 
 bool cutdown = false;
 int minPressure = 14; // From Michael (?)
-int minTemp = 40; // in C -10
-int maxTemp = 50; // 10
+int minTemp = -10; // in C -10
+int maxTemp = 10; // 10
 
 float R0; // "base resistance for circuit" (from Emory)
 
