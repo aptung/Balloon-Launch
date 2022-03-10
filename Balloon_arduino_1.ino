@@ -56,9 +56,7 @@ void setup() {
   // Start your preferred I2C object
   //Wire.begin();
   //Initialize Serial Monitor
-  Serial1.begin(9600);
-  Serial1.println("test");
-
+  Serial.begin(9600);
   
   //Retrieve calibration constants for conversion math.
   // sensor.reset();
@@ -69,7 +67,7 @@ void setup() {
   // For GPS
   if (myGNSS.begin() == false) //Connect to the u-blox module using Wire port
   {
-    Serial1.println(F("u-blox GNSS not detected at default I2C address. Please check wiring. Freezing."));
+    Serial.println(F("u-blox GNSS not detected at default I2C address. Please check wiring. Freezing."));
     while (1);
   }
   myGNSS.setI2COutput(COM_TYPE_UBX); //Set the I2C port to output UBX only (turn off NMEA noise)
@@ -88,11 +86,10 @@ void setup() {
 
 void loop() {
   if (millis()-timePressure>1000){
-    Serial1.print("Time=");
-    Serial1.println(millis());
     timePressure = millis();
     getPressure();
   }
+  
   if (millis()-timeTemperature>1000){
     timeTemperature = millis();
     getTemperature();
@@ -129,23 +126,31 @@ void getPressure(){
   pressure_abs = sensor.getPressure(ADC_2048);
   pressure_corrected = (pressure_abs+9.96392)/1.00249; // Correction based on calibration testing
 
-  Serial1.print("Pressure raw (mbar)= ");
-  Serial1.println(pressure_abs);
+  Serial.print("(");
+  Serial.print(millis());
+  Serial.print(")");
+  
+//  Serial.print("Pressure raw (mbar)= ");
+//  Serial.println(pressure_abs);
 
-  Serial1.print("Pressure corrected (mbar)= ");
-  Serial1.println(pressure_corrected);
+  Serial.print("Pressure corrected (mbar)= ");
+  Serial.println(pressure_corrected);
 }
 
 void getTemperature(){
   temperatureVal = analogRead(tempSensorPin);
-//  Serial1.print("Temperature voltage= ");
-//  Serial1.println(temperatureVal);
+//  Serial.print("Temperature voltage= ");
+//  Serial.println(temperatureVal);
   
   // t actual = -133 + 25.3 ln val
   temperature_c = -133 + 25.3 * log(temperatureVal);
 
-  Serial1.print("Temperature (C) = ");
-  Serial1.println(temperature_c);
+  Serial.print("(");
+  Serial.print(millis());
+  Serial.print(")");
+
+  Serial.print("Temperature (C) = ");
+  Serial.println(temperature_c);
 }
 
 void getGPS(){
@@ -153,33 +158,40 @@ void getGPS(){
   longitude = myGNSS.getLongitude();
   altitude = myGNSS.getAltitude();
   SIV = myGNSS.getSIV();
-  
-  Serial1.print(F("Lat: "));
-  Serial1.print(latitude);
-  
-  Serial1.print(F(" Long: "));
-  Serial1.print(longitude);
-  
-  Serial1.print(F(" (degrees * 10^-7)"));
-  Serial1.print(F(" Alt: "));
-  Serial1.print(altitude);
-  Serial1.print(F(" (mm)"));
 
-  Serial1.print(F(" SIV: "));
-  Serial1.print(SIV);
+  Serial.print("(");
+  Serial.print(millis());
+  Serial.print(")");
+  
+  Serial.print(F("Lat: "));
+  Serial.print(latitude);
+  
+  Serial.print(F(" Long: "));
+  Serial.print(longitude);
+  
+  Serial.print(F(" (degrees * 10^-7)"));
+  Serial.print(F(" Alt: "));
+  Serial.print(altitude);
+  Serial.print(F(" (mm)"));
 
-  Serial1.println();
+  Serial.print(F(" SIV: "));
+  Serial.print(SIV);
+
+  Serial.println();
 }
 
 void getHallChip(){
   hallChipVal = analogRead(hallChipPin);
-  Serial1.print("Hall Chip on/off: ");
-  // Serial1.println(hallChipVal);
+  Serial.print("(");
+  Serial.print(millis());
+  Serial.print(")");
+  Serial.print("Hall Chip on/off: ");
+  // Serial.println(hallChipVal);
   if (hallChipVal>1000){
-    Serial1.println("ON");
+    Serial.println("ON");
   }
   else{
-    Serial1.println("OFF");
+    Serial.println("OFF");
   }
 }
 
@@ -187,7 +199,7 @@ void checkCutdown() {
   if (pressure_corrected < minPressure) {
     if (timePressure > 5400000){ // Extra check to make sure it doesn't cut down before 90 min
       digitalWrite(cutdownPin, HIGH);
-      Serial1.print("omg cutdown");
+      Serial.print("omg cutdown");
       cutdown = true;
     }
   }
