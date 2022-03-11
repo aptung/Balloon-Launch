@@ -1,6 +1,4 @@
-
 #include <SparkFun_MS5803_I2C.h> // Click here to get the library: http://librarymanager/All#SparkFun_MS5803-14BA
-#include <MQ131.h>
 #include <math.h>
 #include <Wire.h> //Needed for I2C to GNSS
 
@@ -77,11 +75,12 @@ void setup() {
   pinMode(tempSensorPin, INPUT);
   pinMode(hallChipPin, INPUT);
 
-  timePressure = millis();
-  timeTemperature = millis();
-  timeHall = millis();
-  timeCutdown = millis();
-  timeGPS = millis();
+  unsigned long roundedTime = millis()-(millis()%1000)+1000; // So that they start at an integer number of seconds
+  timePressure = roundedTime;
+  timeTemperature = roundedTime;
+  timeHall = roundedTime;
+  timeCutdown = roundedTime;
+  timeGPS = roundedTime;
 }
 
 void loop() {
