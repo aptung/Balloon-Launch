@@ -32,6 +32,7 @@ void loop() {
   if (millis()-timeTemperature>1000){
     timeTemperature = millis();
     getTemperature();
+    adjustHeating();
   }
   
   if (millis()-timeBuzzer>1000){
