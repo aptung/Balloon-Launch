@@ -28,7 +28,6 @@ void setup() {
 }
 
 void loop() {
-  
   if (millis()-timeTemperature>1000){
     timeTemperature = millis();
     getTemperature();
@@ -68,14 +67,14 @@ void adjustHeating() {
 
 void buzzer(){
   if (cycle == 10) {
-      cycle = 0;
-      tone(buzzerPin, 3000); // optimal frequency as determined by testing that made grace (and everyone else) want to die
-    }
-    else if (cycle==0){
-      noTone(buzzerPin);
-      cycle++;
-    }
-    else{
-      cycle++;
-    }
+    cycle = 0;
+    tone(buzzerPin, 3000); // optimal frequency as determined by testing that made grace (and everyone else) want to die
   }
+  else if (cycle==0){
+    noTone(buzzerPin);
+    cycle++;
+  }
+  else{
+    cycle++;
+  }
+}
