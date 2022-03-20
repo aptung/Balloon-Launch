@@ -129,11 +129,11 @@ void getPressure(){
   Serial.print(millis());
   Serial.print(")");
   
-//  Serial.print("Pressure raw (mbar)= ");
-//  Serial.println(pressure_abs);
+  Serial.print("Pressure raw (mbar)= ");
+  Serial.println(pressure_abs);
 
-  Serial.print("Pressure corrected (mbar)= ");
-  Serial.println(pressure_corrected);
+//   Serial.print("Pressure corrected (mbar)= ");
+//   Serial.println(pressure_corrected);
 }
 
 void getTemperature(){
