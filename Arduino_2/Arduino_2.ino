@@ -209,34 +209,22 @@ void loop() {
   
   if (millis()-timePressure>PRESS_DEL){
     timePressure = millis();
-    Serial.print("Time = ");
-    Serial.println(timePressure);
     getPressure();
-    Serial.println("/**********************/");
   }
 
   if (millis()-timeSolar > SOL_DEL) {
     timeSolar = millis();
-    Serial.print("Time = ");
-    Serial.println(timeSolar);
     getSolar();
-    Serial.println("/**********************/");
   }
   
   if (millis()-timeHumidity> HUM_DEL){
     timeHumidity = millis();
-    Serial.print("Time = ");
-    Serial.println(timeHumidity);
     getHumidity();
-    Serial.println("/**********************/");
   }
 
   if (millis()-timeCO2> CO2_DEL){
     timeCO2 = millis();
-    Serial.print("Time = ");
-    Serial.println(timeCO2);
     getCO2();
-    Serial.println("/**********************/");
   }
 
 //  if (millis()-timeGeiger> GEI_DEL){
