@@ -6,15 +6,21 @@ void getCO2()
     volts = MGRead(MG_PIN);
     
     percentage = MGGetPercentage(volts,CO2Curve);
+    
+    Serial.print("(");
+    Serial.print(millis());
+    Serial.print(")");
+    
+    Serial.print("CO2 level: ");
+    
     if (percentage == -1) {
         Serial.print( "<400" );
     } else {
         Serial.print(percentage);
     }
 
-    Serial.print( "ppm\n" );
+    Serial.println(" ppm");
 
-    delay(500);
 }
 
 /*****************************  MGRead *********************************************
