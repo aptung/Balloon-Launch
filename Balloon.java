@@ -62,12 +62,12 @@ public class Balloon {
 		}
 		
 		System.out.println("Time");
-		for (int i = 0; i < CO2Data.size(); i++){
-			System.out.println(CO2Data.get(i)[0]);
+		for (int i = 0; i < pressureData.size(); i++){
+			System.out.println(pressureData.get(i)[0]);
 		}
-		System.out.println("Humidity");
-		for (int i = 0; i < CO2Data.size(); i++){
-			System.out.println(CO2Data.get(i)[1]);
+		System.out.println("Pressure");
+		for (int i = 0; i < pressureData.size(); i++){
+			System.out.println(pressureData.get(i)[1]);
 		}
 		
 	}
@@ -131,13 +131,13 @@ public class Balloon {
 
 		}
 
-		System.out.println("Lats");
-		for (int i = 0; i < 5000; i++){
-			System.out.println(positionData.get(i)[1]);
+		System.out.println("Time");
+		for (int i = 0; i < pressureData.size(); i++){
+			System.out.println(pressureData.get(i)[0]);
 		}
-		System.out.println("Longs");
-		for (int i = 0; i < 5000; i++){
-			System.out.println(positionData.get(i)[2]);
+		System.out.println("Pressure");
+		for (int i = 0; i < pressureData.size(); i++){
+			System.out.println(pressureData.get(i)[1]);
 		}
 	}
 }
