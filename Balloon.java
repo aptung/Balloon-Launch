@@ -3,32 +3,22 @@ import java.util.Scanner;
 
 public class Balloon {
 	public static Scanner CONSOLE = new Scanner(System.in);
-	
-	
-	// To do: turn the 2D array into an arraylist of (small) arrays
 
 	public static void main(String args[]) {
 		
-		ArrayList<double[]> pressureData = new ArrayList<double[]>(); // time in 1st pos, pressure in 2nd pos
+		// time in 1st pos, data in 2nd pos
+		ArrayList<double[]> pressureData = new ArrayList<double[]>(); 
 		ArrayList<double[]> tempData = new ArrayList<double[]>();
 		ArrayList<double[]> altitudeData = new ArrayList<double[]>();
-//		// Stores time in first position, pressure in second position
-//		double[][] pressureData = new double[100000][2];
-//		
-//		
-//		// Time in first position, pressure in second, temp in third
-//		double[][] tempData = new double[100000][3];
-//		
-//		
-//		
-//		int counterP = 0;
-//		int counterT = 0;
+		ArrayList<double[]> positionData = new ArrayList<double[]>(); // time, lat, long
 
 		// These are outside the loop and get updated periodically
 		double time = 0; // in sec
 		double pressure = 0; // in mbar
 		double temp = 0; // in deg C
 		double altitude = 0; // in m
+		double lat = 0; // in degrees
+		double lon = 0; // in degrees
 		
 		while (CONSOLE.hasNextLine()) {
 			String input = CONSOLE.nextLine();
@@ -59,23 +49,27 @@ public class Balloon {
 			
 			// Find the lines with GPS data
 			if (input.substring(input.indexOf(")")+1, input.indexOf(")")+2).equals("L")){
-				System.out.println(input);
 				altitude = Double.parseDouble(input.substring(input.indexOf("Alt")+5, input.indexOf("(mm)")))/1000;
 //				if (altitude<=-200 || altitude>100) { // Filters out weird values
 //					altitude = altitudeData.get(altitudeData.size()-1)[1]; // then just take the previous reading
 //				}
 				altitudeData.add(new double[] {time, altitude});
+				
+				lat = Double.parseDouble(input.substring(input.indexOf("Lat")+5, input.indexOf("Long")))/10000000;
+				lon = Double.parseDouble(input.substring(input.indexOf("Long")+6, input.indexOf("(deg")))/10000000;
+				positionData.add(new double[] {time, lat, lon});
 			}
+			
 			
 		}
 		
-		System.out.println("Times");
-		for (int i=0; i<altitudeData.size(); i++) {
-			System.out.println(altitudeData.get(i)[0]);
+		System.out.println("Lats");
+		for (int i=0; i<5000; i++) {
+			System.out.println(positionData.get(i)[1]);
 		}
-		System.out.println("Altitudes");
-		for (int i=0; i<altitudeData.size(); i++) {
-			System.out.println(altitudeData.get(i)[1]);
+		System.out.println("Longs");
+		for (int i=0; i<5000; i++) {
+			System.out.println(positionData.get(i)[2]);
 		}
 		
 	}
