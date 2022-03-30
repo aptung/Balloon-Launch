@@ -1,5 +1,5 @@
 #include <SparkFun_MS5803_I2C.h> // Library for pressure sensor, download here: http://librarymanager/All#SparkFun_MS5803-14BA
-#include <math.h> // Doing math in arduino
+#include <math.h> // For doing math in arduino
 #include <Wire.h> // Needed for I2C to GNSS
 
 
