@@ -20,7 +20,8 @@ int hallChipVal; // Stores the raw voltage from the Hall chip
 
 
 // These are unsigned to increase the range
-// Each of these is updated at different times for each component
+// Each of these is updated at different times for each component, so that the timing
+// for each component is independent
 unsigned long timePressure, timeTemperature, timeHall, timeCutdown, timeGPS;
 
 int minPressure = 14; // Pressure that triggers cutdown
