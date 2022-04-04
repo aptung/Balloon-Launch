@@ -14,3 +14,5 @@ FIle "Balloon_arduino_1.ino" contains the code that ran on Arduino 1. Self-expla
 File "Balloon_arduino_3.ino" contains the code that ran on Arduino 3. Note that no SD card was attached to Arduino 3 (since it does not collect any meaningful data) -- the "Serial.print" statements were just for debugging.
 
 File "Balloon_launch_OLD.ino" contains the code which was used for the tethered launch, before we decided to split into different Arduinos. It is believed to be bug-free (although it is pretty complicated).
+
+File "Emory_Ozone.ino" contains Emory's code for her ozone sensor, which ran independently of everything else.
