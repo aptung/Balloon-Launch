@@ -1,11 +1,11 @@
 import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.Scanner; // Used for reading in input
 
 public class Balloon {
-	public static Scanner CONSOLE = new Scanner(System.in);
+	public static Scanner CONSOLE = new Scanner(System.in); // For reading in input
 
 	public static void main(String args[]) {
-		arduino1();
+		arduino1(); // Replace this with "arduino2();" if reading in Arduino 2's output
 	}
 	
 	// Reads in data in the form of the output of Arduino 1
