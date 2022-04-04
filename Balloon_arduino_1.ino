@@ -33,8 +33,8 @@ byte SIV;
 
 // Pin labels
 const int cutdownPin = 8;
-const int tempSensorPin = A3;
-const int hallChipPin = A1;
+const int tempSensorPin = A1;
+const int hallChipPin = A3;
 
 
 void setup() {
