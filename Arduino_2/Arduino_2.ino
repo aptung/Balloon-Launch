@@ -156,7 +156,7 @@ void setup() {
   sensor.reset();
   sensor.begin(); // For pressure sensor
 
-  Wire.begin(); // what is this for?
+  Wire.begin(); // for I2C communication
 
   //***********************************//
   
