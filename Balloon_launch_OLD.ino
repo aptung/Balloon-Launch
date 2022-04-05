@@ -1,6 +1,3 @@
-// TO DO: Integrate Michelle's indvidual experiment, Grace's individual experiment
-
-
 #include <SparkFun_MS5803_I2C.h> // Click here to get the library: http://librarymanager/All#SparkFun_MS5803-14BA
 #include <MQ131.h>
 #include <math.h>
