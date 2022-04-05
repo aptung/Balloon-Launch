@@ -1,13 +1,9 @@
-/*
-MQ-131 Calibration & Sampling
-*/
-
-#include <MQ131.h>
+#include <MQ131.h> // Library for Emory's ozone sensor
 
 float R0; // base resistance for circuit
 
 unsigned long timeOzone;
-#define O3_DEL 60000
+#define O3_DEL 60000 // Delay between measurements (in milliseconds)
 
 void setup() {
   Serial.begin(9600);
@@ -17,13 +13,14 @@ void setup() {
   // Sensor analog read on pin A0
   // Model low concentration
   // Load resistance RL of 1MOhms (1000000 Ohms)
-
   MQ131.begin(2, A0, LOW_CONCENTRATION, 1000000);
+  
   Serial.print("(");
   Serial.print(millis());
   Serial.print(") ");
   Serial.println("Calibration in progress...");
   MQ131.calibrate();
+  
   Serial.print("(");
   Serial.print(millis());
   Serial.print(") ");
@@ -36,11 +33,7 @@ void setup() {
   Serial.println("s");
 
   timeOzone = millis();
-
 }
-
-// calibration complete
-// beginning sampling
 
 void loop() {
   if (millis()-timeOzone>O3_DEL){
