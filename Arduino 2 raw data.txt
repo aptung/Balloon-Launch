@@ -1,0 +1,5608 @@
+hour[h]_sec[s]_count_cpm_uSv/h_uSv/hError
+(20)Pressure corrected (mbar)= 1014.54
+(23)Without filter: 0.20
+(50)With filter: 0.15
+(76)Humidity: 99.90
+(1106)CO2 level: <400 ppm
+(5020)Pressure corrected (mbar)= 1013.64
+(5023)Without filter: 0.20
+(5026)With filter: 0.14
+(10021)Pressure corrected (mbar)= 917.58
+(10024)Without filter: 0.35
+(10029)With filter: 0.15
+(11108)CO2 level: 4294946926 ppm
+(15023)Pressure corrected (mbar)= 1012.64
+(15025)Without filter: 0.43
+(15031)With filter: 0.34
+(20024)Pressure corrected (mbar)= 1014.04
+(20026)Without filter: 0.18
+(20032)With filter: 0.24
+(21108)CO2 level: <400 ppm
+(25024)Pressure corrected (mbar)= 1013.44
+(25027)Without filter: 0.07
+(25032)With filter: 0.06
+(30025)Pressure corrected (mbar)= 1014.14
+(30028)Without filter: 0.20
+(30033)With filter: 0.10
+(30077)Humidity: 99.90
+(31110)CO2 level: 12909 ppm
+(35026)Pressure corrected (mbar)= 1014.24
+(35030)Without filter: 0.18
+(35035)With filter: 0.13
+(40028)Pressure corrected (mbar)= 1014.04
+(40031)Without filter: 0.20
+(40036)With filter: 0.14
+(41111)CO2 level: <400 ppm
+(45029)Pressure corrected (mbar)= 1014.24
+(45032)Without filter: 0.25
+(45037)With filter: 0.16
+(50030)Pressure corrected (mbar)= 1014.04
+(50033)Without filter: 0.20
+(50038)With filter: 0.14
+(51111)CO2 level: <400 ppm
+(55031)Pressure corrected (mbar)= 1014.24
+(55034)Without filter: 0.24
+(55040)With filter: 0.16
+(60033)Pressure corrected (mbar)= 1015.34
+(60035)Without filter: 0.33
+(60041)With filter: 0.21
+(60079)Humidity: 1.00
+(61113)CO2 level: <400 ppm
+(65034)Pressure corrected (mbar)= 1014.64
+(65036)Without filter: 0.26
+(65042)With filter: 0.16
+(70034)Pressure corrected (mbar)= 1014.54
+(70037)Without filter: 0.25
+(70042)With filter: 0.16
+(71114)CO2 level: <400 ppm
+(75035)Pressure corrected (mbar)= 1014.44
+(75038)Without filter: 0.20
+(75043)With filter: 0.13
+(80036)Pressure corrected (mbar)= 1014.94
+(80039)Without filter: 0.32
+(80045)With filter: 0.19
+(81116)CO2 level: <400 ppm
+(85038)Pressure corrected (mbar)= 1014.44
+(85040)Without filter: 0.25
+(85046)With filter: 0.16
+(90039)Pressure corrected (mbar)= 1014.84
+(90041)Without filter: 0.39
+(90047)With filter: 0.22
+(90080)Humidity: 1.00
+(91117)CO2 level: <400 ppm
+(95039)Pressure corrected (mbar)= 1014.54
+(95042)Without filter: 0.29
+(95047)With filter: 0.19
+(100040)Pressure corrected (mbar)= 1015.14
+(100043)Without filter: 0.33
+(100050)With filter: 0.22
+(101117)CO2 level: <400 ppm
+(105041)Pressure corrected (mbar)= 1014.64
+(105044)Without filter: 0.22
+(105052)With filter: 0.15
+(110043)Pressure corrected (mbar)= 1014.74
+(110045)Without filter: 0.32
+(110053)With filter: 0.20
+(111119)CO2 level: <400 ppm
+(115044)Pressure corrected (mbar)= 1014.64
+(115046)Without filter: 0.44
+(115054)With filter: 0.27
+(120044)Pressure corrected (mbar)= 1014.64
+(120047)Without filter: 0.19
+(120054)With filter: 0.14
+(120085)Humidity: 1.00
+(121119)CO2 level: <400 ppm
+(125045)Pressure corrected (mbar)= 1015.04
+(125048)Without filter: 0.17
+(125056)With filter: 0.12
+(130046)Pressure corrected (mbar)= 1014.94
+(130049)Without filter: 0.21
+(130057)With filter: 0.14
+(131121)CO2 level: <400 ppm
+(135048)Pressure corrected (mbar)= 1014.94
+(135050)Without filter: 0.21
+(135058)With filter: 0.14
+(140048)Pressure corrected (mbar)= 1015.04
+(140051)Without filter: 0.16
+(140058)With filter: 0.11
+(141122)CO2 level: <400 ppm
+(145049)Pressure corrected (mbar)= 1014.84
+(145052)Without filter: 0.20
+(145059)With filter: 0.14
+(150050)Pressure corrected (mbar)= 1015.24
+(150053)Without filter: 0.25
+(150061)With filter: 0.17
+(150091)Humidity: 99.90
+(151127)CO2 level: <400 ppm
+(155052)Pressure corrected (mbar)= 1014.84
+(155054)Without filter: 0.24
+(155062)With filter: 0.17
+(160053)Pressure corrected (mbar)= 1015.04
+(160055)Without filter: 0.25
+(160063)With filter: 0.17
+(161127)CO2 level: <400 ppm
+(165053)Pressure corrected (mbar)= 1014.94
+(165056)Without filter: 0.25
+(165063)With filter: 0.17
+(170054)Pressure corrected (mbar)= 1014.84
+(170057)Without filter: 0.26
+(170064)With filter: 0.19
+(171127)CO2 level: <400 ppm
+(175055)Pressure corrected (mbar)= 1014.94
+(175058)Without filter: 0.25
+(175066)With filter: 0.18
+(180057)Pressure corrected (mbar)= 1014.94
+(180059)Without filter: 0.24
+(180067)With filter: 0.18
+(180098)Humidity: 99.90
+(181133)CO2 level: <400 ppm
+(185058)Pressure corrected (mbar)= 1015.24
+(185060)Without filter: 0.25
+(185068)With filter: 0.17
+(190058)Pressure corrected (mbar)= 1014.64
+(190061)Without filter: 0.26
+(190068)With filter: 0.19
+(191133)CO2 level: <400 ppm
+(195059)Pressure corrected (mbar)= 1014.74
+(195062)Without filter: 0.26
+(195069)With filter: 0.19
+(200060)Pressure corrected (mbar)= 1014.94
+(200064)Without filter: 0.23
+(200071)With filter: 0.16
+(201134)CO2 level: <400 ppm
+(205062)Pressure corrected (mbar)= 1014.64
+(205065)Without filter: 0.20
+(205072)With filter: 0.14
+(210063)Pressure corrected (mbar)= 1014.64
+(210066)Without filter: 0.20
+(210073)With filter: 0.14
+(210104)Humidity: 99.90
+(211139)CO2 level: <400 ppm
+(215064)Pressure corrected (mbar)= 1014.64
+(215067)Without filter: 0.20
+(215074)With filter: 0.13
+(220065)Pressure corrected (mbar)= 1014.94
+(220068)Without filter: 0.22
+(220076)With filter: 0.14
+(221138)CO2 level: <400 ppm
+(225067)Pressure corrected (mbar)= 1015.04
+(225069)Without filter: 0.22
+(225077)With filter: 0.17
+(230068)Pressure corrected (mbar)= 1014.74
+(230070)Without filter: 0.26
+(230078)With filter: 0.18
+(231140)CO2 level: <400 ppm
+(235068)Pressure corrected (mbar)= 1014.94
+(235071)Without filter: 0.24
+(235078)With filter: 0.16
+(240069)Pressure corrected (mbar)= 1014.74
+(240072)Without filter: 0.29
+(240079)With filter: 0.19
+(240110)Humidity: 99.90
+(241145)CO2 level: <400 ppm
+(245070)Pressure corrected (mbar)= 1014.94
+(245073)Without filter: 0.33
+(245081)With filter: 0.21
+(250072)Pressure corrected (mbar)= 1015.14
+(250074)Without filter: 0.27
+(250082)With filter: 0.18
+(251146)CO2 level: <400 ppm
+(255073)Pressure corrected (mbar)= 1015.14
+(255075)Without filter: 0.32
+(255083)With filter: 0.19
+(260073)Pressure corrected (mbar)= 1014.94
+(260076)Without filter: 0.32
+(260083)With filter: 0.21
+(261147)CO2 level: <400 ppm
+(265074)Pressure corrected (mbar)= 1014.34
+(265077)Without filter: 0.31
+(265084)With filter: 0.24
+(270075)Pressure corrected (mbar)= 1014.14
+(270078)Without filter: 0.32
+(270086)With filter: 0.25
+(270116)Humidity: 69.00
+(271152)CO2 level: <400 ppm
+(275077)Pressure corrected (mbar)= 1014.34
+(275079)Without filter: 0.59
+(275087)With filter: 0.40
+(280078)Pressure corrected (mbar)= 1014.64
+(280080)Without filter: 0.56
+(280088)With filter: 0.38
+(281152)CO2 level: <400 ppm
+(285078)Pressure corrected (mbar)= 1014.14
+(285081)Without filter: 0.67
+(285088)With filter: 0.44
+(290079)Pressure corrected (mbar)= 1014.34
+(290082)Without filter: 0.67
+(290089)With filter: 0.43
+(291152)CO2 level: <400 ppm
+(295080)Pressure corrected (mbar)= 1014.54
+(295083)Without filter: 0.68
+(295091)With filter: 0.44
+(300082)Pressure corrected (mbar)= 1014.34
+(300084)Without filter: 0.69
+(300092)With filter: 0.45
+(300123)Humidity: 99.90
+(301158)CO2 level: <400 ppm
+(305082)Pressure corrected (mbar)= 1014.54
+(305085)Without filter: 0.70
+(305092)With filter: 0.45
+(310083)Pressure corrected (mbar)= 1014.24
+(310086)Without filter: 0.70
+(310093)With filter: 0.46
+(311157)CO2 level: <400 ppm
+(315084)Pressure corrected (mbar)= 1014.74
+(315087)Without filter: 0.69
+(315095)With filter: 0.46
+(320086)Pressure corrected (mbar)= 1014.34
+(320088)Without filter: 0.69
+(320096)With filter: 0.45
+(321159)CO2 level: <400 ppm
+(325087)Pressure corrected (mbar)= 1014.44
+(325089)Without filter: 0.69
+(325097)With filter: 0.45
+(330087)Pressure corrected (mbar)= 1014.44
+(330090)Without filter: 0.69
+(330097)With filter: 0.45
+(330128)Humidity: 99.90
+(331163)CO2 level: <400 ppm
+(335088)Pressure corrected (mbar)= 1014.64
+(335091)Without filter: 0.68
+(335098)With filter: 0.44
+(340089)Pressure corrected (mbar)= 1014.54
+(340092)Without filter: 0.68
+(340100)With filter: 0.44
+(341163)CO2 level: <400 ppm
+(345091)Pressure corrected (mbar)= 1014.34
+(345093)Without filter: 0.67
+(345101)With filter: 0.44
+(350092)Pressure corrected (mbar)= 1014.94
+(350094)Without filter: 0.68
+(350102)With filter: 0.45
+(351164)CO2 level: <400 ppm
+(355092)Pressure corrected (mbar)= 1014.64
+(355095)Without filter: 0.68
+(355102)With filter: 0.44
+(360093)Pressure corrected (mbar)= 1014.74
+(360096)Without filter: 0.68
+(360103)With filter: 0.45
+(360134)Humidity: 47.40
+(361169)CO2 level: <400 ppm
+(365094)Pressure corrected (mbar)= 1015.14
+(365097)Without filter: 0.68
+(365105)With filter: 0.45
+(370096)Pressure corrected (mbar)= 1014.44
+(370098)Without filter: 0.68
+(370106)With filter: 0.45
+(371170)CO2 level: <400 ppm
+(375097)Pressure corrected (mbar)= 1014.54
+(375099)Without filter: 0.63
+(375107)With filter: 0.43
+(380097)Pressure corrected (mbar)= 1014.64
+(380100)Without filter: 0.65
+(380107)With filter: 0.43
+(381171)CO2 level: <400 ppm
+(385098)Pressure corrected (mbar)= 1014.94
+(385101)Without filter: 0.64
+(385108)With filter: 0.43
+(390099)Pressure corrected (mbar)= 1014.74
+(390102)Without filter: 0.66
+(390110)With filter: 0.44
+(390140)Humidity: 1.00
+(391175)CO2 level: <400 ppm
+(395101)Pressure corrected (mbar)= 1014.74
+(395103)Without filter: 0.66
+(395111)With filter: 0.44
+(400101)Pressure corrected (mbar)= 1014.74
+(400104)Without filter: 0.69
+(400111)With filter: 0.45
+(401175)CO2 level: <400 ppm
+(405102)Pressure corrected (mbar)= 1014.84
+(405105)Without filter: 0.69
+(405112)With filter: 0.45
+(410103)Pressure corrected (mbar)= 1014.84
+(410106)Without filter: 0.68
+(410114)With filter: 0.44
+(411175)CO2 level: <400 ppm
+(415105)Pressure corrected (mbar)= 1014.54
+(415107)Without filter: 0.69
+(415115)With filter: 0.45
+(420106)Pressure corrected (mbar)= 1014.74
+(420108)Without filter: 0.69
+(420116)With filter: 0.45
+(420147)Humidity: 1.00
+(421181)CO2 level: <400 ppm
+(425106)Pressure corrected (mbar)= 1014.74
+(425109)Without filter: 0.69
+(425116)With filter: 0.45
+(430107)Pressure corrected (mbar)= 1014.84
+(430110)Without filter: 0.69
+(430117)With filter: 0.45
+(431180)CO2 level: <400 ppm
+(435108)Pressure corrected (mbar)= 1014.44
+(435111)Without filter: 0.69
+(435119)With filter: 0.45
+(440110)Pressure corrected (mbar)= 1014.74
+(440112)Without filter: 0.68
+(440120)With filter: 0.45
+(441182)CO2 level: <400 ppm
+(445111)Pressure corrected (mbar)= 1014.64
+(445113)Without filter: 0.68
+(445121)With filter: 0.44
+(450111)Pressure corrected (mbar)= 1014.94
+(450114)Without filter: 0.69
+(450121)With filter: 0.45
+(450152)Humidity: 1.00
+(451186)CO2 level: <400 ppm
+(455112)Pressure corrected (mbar)= 1014.94
+(455115)Without filter: 0.69
+(455122)With filter: 0.45
+(460113)Pressure corrected (mbar)= 1014.74
+(460116)Without filter: 0.69
+(460124)With filter: 0.45
+(461186)CO2 level: <400 ppm
+(465115)Pressure corrected (mbar)= 1014.84
+(465117)Without filter: 0.69
+(465125)With filter: 0.45
+(470116)Pressure corrected (mbar)= 1014.84
+(470118)Without filter: 0.68
+(470126)With filter: 0.45
+(471187)CO2 level: <400 ppm
+(475116)Pressure corrected (mbar)= 1014.84
+(475119)Without filter: 0.69
+(475126)With filter: 0.45
+(480117)Pressure corrected (mbar)= 1014.94
+(480120)Without filter: 0.31
+(480128)With filter: 0.23
+(480158)Humidity: 1.00
+(481191)CO2 level: <400 ppm
+(485118)Pressure corrected (mbar)= 1014.74
+(485121)Without filter: 0.70
+(485129)With filter: 0.46
+(490120)Pressure corrected (mbar)= 1014.64
+(490122)Without filter: 0.70
+(490130)With filter: 0.45
+(491193)CO2 level: <400 ppm
+(495120)Pressure corrected (mbar)= 1015.04
+(495123)Without filter: 0.70
+(495130)With filter: 0.45
+(500121)Pressure corrected (mbar)= 1014.94
+(500124)Without filter: 0.70
+(500131)With filter: 0.45
+(501194)CO2 level: <400 ppm
+(505122)Pressure corrected (mbar)= 1014.94
+(505125)Without filter: 0.70
+(505133)With filter: 0.45
+(510124)Pressure corrected (mbar)= 1015.04
+(510126)Without filter: 0.70
+(510134)With filter: 0.46
+(510164)Humidity: 99.90
+(511200)CO2 level: <400 ppm
+(515125)Pressure corrected (mbar)= 1014.74
+(515127)Without filter: 0.70
+(515135)With filter: 0.45
+(520125)Pressure corrected (mbar)= 1014.94
+(520128)Without filter: 0.70
+(520135)With filter: 0.45
+(521200)CO2 level: <400 ppm
+(525126)Pressure corrected (mbar)= 1014.84
+(525129)Without filter: 0.69
+(525136)With filter: 0.45
+(530127)Pressure corrected (mbar)= 1014.74
+(530130)Without filter: 0.69
+(530138)With filter: 0.45
+(531201)CO2 level: <400 ppm
+(535129)Pressure corrected (mbar)= 1015.14
+(535131)Without filter: 0.68
+(535139)With filter: 0.45
+(540130)Pressure corrected (mbar)= 1014.84
+(540132)Without filter: 0.69
+(540140)With filter: 0.45
+(540171)Humidity: 99.90
+(541206)CO2 level: <400 ppm
+(545130)Pressure corrected (mbar)= 1015.34
+(545133)Without filter: 0.69
+(545140)With filter: 0.45
+(550131)Pressure corrected (mbar)= 1015.04
+(550134)Without filter: 0.66
+(550141)With filter: 0.44
+(551205)CO2 level: <400 ppm
+(555132)Pressure corrected (mbar)= 1014.54
+(555136)Without filter: 0.66
+(555143)With filter: 0.44
+(560134)Pressure corrected (mbar)= 1014.74
+(560137)Without filter: 0.64
+(560144)With filter: 0.44
+(561207)CO2 level: <400 ppm
+(565135)Pressure corrected (mbar)= 1015.24
+(565138)Without filter: 0.56
+(565145)With filter: 0.39
+(570136)Pressure corrected (mbar)= 1015.44
+(570139)Without filter: 0.28
+(570146)With filter: 0.19
+(570177)Humidity: 99.90
+(571212)CO2 level: <400 ppm
+(575137)Pressure corrected (mbar)= 1015.54
+(575140)Without filter: 0.22
+(575148)With filter: 0.16
+(580139)Pressure corrected (mbar)= 1015.73
+(580141)Without filter: 0.26
+(580149)With filter: 0.18
+(581213)CO2 level: <400 ppm
+(585140)Pressure corrected (mbar)= 1015.83
+(585142)Without filter: 0.27
+(585150)With filter: 0.18
+(590140)Pressure corrected (mbar)= 1015.63
+(590143)Without filter: 0.24
+(590150)With filter: 0.18
+(591214)CO2 level: <400 ppm
+(595141)Pressure corrected (mbar)= 1015.34
+(595144)Without filter: 0.27
+(595151)With filter: 0.21
+(600142)Pressure corrected (mbar)= 1015.63
+(600145)Without filter: 0.23
+(600153)With filter: 0.18
+(600183)Humidity: 1.00
+(601217)CO2 level: <400 ppm
+(605144)Pressure corrected (mbar)= 1015.44
+(605146)Without filter: 0.28
+(605154)With filter: 0.19
+(610145)Pressure corrected (mbar)= 1015.83
+(610147)Without filter: 0.30
+(610155)With filter: 0.20
+(611218)CO2 level: <400 ppm
+(615145)Pressure corrected (mbar)= 1015.93
+(615148)Without filter: 0.23
+(615155)With filter: 0.17
+(620146)Pressure corrected (mbar)= 1016.03
+(620149)Without filter: 0.15
+(620156)With filter: 0.11
+(621218)CO2 level: <400 ppm
+(625147)Pressure corrected (mbar)= 1015.93
+(625150)Without filter: 0.21
+(625158)With filter: 0.20
+(630149)Pressure corrected (mbar)= 1015.83
+(630151)Without filter: 0.14
+(630159)With filter: 0.15
+(630190)Humidity: 99.90
+(631225)CO2 level: <400 ppm
+(635150)Pressure corrected (mbar)= 1016.23
+(635152)Without filter: 0.18
+(635160)With filter: 0.16
+(640150)Pressure corrected (mbar)= 1016.23
+(640153)Without filter: 0.20
+(640160)With filter: 0.14
+(641225)CO2 level: <400 ppm
+(645151)Pressure corrected (mbar)= 1016.43
+(645154)Without filter: 0.19
+(645161)With filter: 0.13
+(650152)Pressure corrected (mbar)= 1016.13
+(650155)Without filter: 0.18
+(650163)With filter: 0.13
+(651226)CO2 level: <400 ppm
+(655154)Pressure corrected (mbar)= 1016.23
+(655156)Without filter: 0.22
+(655164)With filter: 0.16
+(660154)Pressure corrected (mbar)= 1016.03
+(660157)Without filter: 0.29
+(660164)With filter: 0.17
+(660195)Humidity: 58.80
+(661230)CO2 level: <400 ppm
+(665155)Pressure corrected (mbar)= 1016.33
+(665158)Without filter: 0.27
+(665165)With filter: 0.17
+(670156)Pressure corrected (mbar)= 1015.93
+(670159)Without filter: 0.31
+(670167)With filter: 0.18
+(671229)CO2 level: <400 ppm
+(675158)Pressure corrected (mbar)= 1016.13
+(675160)Without filter: 0.23
+(675168)With filter: 0.15
+(680159)Pressure corrected (mbar)= 1016.23
+(680161)Without filter: 0.30
+(680169)With filter: 0.17
+(681231)CO2 level: <400 ppm
+(685159)Pressure corrected (mbar)= 1016.23
+(685162)Without filter: 0.31
+(685169)With filter: 0.18
+(690160)Pressure corrected (mbar)= 1016.03
+(690163)Without filter: 0.18
+(690170)With filter: 0.12
+(690201)Humidity: 99.90
+(691236)CO2 level: <400 ppm
+(695161)Pressure corrected (mbar)= 1016.13
+(695164)Without filter: 0.23
+(695172)With filter: 0.15
+(700163)Pressure corrected (mbar)= 1016.23
+(700165)Without filter: 0.22
+(700173)With filter: 0.15
+(701237)CO2 level: <400 ppm
+(705164)Pressure corrected (mbar)= 1016.03
+(705166)Without filter: 0.38
+(705174)With filter: 0.31
+(710164)Pressure corrected (mbar)= 1016.63
+(710167)Without filter: 0.39
+(710174)With filter: 0.28
+(711238)CO2 level: <400 ppm
+(715165)Pressure corrected (mbar)= 1015.93
+(715168)Without filter: 0.28
+(715175)With filter: 0.18
+(720166)Pressure corrected (mbar)= 1016.23
+(720169)Without filter: 0.34
+(720177)With filter: 0.23
+(720207)Humidity: 80.70
+(721243)CO2 level: <400 ppm
+(725168)Pressure corrected (mbar)= 1016.13
+(725170)Without filter: 0.26
+(725178)With filter: 0.17
+(730169)Pressure corrected (mbar)= 1016.03
+(730171)Without filter: 0.27
+(730179)With filter: 0.17
+(731243)CO2 level: <400 ppm
+(735169)Pressure corrected (mbar)= 1016.23
+(735172)Without filter: 0.27
+(735179)With filter: 0.18
+(740170)Pressure corrected (mbar)= 1016.53
+(740173)Without filter: 0.30
+(740180)With filter: 0.20
+(741243)CO2 level: <400 ppm
+(745171)Pressure corrected (mbar)= 1016.33
+(745174)Without filter: 0.32
+(745182)With filter: 0.23
+(750173)Pressure corrected (mbar)= 1016.53
+(750175)Without filter: 0.20
+(750183)With filter: 0.17
+(750214)Humidity: 12.40
+(751249)CO2 level: <400 ppm
+(755173)Pressure corrected (mbar)= 1016.13
+(755176)Without filter: 0.22
+(755183)With filter: 0.14
+(760174)Pressure corrected (mbar)= 1016.13
+(760177)Without filter: 0.20
+(760184)With filter: 0.13
+(761248)CO2 level: <400 ppm
+(765175)Pressure corrected (mbar)= 1016.43
+(765178)Without filter: 0.20
+(765186)With filter: 0.12
+(770177)Pressure corrected (mbar)= 1016.63
+(770179)Without filter: 0.20
+(770187)With filter: 0.11
+(771250)CO2 level: <400 ppm
+(775178)Pressure corrected (mbar)= 1016.43
+(775180)Without filter: 0.22
+(775188)With filter: 0.14
+(780178)Pressure corrected (mbar)= 1016.23
+(780181)Without filter: 0.03
+(780188)With filter: 0.01
+(780219)Humidity: 1.00
+(781253)CO2 level: <400 ppm
+(785179)Pressure corrected (mbar)= 1016.03
+(785182)Without filter: 0.03
+(785189)With filter: 0.01
+(790180)Pressure corrected (mbar)= 1016.53
+(790183)Without filter: 0.08
+(790191)With filter: 0.04
+(791252)CO2 level: <400 ppm
+(795182)Pressure corrected (mbar)= 1016.43
+(795184)Without filter: 0.33
+(795192)With filter: 0.25
+(800183)Pressure corrected (mbar)= 1016.33
+(800185)Without filter: 0.24
+(800193)With filter: 0.22
+(801254)CO2 level: <400 ppm
+(805183)Pressure corrected (mbar)= 1016.23
+(805186)Without filter: 0.27
+(805193)With filter: 0.24
+(810184)Pressure corrected (mbar)= 1016.43
+(810187)Without filter: 0.36
+(810194)With filter: 0.33
+(810225)Humidity: 1.00
+(811259)CO2 level: <400 ppm
+(815185)Pressure corrected (mbar)= 1016.33
+(815188)Without filter: 0.40
+(815196)With filter: 0.37
+(820187)Pressure corrected (mbar)= 1016.33
+(820189)Without filter: 0.26
+(820197)With filter: 0.20
+(821260)CO2 level: <400 ppm
+(825188)Pressure corrected (mbar)= 1016.43
+(825190)Without filter: 0.22
+(825198)With filter: 0.15
+(830188)Pressure corrected (mbar)= 1016.13
+(830191)Without filter: 0.26
+(830198)With filter: 0.22
+(831261)CO2 level: <400 ppm
+(835189)Pressure corrected (mbar)= 1015.93
+(835192)Without filter: 0.29
+(835200)With filter: 0.24
+(840190)Pressure corrected (mbar)= 1016.03
+(840193)Without filter: 0.50
+(840201)With filter: 0.41
+(840231)Humidity: 1.00
+(841266)CO2 level: <400 ppm
+(845192)Pressure corrected (mbar)= 1016.33
+(845194)Without filter: 0.35
+(845202)With filter: 0.28
+(850192)Pressure corrected (mbar)= 1016.43
+(850195)Without filter: 0.36
+(850202)With filter: 0.29
+(851266)CO2 level: <400 ppm
+(855193)Pressure corrected (mbar)= 1016.13
+(855196)Without filter: 0.35
+(855203)With filter: 0.26
+(860194)Pressure corrected (mbar)= 1016.33
+(860197)Without filter: 0.37
+(860205)With filter: 0.30
+(861266)CO2 level: <400 ppm
+(865196)Pressure corrected (mbar)= 1016.53
+(865198)Without filter: 0.30
+(865206)With filter: 0.23
+(870197)Pressure corrected (mbar)= 1016.63
+(870199)Without filter: 0.29
+(870207)With filter: 0.22
+(870238)Humidity: 1.00
+(871272)CO2 level: <400 ppm
+(875197)Pressure corrected (mbar)= 1016.63
+(875200)Without filter: 0.28
+(875207)With filter: 0.21
+(880198)Pressure corrected (mbar)= 1016.33
+(880201)Without filter: 0.36
+(880208)With filter: 0.27
+(881271)CO2 level: <400 ppm
+(885199)Pressure corrected (mbar)= 1016.33
+(885202)Without filter: 0.33
+(885210)With filter: 0.26
+(890201)Pressure corrected (mbar)= 1016.63
+(890203)Without filter: 0.41
+(890211)With filter: 0.32
+(891273)CO2 level: <400 ppm
+(895202)Pressure corrected (mbar)= 1016.23
+(895204)Without filter: 0.39
+(895212)With filter: 0.28
+(900202)Pressure corrected (mbar)= 1016.43
+(900205)Without filter: 0.38
+(900212)With filter: 0.28
+(900243)Humidity: 1.00
+(901277)CO2 level: <400 ppm
+(905203)Pressure corrected (mbar)= 1016.33
+(905206)Without filter: 0.31
+(905213)With filter: 0.23
+(910204)Pressure corrected (mbar)= 1016.53
+(910208)Without filter: 0.25
+(910215)With filter: 0.20
+(911277)CO2 level: <400 ppm
+(915206)Pressure corrected (mbar)= 1016.63
+(915209)Without filter: 0.20
+(915216)With filter: 0.29
+(920207)Pressure corrected (mbar)= 1016.43
+(920210)Without filter: 0.03
+(920217)With filter: 0.08
+(921278)CO2 level: <400 ppm
+(925208)Pressure corrected (mbar)= 1016.33
+(925211)Without filter: 0.03
+(925218)With filter: 0.09
+(930209)Pressure corrected (mbar)= 1016.53
+(930212)Without filter: 0.44
+(930220)With filter: 0.54
+(930250)Humidity: 1.00
+(931284)CO2 level: <400 ppm
+(935211)Pressure corrected (mbar)= 1016.03
+(935213)Without filter: 0.35
+(935221)With filter: 0.29
+(940212)Pressure corrected (mbar)= 1016.63
+(940214)Without filter: 0.40
+(940222)With filter: 0.28
+(941285)CO2 level: <400 ppm
+(945212)Pressure corrected (mbar)= 1016.83
+(945215)Without filter: 0.32
+(945222)With filter: 0.28
+(950213)Pressure corrected (mbar)= 1016.33
+(950216)Without filter: 0.44
+(950223)With filter: 0.43
+(951285)CO2 level: <400 ppm
+(955214)Pressure corrected (mbar)= 1016.43
+(955217)Without filter: 0.38
+(955225)With filter: 0.37
+(960216)Pressure corrected (mbar)= 1016.33
+(960218)Without filter: 0.44
+(960226)With filter: 0.46
+(960257)Humidity: 1.00
+(961291)CO2 level: <400 ppm
+(965217)Pressure corrected (mbar)= 1016.43
+(965219)Without filter: 0.57
+(965227)With filter: 0.36
+(970217)Pressure corrected (mbar)= 1016.63
+(970220)Without filter: 2.44
+(970227)With filter: 1.31
+(971291)CO2 level: <400 ppm
+(975218)Pressure corrected (mbar)= 1016.33
+(975221)Without filter: 0.46
+(975228)With filter: 0.42
+(980219)Pressure corrected (mbar)= 1016.63
+(980222)Without filter: 0.34
+(980230)With filter: 0.26
+(981292)CO2 level: <400 ppm
+(985221)Pressure corrected (mbar)= 1016.33
+(985223)Without filter: 0.33
+(985231)With filter: 0.27
+(990222)Pressure corrected (mbar)= 1016.53
+(990224)Without filter: 0.24
+(990232)With filter: 0.21
+(990263)Humidity: 1.00
+(991297)CO2 level: <400 ppm
+(995222)Pressure corrected (mbar)= 1016.73
+(995225)Without filter: 0.24
+(995232)With filter: 0.22
+(1000223)Pressure corrected (mbar)= 1016.73
+(1000226)Without filter: 0.24
+(1000236)With filter: 0.22
+(1001296)CO2 level: <400 ppm
+(1005224)Pressure corrected (mbar)= 1016.53
+(1005227)Without filter: 0.24
+(1005237)With filter: 0.20
+(1010226)Pressure corrected (mbar)= 1016.63
+(1010228)Without filter: 0.18
+(1010238)With filter: 0.14
+(1011298)CO2 level: <400 ppm
+(1015226)Pressure corrected (mbar)= 1016.53
+(1015229)Without filter: 0.26
+(1015238)With filter: 0.22
+(1020227)Pressure corrected (mbar)= 1016.53
+(1020230)Without filter: 0.43
+(1020239)With filter: 0.48
+(1020271)Humidity: 1.00
+(1021306)CO2 level: <400 ppm
+(1025228)Pressure corrected (mbar)= 1016.53
+(1025231)Without filter: 0.33
+(1025241)With filter: 0.41
+(1030230)Pressure corrected (mbar)= 1016.63
+(1030232)Without filter: 0.41
+(1030242)With filter: 0.47
+(1031307)CO2 level: <400 ppm
+(1035231)Pressure corrected (mbar)= 1016.53
+(1035233)Without filter: 0.42
+(1035243)With filter: 0.48
+(1040231)Pressure corrected (mbar)= 1016.43
+(1040234)Without filter: 0.40
+(1040243)With filter: 0.46
+(1041308)CO2 level: <400 ppm
+(1045232)Pressure corrected (mbar)= 1016.73
+(1045235)Without filter: 0.41
+(1045244)With filter: 0.47
+(1050233)Pressure corrected (mbar)= 1016.23
+(1050236)Without filter: 0.33
+(1050246)With filter: 0.46
+(1050277)Humidity: 1.00
+(1051313)CO2 level: <400 ppm
+(1055235)Pressure corrected (mbar)= 1016.33
+(1055237)Without filter: 0.65
+(1055247)With filter: 0.59
+(1060236)Pressure corrected (mbar)= 1016.23
+(1060238)Without filter: 0.60
+(1060248)With filter: 0.48
+(1061313)CO2 level: <400 ppm
+(1065236)Pressure corrected (mbar)= 1016.73
+(1065239)Without filter: 1.34
+(1065248)With filter: 0.78
+(1070237)Pressure corrected (mbar)= 1016.43
+(1070240)Without filter: 1.22
+(1070249)With filter: 0.77
+(1071313)CO2 level: <400 ppm
+(1075238)Pressure corrected (mbar)= 1016.53
+(1075241)Without filter: 0.56
+(1075251)With filter: 0.50
+(1080240)Pressure corrected (mbar)= 1016.63
+(1080242)Without filter: 0.86
+(1080252)With filter: 0.73
+(1080284)Humidity: 1.00
+(1081319)CO2 level: <400 ppm
+(1085241)Pressure corrected (mbar)= 1016.83
+(1085243)Without filter: 0.77
+(1085253)With filter: 0.64
+(1090241)Pressure corrected (mbar)= 1016.33
+(1090244)Without filter: 0.69
+(1090253)With filter: 0.62
+(1091318)CO2 level: <400 ppm
+(1095242)Pressure corrected (mbar)= 1016.33
+(1095245)Without filter: 0.65
+(1095255)With filter: 0.58
+(1100243)Pressure corrected (mbar)= 1016.63
+(1100246)Without filter: 0.64
+(1100256)With filter: 0.58
+(1101320)CO2 level: <400 ppm
+(1105245)Pressure corrected (mbar)= 1016.43
+(1105247)Without filter: 0.61
+(1105257)With filter: 0.52
+(1110245)Pressure corrected (mbar)= 1016.53
+(1110248)Without filter: 0.64
+(1110257)With filter: 0.57
+(1110289)Humidity: 1.00
+(1111324)CO2 level: <400 ppm
+(1115246)Pressure corrected (mbar)= 1016.73
+(1115249)Without filter: 0.65
+(1115258)With filter: 0.59
+(1120247)Pressure corrected (mbar)= 1016.63
+(1120250)Without filter: 0.66
+(1120260)With filter: 0.62
+(1121324)CO2 level: <400 ppm
+(1125249)Pressure corrected (mbar)= 1016.53
+(1125251)Without filter: 0.68
+(1125261)With filter: 0.62
+(1130250)Pressure corrected (mbar)= 1016.73
+(1130252)Without filter: 0.66
+(1130262)With filter: 0.60
+(1131325)CO2 level: <400 ppm
+(1135250)Pressure corrected (mbar)= 1016.43
+(1135253)Without filter: 1.64
+(1135262)With filter: 0.94
+(1140251)Pressure corrected (mbar)= 1016.63
+(1140254)Without filter: 2.46
+(1140263)With filter: 1.55
+(1140295)Humidity: 1.00
+(1141330)CO2 level: <400 ppm
+(1145252)Pressure corrected (mbar)= 1016.93
+(1145255)Without filter: 2.22
+(1145265)With filter: 1.34
+(1150254)Pressure corrected (mbar)= 1016.83
+(1150256)Without filter: 1.84
+(1150266)With filter: 1.05
+(1151331)CO2 level: <400 ppm
+(1155255)Pressure corrected (mbar)= 1016.53
+(1155257)Without filter: 1.41
+(1155267)With filter: 0.76
+(1160255)Pressure corrected (mbar)= 1016.73
+(1160258)Without filter: 0.91
+(1160267)With filter: 0.68
+(1161332)CO2 level: <400 ppm
+(1165256)Pressure corrected (mbar)= 1016.73
+(1165259)Without filter: 0.55
+(1165268)With filter: 0.51
+(1170257)Pressure corrected (mbar)= 1016.63
+(1170260)Without filter: 0.16
+(1170270)With filter: 0.12
+(1170301)Humidity: 99.90
+(1171338)CO2 level: <400 ppm
+(1175259)Pressure corrected (mbar)= 1016.83
+(1175261)Without filter: 0.16
+(1175271)With filter: 0.12
+(1180260)Pressure corrected (mbar)= 1016.83
+(1180262)Without filter: 0.14
+(1180272)With filter: 0.08
+(1181338)CO2 level: <400 ppm
+(1185260)Pressure corrected (mbar)= 1016.73
+(1185263)Without filter: 0.10
+(1185272)With filter: 0.11
+(1190261)Pressure corrected (mbar)= 1016.63
+(1190264)Without filter: 0.55
+(1190274)With filter: 0.50
+(1191339)CO2 level: <400 ppm
+(1195262)Pressure corrected (mbar)= 1016.93
+(1195265)Without filter: 0.55
+(1195275)With filter: 0.48
+(1200264)Pressure corrected (mbar)= 1016.73
+(1200266)Without filter: 0.52
+(1200276)With filter: 0.48
+(1200308)Humidity: 99.90
+(1201344)CO2 level: <400 ppm
+(1205264)Pressure corrected (mbar)= 1016.63
+(1205267)Without filter: 0.56
+(1205276)With filter: 0.52
+(1210265)Pressure corrected (mbar)= 1016.73
+(1210268)Without filter: 0.32
+(1210277)With filter: 0.27
+(1211344)CO2 level: <400 ppm
+(1215266)Pressure corrected (mbar)= 1016.53
+(1215269)Without filter: 0.07
+(1215279)With filter: 0.08
+(1220268)Pressure corrected (mbar)= 1016.53
+(1220270)Without filter: 0.09
+(1220280)With filter: 0.08
+(1221346)CO2 level: <400 ppm
+(1225269)Pressure corrected (mbar)= 1017.03
+(1225271)Without filter: 0.06
+(1225281)With filter: 0.04
+(1230269)Pressure corrected (mbar)= 1016.73
+(1230272)Without filter: 0.03
+(1230281)With filter: 0.03
+(1230313)Humidity: 99.90
+(1231349)CO2 level: <400 ppm
+(1235270)Pressure corrected (mbar)= 1016.73
+(1235273)Without filter: 0.03
+(1235282)With filter: 0.01
+(1240271)Pressure corrected (mbar)= 1016.43
+(1240274)Without filter: 0.09
+(1240284)With filter: 0.09
+(1241351)CO2 level: <400 ppm
+(1245273)Pressure corrected (mbar)= 1016.53
+(1245275)Without filter: 0.14
+(1245285)With filter: 0.17
+(1250274)Pressure corrected (mbar)= 1016.73
+(1250276)Without filter: 0.14
+(1250286)With filter: 0.16
+(1251352)CO2 level: <400 ppm
+(1255274)Pressure corrected (mbar)= 1016.93
+(1255277)Without filter: 0.18
+(1255286)With filter: 0.17
+(1260275)Pressure corrected (mbar)= 1016.53
+(1260278)Without filter: 0.18
+(1260288)With filter: 0.16
+(1260319)Humidity: 99.90
+(1261356)CO2 level: <400 ppm
+(1265276)Pressure corrected (mbar)= 1016.63
+(1265280)Without filter: 0.21
+(1265289)With filter: 0.20
+(1270278)Pressure corrected (mbar)= 1016.63
+(1270281)Without filter: 0.23
+(1270290)With filter: 0.20
+(1271356)CO2 level: <400 ppm
+(1275279)Pressure corrected (mbar)= 1016.93
+(1275282)Without filter: 0.26
+(1275291)With filter: 0.23
+(1280280)Pressure corrected (mbar)= 1016.73
+(1280283)Without filter: 0.27
+(1280292)With filter: 0.23
+(1281356)CO2 level: <400 ppm
+(1285281)Pressure corrected (mbar)= 1016.93
+(1285284)Without filter: 0.28
+(1285294)With filter: 0.24
+(1290283)Pressure corrected (mbar)= 1016.73
+(1290285)Without filter: 0.28
+(1290295)With filter: 0.23
+(1290327)Humidity: 99.90
+(1291363)CO2 level: <400 ppm
+(1295284)Pressure corrected (mbar)= 1016.83
+(1295286)Without filter: 0.67
+(1295296)With filter: 0.65
+(1300284)Pressure corrected (mbar)= 1016.73
+(1300287)Without filter: 0.79
+(1300296)With filter: 0.72
+(1301363)CO2 level: <400 ppm
+(1305285)Pressure corrected (mbar)= 1016.93
+(1305288)Without filter: 0.83
+(1305297)With filter: 0.68
+(1310286)Pressure corrected (mbar)= 1016.73
+(1310289)Without filter: 0.60
+(1310299)With filter: 0.54
+(1311364)CO2 level: <400 ppm
+(1315288)Pressure corrected (mbar)= 1016.53
+(1315290)Without filter: 1.07
+(1315300)With filter: 0.61
+(1320289)Pressure corrected (mbar)= 1016.83
+(1320291)Without filter: 0.39
+(1320301)With filter: 0.32
+(1320333)Humidity: 99.90
+(1321369)CO2 level: <400 ppm
+(1325289)Pressure corrected (mbar)= 1016.83
+(1325292)Without filter: 1.52
+(1325301)With filter: 0.82
+(1330290)Pressure corrected (mbar)= 1016.73
+(1330293)Without filter: 1.49
+(1330302)With filter: 0.84
+(1331368)CO2 level: <400 ppm
+(1335291)Pressure corrected (mbar)= 1016.73
+(1335294)Without filter: 1.09
+(1335304)With filter: 0.68
+(1340293)Pressure corrected (mbar)= 1017.03
+(1340295)Without filter: 0.74
+(1340305)With filter: 0.59
+(1341370)CO2 level: <400 ppm
+(1345294)Pressure corrected (mbar)= 1016.53
+(1345296)Without filter: 1.18
+(1345306)With filter: 0.74
+(1350294)Pressure corrected (mbar)= 1016.73
+(1350297)Without filter: 1.19
+(1350306)With filter: 0.74
+(1350338)Humidity: 99.90
+(1351374)CO2 level: <400 ppm
+(1355295)Pressure corrected (mbar)= 1016.63
+(1355298)Without filter: 0.87
+(1355308)With filter: 0.65
+(1360296)Pressure corrected (mbar)= 1016.93
+(1360299)Without filter: 1.06
+(1360309)With filter: 0.71
+(1361375)CO2 level: <400 ppm
+(1365298)Pressure corrected (mbar)= 1016.93
+(1365300)Without filter: 0.89
+(1365310)With filter: 0.70
+(1370298)Pressure corrected (mbar)= 1016.93
+(1370301)Without filter: 1.72
+(1370310)With filter: 1.06
+(1371376)CO2 level: <400 ppm
+(1375299)Pressure corrected (mbar)= 1016.93
+(1375302)Without filter: 1.25
+(1375311)With filter: 0.79
+(1380300)Pressure corrected (mbar)= 1017.03
+(1380303)Without filter: 1.07
+(1380313)With filter: 0.73
+(1380344)Humidity: 99.90
+(1381381)CO2 level: <400 ppm
+(1385302)Pressure corrected (mbar)= 1016.53
+(1385304)Without filter: 0.75
+(1385314)With filter: 0.62
+(1390303)Pressure corrected (mbar)= 1016.63
+(1390305)Without filter: 0.93
+(1390315)With filter: 0.68
+(1391381)CO2 level: <400 ppm
+(1395303)Pressure corrected (mbar)= 1017.13
+(1395306)Without filter: 0.86
+(1395315)With filter: 0.65
+(1400304)Pressure corrected (mbar)= 1017.33
+(1400307)Without filter: 0.54
+(1400316)With filter: 0.50
+(1401381)CO2 level: <400 ppm
+(1405305)Pressure corrected (mbar)= 1017.13
+(1405308)Without filter: 0.99
+(1405318)With filter: 0.71
+(1410307)Pressure corrected (mbar)= 1017.13
+(1410309)Without filter: 1.24
+(1410319)With filter: 0.77
+(1410351)Humidity: 99.90
+(1411387)CO2 level: <400 ppm
+(1415308)Pressure corrected (mbar)= 1016.83
+(1415310)Without filter: 1.11
+(1415320)With filter: 0.74
+(1420308)Pressure corrected (mbar)= 1016.43
+(1420311)Without filter: 0.46
+(1420320)With filter: 0.38
+(1421387)CO2 level: <400 ppm
+(1425309)Pressure corrected (mbar)= 1017.33
+(1425312)Without filter: 0.53
+(1425321)With filter: 0.48
+(1430310)Pressure corrected (mbar)= 1016.83
+(1430313)Without filter: 0.44
+(1430323)With filter: 0.37
+(1431389)CO2 level: <400 ppm
+(1435312)Pressure corrected (mbar)= 1016.73
+(1435314)Without filter: 0.52
+(1435324)With filter: 0.41
+(1440313)Pressure corrected (mbar)= 1017.13
+(1440315)Without filter: 0.44
+(1440325)With filter: 0.37
+(1440357)Humidity: 99.90
+(1441393)CO2 level: <400 ppm
+(1445313)Pressure corrected (mbar)= 1016.83
+(1445316)Without filter: 0.48
+(1445325)With filter: 0.38
+(1450314)Pressure corrected (mbar)= 1016.93
+(1450317)Without filter: 0.49
+(1450327)With filter: 0.39
+(1451393)CO2 level: <400 ppm
+(1455315)Pressure corrected (mbar)= 1017.13
+(1455318)Without filter: 0.47
+(1455328)With filter: 0.37
+(1460317)Pressure corrected (mbar)= 1016.83
+(1460319)Without filter: 0.81
+(1460329)With filter: 0.61
+(1461394)CO2 level: <400 ppm
+(1465317)Pressure corrected (mbar)= 1016.73
+(1465320)Without filter: 0.48
+(1465329)With filter: 0.45
+(1470318)Pressure corrected (mbar)= 1016.73
+(1470321)Without filter: 0.28
+(1470330)With filter: 0.22
+(1470362)Humidity: 99.90
+(1471398)CO2 level: <400 ppm
+(1475319)Pressure corrected (mbar)= 1016.83
+(1475322)Without filter: 0.40
+(1475332)With filter: 0.34
+(1480321)Pressure corrected (mbar)= 1016.83
+(1480323)Without filter: 0.00
+(1480333)With filter: 0.07
+(1481400)CO2 level: <400 ppm
+(1485322)Pressure corrected (mbar)= 1016.83
+(1485324)Without filter: 0.01
+(1485334)With filter: 0.08
+(1490322)Pressure corrected (mbar)= 1016.93
+(1490325)Without filter: 0.10
+(1490334)With filter: 0.14
+(1491401)CO2 level: <400 ppm
+(1495323)Pressure corrected (mbar)= 1016.73
+(1495326)Without filter: 0.16
+(1495335)With filter: 0.15
+(1500324)Pressure corrected (mbar)= 1017.03
+(1500327)Without filter: 0.08
+(1500337)With filter: 0.13
+(1500368)Humidity: 99.90
+(1501405)CO2 level: <400 ppm
+(1505326)Pressure corrected (mbar)= 1016.73
+(1505328)Without filter: 1.89
+(1505338)With filter: 0.65
+(1510327)Pressure corrected (mbar)= 1017.03
+(1510329)Without filter: 0.18
+(1510339)With filter: 0.15
+(1511406)CO2 level: <400 ppm
+(1515327)Pressure corrected (mbar)= 1016.93
+(1515330)Without filter: 0.15
+(1515339)With filter: 0.14
+(1520328)Pressure corrected (mbar)= 1016.93
+(1520331)Without filter: 0.22
+(1520340)With filter: 0.19
+(1521406)CO2 level: <400 ppm
+(1525329)Pressure corrected (mbar)= 1017.13
+(1525332)Without filter: 0.16
+(1525342)With filter: 0.16
+(1530331)Pressure corrected (mbar)= 1017.03
+(1530333)Without filter: 0.22
+(1530343)With filter: 0.20
+(1530375)Humidity: 50.80
+(1531411)CO2 level: <400 ppm
+(1535332)Pressure corrected (mbar)= 1017.03
+(1535334)Without filter: 1.37
+(1535344)With filter: 0.19
+(1540332)Pressure corrected (mbar)= 1016.83
+(1540335)Without filter: 1.48
+(1540344)With filter: 0.50
+(1541410)CO2 level: <400 ppm
+(1545333)Pressure corrected (mbar)= 1017.23
+(1545336)Without filter: 0.25
+(1545346)With filter: 0.15
+(1550334)Pressure corrected (mbar)= 1016.53
+(1550337)Without filter: 1.28
+(1550347)With filter: 0.13
+(1551412)CO2 level: <400 ppm
+(1555336)Pressure corrected (mbar)= 1017.03
+(1555338)Without filter: 1.27
+(1555348)With filter: 0.68
+(1560336)Pressure corrected (mbar)= 1016.73
+(1560339)Without filter: 1.02
+(1560348)With filter: 0.58
+(1560380)Humidity: 1.00
+(1561415)CO2 level: <400 ppm
+(1565337)Pressure corrected (mbar)= 1017.13
+(1565340)Without filter: 1.86
+(1565349)With filter: 0.83
+(1570338)Pressure corrected (mbar)= 1016.83
+(1570341)Without filter: 0.75
+(1570351)With filter: 0.44
+(1571415)CO2 level: <400 ppm
+(1575340)Pressure corrected (mbar)= 1017.03
+(1575342)Without filter: 0.21
+(1575352)With filter: 0.16
+(1580341)Pressure corrected (mbar)= 1016.93
+(1580343)Without filter: 0.03
+(1580353)With filter: 0.11
+(1581416)CO2 level: <400 ppm
+(1585341)Pressure corrected (mbar)= 1016.83
+(1585344)Without filter: 0.15
+(1585353)With filter: 0.15
+(1590342)Pressure corrected (mbar)= 1016.93
+(1590345)Without filter: 0.10
+(1590354)With filter: 0.14
+(1590386)Humidity: 1.00
+(1591421)CO2 level: <400 ppm
+(1595343)Pressure corrected (mbar)= 1016.93
+(1595346)Without filter: 0.24
+(1595356)With filter: 0.18
+(1600345)Pressure corrected (mbar)= 1017.03
+(1600347)Without filter: 0.13
+(1600357)With filter: 0.15
+(1601422)CO2 level: <400 ppm
+(1605346)Pressure corrected (mbar)= 1016.93
+(1605348)Without filter: 0.25
+(1605358)With filter: 0.19
+(1610346)Pressure corrected (mbar)= 1017.03
+(1610349)Without filter: 1.23
+(1610358)With filter: 0.68
+(1611423)CO2 level: <400 ppm
+(1615347)Pressure corrected (mbar)= 1017.03
+(1615350)Without filter: 0.23
+(1615360)With filter: 0.21
+(1620348)Pressure corrected (mbar)= 1017.13
+(1620352)Without filter: 0.33
+(1620361)With filter: 0.23
+(1620392)Humidity: 1.00
+(1621428)CO2 level: <400 ppm
+(1625350)Pressure corrected (mbar)= 1016.83
+(1625353)Without filter: 1.24
+(1625362)With filter: 0.58
+(1630351)Pressure corrected (mbar)= 1017.23
+(1630354)Without filter: 1.08
+(1630363)With filter: 0.67
+(1631428)CO2 level: <400 ppm
+(1635352)Pressure corrected (mbar)= 1017.23
+(1635355)Without filter: 0.23
+(1635364)With filter: 0.20
+(1640353)Pressure corrected (mbar)= 1017.23
+(1640356)Without filter: 1.34
+(1640366)With filter: 0.68
+(1641428)CO2 level: <400 ppm
+(1645355)Pressure corrected (mbar)= 1017.03
+(1645357)Without filter: 1.29
+(1645367)With filter: 0.66
+(1650356)Pressure corrected (mbar)= 1016.83
+(1650358)Without filter: 1.23
+(1650368)With filter: 0.71
+(1650400)Humidity: 1.20
+(1651435)CO2 level: <400 ppm
+(1655356)Pressure corrected (mbar)= 1016.83
+(1655359)Without filter: 1.57
+(1655368)With filter: 0.42
+(1660357)Pressure corrected (mbar)= 1017.13
+(1660360)Without filter: 1.31
+(1660369)With filter: 0.59
+(1661434)CO2 level: <400 ppm
+(1665358)Pressure corrected (mbar)= 1016.93
+(1665361)Without filter: 0.29
+(1665371)With filter: 0.20
+(1670360)Pressure corrected (mbar)= 1017.13
+(1670362)Without filter: 0.20
+(1670372)With filter: 0.17
+(1671436)CO2 level: <400 ppm
+(1675361)Pressure corrected (mbar)= 1017.33
+(1675363)Without filter: 0.21
+(1675373)With filter: 0.18
+(1680361)Pressure corrected (mbar)= 1017.03
+(1680364)Without filter: 0.94
+(1680373)With filter: 0.65
+(1680405)Humidity: 1.30
+(1681440)CO2 level: <400 ppm
+(1685362)Pressure corrected (mbar)= 1016.93
+(1685365)Without filter: 0.46
+(1685374)With filter: 0.22
+(1690363)Pressure corrected (mbar)= 1017.13
+(1690366)Without filter: 0.13
+(1690376)With filter: 0.18
+(1691441)CO2 level: <400 ppm
+(1695365)Pressure corrected (mbar)= 1017.03
+(1695367)Without filter: 0.23
+(1695377)With filter: 0.20
+(1700366)Pressure corrected (mbar)= 1017.33
+(1700368)Without filter: 0.15
+(1700378)With filter: 0.19
+(1701442)CO2 level: <400 ppm
+(1705366)Pressure corrected (mbar)= 1017.03
+(1705369)Without filter: 0.28
+(1705378)With filter: 0.22
+(1710367)Pressure corrected (mbar)= 1016.93
+(1710370)Without filter: 0.13
+(1710380)With filter: 0.15
+(1710411)Humidity: 1.00
+(1711447)CO2 level: <400 ppm
+(1715368)Pressure corrected (mbar)= 1017.03
+(1715371)Without filter: 0.13
+(1715381)With filter: 0.16
+(1720370)Pressure corrected (mbar)= 1017.13
+(1720372)Without filter: 0.17
+(1720382)With filter: 0.15
+(1721447)CO2 level: <400 ppm
+(1725370)Pressure corrected (mbar)= 1017.33
+(1725373)Without filter: 0.16
+(1725382)With filter: 0.16
+(1730371)Pressure corrected (mbar)= 1017.13
+(1730374)Without filter: 0.22
+(1730383)With filter: 0.20
+(1731447)CO2 level: <400 ppm
+(1735372)Pressure corrected (mbar)= 1017.23
+(1735375)Without filter: 0.19
+(1735385)With filter: 0.22
+(1740374)Pressure corrected (mbar)= 1017.13
+(1740376)Without filter: 0.15
+(1740386)With filter: 0.17
+(1740418)Humidity: 1.00
+(1741453)CO2 level: <400 ppm
+(1745375)Pressure corrected (mbar)= 1017.43
+(1745377)Without filter: 0.18
+(1745387)With filter: 0.22
+(1750375)Pressure corrected (mbar)= 1016.93
+(1750378)Without filter: 0.10
+(1750387)With filter: 0.12
+(1751453)CO2 level: <400 ppm
+(1755376)Pressure corrected (mbar)= 1017.03
+(1755379)Without filter: 0.24
+(1755388)With filter: 0.23
+(1760377)Pressure corrected (mbar)= 1017.03
+(1760380)Without filter: 0.28
+(1760390)With filter: 0.26
+(1761454)CO2 level: <400 ppm
+(1765379)Pressure corrected (mbar)= 1017.23
+(1765381)Without filter: 0.13
+(1765391)With filter: 0.14
+(1770380)Pressure corrected (mbar)= 1017.03
+(1770382)Without filter: 0.16
+(1770392)With filter: 0.16
+(1770424)Humidity: 1.00
+(1771459)CO2 level: <400 ppm
+(1775380)Pressure corrected (mbar)= 1017.43
+(1775383)Without filter: 0.19
+(1775392)With filter: 0.22
+(1780381)Pressure corrected (mbar)= 1017.23
+(1780384)Without filter: 0.31
+(1780393)With filter: 0.24
+(1781458)CO2 level: <400 ppm
+(1785382)Pressure corrected (mbar)= 1017.23
+(1785385)Without filter: 0.23
+(1785395)With filter: 0.22
+(1790384)Pressure corrected (mbar)= 1017.23
+(1790386)Without filter: 0.29
+(1790396)With filter: 0.26
+(1791460)CO2 level: <400 ppm
+(1795385)Pressure corrected (mbar)= 1017.33
+(1795387)Without filter: 0.22
+(1795397)With filter: 0.20
+(1800385)Pressure corrected (mbar)= 1016.93
+(1800388)Without filter: 0.37
+(1800397)With filter: 0.30
+(1800429)Humidity: 1.00
+(1801464)CO2 level: <400 ppm
+(1805386)Pressure corrected (mbar)= 1017.23
+(1805389)Without filter: 0.24
+(1805399)With filter: 0.23
+(1810387)Pressure corrected (mbar)= 1017.23
+(1810390)Without filter: 0.25
+(1810400)With filter: 0.24
+(1811465)CO2 level: <400 ppm
+(1815389)Pressure corrected (mbar)= 1017.13
+(1815391)Without filter: 0.06
+(1815401)With filter: 0.11
+(1820389)Pressure corrected (mbar)= 1017.03
+(1820392)Without filter: 0.13
+(1820401)With filter: 0.16
+(1821466)CO2 level: <400 ppm
+(1825390)Pressure corrected (mbar)= 1017.23
+(1825393)Without filter: 0.14
+(1825402)With filter: 0.15
+(1830391)Pressure corrected (mbar)= 1016.93
+(1830394)Without filter: 0.09
+(1830404)With filter: 0.12
+(1830435)Humidity: 1.00
+(1831471)CO2 level: <400 ppm
+(1835393)Pressure corrected (mbar)= 1017.13
+(1835395)Without filter: 0.38
+(1835405)With filter: 0.30
+(1840394)Pressure corrected (mbar)= 1017.23
+(1840396)Without filter: 0.28
+(1840406)With filter: 0.24
+(1841471)CO2 level: <400 ppm
+(1845394)Pressure corrected (mbar)= 1017.23
+(1845397)Without filter: 0.29
+(1845406)With filter: 0.22
+(1850395)Pressure corrected (mbar)= 1016.83
+(1850398)Without filter: 0.24
+(1850407)With filter: 0.20
+(1851471)CO2 level: <400 ppm
+(1855396)Pressure corrected (mbar)= 1017.33
+(1855399)Without filter: 0.30
+(1855409)With filter: 0.25
+(1860398)Pressure corrected (mbar)= 1017.53
+(1860400)Without filter: 0.28
+(1860410)With filter: 0.24
+(1860442)Humidity: 1.00
+(1861477)CO2 level: <400 ppm
+(1865399)Pressure corrected (mbar)= 1017.33
+(1865401)Without filter: 0.27
+(1865411)With filter: 0.22
+(1870399)Pressure corrected (mbar)= 1017.23
+(1870402)Without filter: 0.28
+(1870411)With filter: 0.23
+(1871476)CO2 level: <400 ppm
+(1875400)Pressure corrected (mbar)= 1017.33
+(1875403)Without filter: 0.28
+(1875412)With filter: 0.23
+(1880401)Pressure corrected (mbar)= 1017.53
+(1880404)Without filter: 0.31
+(1880414)With filter: 0.26
+(1881478)CO2 level: <400 ppm
+(1885403)Pressure corrected (mbar)= 1017.33
+(1885405)Without filter: 0.24
+(1885415)With filter: 0.21
+(1890404)Pressure corrected (mbar)= 1017.33
+(1890406)Without filter: 0.30
+(1890416)With filter: 0.24
+(1890448)Humidity: 1.00
+(1891483)CO2 level: <400 ppm
+(1895404)Pressure corrected (mbar)= 1017.23
+(1895407)Without filter: 0.29
+(1895416)With filter: 0.23
+(1900405)Pressure corrected (mbar)= 1017.33
+(1900408)Without filter: 0.27
+(1900418)With filter: 0.23
+(1901483)CO2 level: <400 ppm
+(1905406)Pressure corrected (mbar)= 1017.13
+(1905409)Without filter: 0.25
+(1905419)With filter: 0.22
+(1910408)Pressure corrected (mbar)= 1017.13
+(1910410)Without filter: 0.28
+(1910420)With filter: 0.24
+(1911484)CO2 level: <400 ppm
+(1915408)Pressure corrected (mbar)= 1017.03
+(1915411)Without filter: 0.32
+(1915420)With filter: 0.26
+(1920409)Pressure corrected (mbar)= 1017.23
+(1920412)Without filter: 0.32
+(1920421)With filter: 0.27
+(1920453)Humidity: 1.00
+(1921488)CO2 level: <400 ppm
+(1925410)Pressure corrected (mbar)= 1017.23
+(1925413)Without filter: 0.36
+(1925423)With filter: 0.30
+(1930412)Pressure corrected (mbar)= 1016.93
+(1930414)Without filter: 0.32
+(1930424)With filter: 0.27
+(1931489)CO2 level: <400 ppm
+(1935413)Pressure corrected (mbar)= 1017.43
+(1935415)Without filter: 0.27
+(1935425)With filter: 0.22
+(1940413)Pressure corrected (mbar)= 1017.13
+(1940416)Without filter: 0.38
+(1940425)With filter: 0.31
+(1941490)CO2 level: <400 ppm
+(1945414)Pressure corrected (mbar)= 1017.13
+(1945417)Without filter: 0.36
+(1945426)With filter: 0.30
+(1950415)Pressure corrected (mbar)= 1017.23
+(1950418)Without filter: 0.29
+(1950428)With filter: 0.24
+(1950459)Humidity: 1.00
+(1951495)CO2 level: <400 ppm
+(1955417)Pressure corrected (mbar)= 1017.03
+(1955419)Without filter: 0.30
+(1955429)With filter: 0.26
+(1960418)Pressure corrected (mbar)= 1017.03
+(1960420)Without filter: 0.30
+(1960430)With filter: 0.25
+(1961495)CO2 level: <400 ppm
+(1965418)Pressure corrected (mbar)= 1017.33
+(1965421)Without filter: 0.31
+(1965430)With filter: 0.25
+(1970419)Pressure corrected (mbar)= 1017.33
+(1970422)Without filter: 0.37
+(1970432)With filter: 0.30
+(1971495)CO2 level: <400 ppm
+(1975420)Pressure corrected (mbar)= 1017.13
+(1975424)Without filter: 0.34
+(1975433)With filter: 0.27
+(1980422)Pressure corrected (mbar)= 1016.83
+(1980425)Without filter: 0.35
+(1980434)With filter: 0.28
+(1980466)Humidity: 1.00
+(1981501)CO2 level: <400 ppm
+(1985423)Pressure corrected (mbar)= 1017.33
+(1985426)Without filter: 0.36
+(1985435)With filter: 0.29
+(1990424)Pressure corrected (mbar)= 1017.13
+(1990427)Without filter: 0.37
+(1990436)With filter: 0.31
+(1991500)CO2 level: <400 ppm
+(1995425)Pressure corrected (mbar)= 1017.43
+(1995428)Without filter: 0.38
+(1995438)With filter: 0.31
+(2000427)Pressure corrected (mbar)= 1017.43
+(2000429)Without filter: 0.36
+(2000439)With filter: 0.30
+(2001502)CO2 level: <400 ppm
+(2005428)Pressure corrected (mbar)= 1017.23
+(2005430)Without filter: 0.38
+(2005440)With filter: 0.31
+(2010428)Pressure corrected (mbar)= 1017.33
+(2010431)Without filter: 0.36
+(2010440)With filter: 0.29
+(2010472)Humidity: 1.00
+(2011507)CO2 level: <400 ppm
+(2015429)Pressure corrected (mbar)= 1017.43
+(2015432)Without filter: 0.31
+(2015441)With filter: 0.25
+(2020430)Pressure corrected (mbar)= 1017.33
+(2020433)Without filter: 0.27
+(2020443)With filter: 0.22
+(2021507)CO2 level: <400 ppm
+(2025432)Pressure corrected (mbar)= 1017.03
+(2025434)Without filter: 0.22
+(2025444)With filter: 0.19
+(2030433)Pressure corrected (mbar)= 1016.93
+(2030435)Without filter: 0.15
+(2030445)With filter: 0.16
+(2031508)CO2 level: <400 ppm
+(2035433)Pressure corrected (mbar)= 1017.23
+(2035436)Without filter: 0.34
+(2035445)With filter: 0.27
+(2040434)Pressure corrected (mbar)= 1017.23
+(2040437)Without filter: 0.33
+(2040446)With filter: 0.29
+(2040478)Humidity: 1.00
+(2041513)CO2 level: <400 ppm
+(2045435)Pressure corrected (mbar)= 1017.03
+(2045438)Without filter: 0.25
+(2045448)With filter: 0.24
+(2050437)Pressure corrected (mbar)= 1017.53
+(2050439)Without filter: 0.31
+(2050449)With filter: 0.24
+(2051514)CO2 level: <400 ppm
+(2055438)Pressure corrected (mbar)= 1017.13
+(2055440)Without filter: 0.34
+(2055450)With filter: 0.35
+(2060438)Pressure corrected (mbar)= 1017.03
+(2060441)Without filter: 0.47
+(2060450)With filter: 0.39
+(2061514)CO2 level: <400 ppm
+(2065439)Pressure corrected (mbar)= 1017.03
+(2065442)Without filter: 0.32
+(2065452)With filter: 0.33
+(2070440)Pressure corrected (mbar)= 1017.03
+(2070443)Without filter: 0.47
+(2070453)With filter: 0.37
+(2070484)Humidity: 1.00
+(2071520)CO2 level: <400 ppm
+(2075442)Pressure corrected (mbar)= 1017.33
+(2075444)Without filter: 0.46
+(2075454)With filter: 0.36
+(2080442)Pressure corrected (mbar)= 1017.23
+(2080445)Without filter: 0.43
+(2080454)With filter: 0.33
+(2081520)CO2 level: <400 ppm
+(2085443)Pressure corrected (mbar)= 1017.23
+(2085446)Without filter: 0.44
+(2085455)With filter: 0.34
+(2090444)Pressure corrected (mbar)= 1017.13
+(2090447)Without filter: 0.39
+(2090457)With filter: 0.29
+(2091521)CO2 level: <400 ppm
+(2095446)Pressure corrected (mbar)= 1017.13
+(2095448)Without filter: 0.46
+(2095458)With filter: 0.40
+(2100447)Pressure corrected (mbar)= 1017.23
+(2100449)Without filter: 0.44
+(2100459)With filter: 0.37
+(2100491)Humidity: 1.00
+(2101526)CO2 level: <400 ppm
+(2105447)Pressure corrected (mbar)= 1017.33
+(2105450)Without filter: 0.41
+(2105459)With filter: 0.32
+(2110448)Pressure corrected (mbar)= 1017.23
+(2110451)Without filter: 0.31
+(2110460)With filter: 0.25
+(2111525)CO2 level: <400 ppm
+(2115449)Pressure corrected (mbar)= 1017.43
+(2115452)Without filter: 0.32
+(2115462)With filter: 0.26
+(2120451)Pressure corrected (mbar)= 1017.13
+(2120453)Without filter: 0.31
+(2120463)With filter: 0.25
+(2121527)CO2 level: <400 ppm
+(2125452)Pressure corrected (mbar)= 1017.23
+(2125454)Without filter: 0.32
+(2125464)With filter: 0.26
+(2130452)Pressure corrected (mbar)= 1017.43
+(2130455)Without filter: 0.34
+(2130464)With filter: 0.27
+(2130496)Humidity: 1.00
+(2131531)CO2 level: <400 ppm
+(2135453)Pressure corrected (mbar)= 1017.23
+(2135456)Without filter: 0.18
+(2135465)With filter: 0.15
+(2140454)Pressure corrected (mbar)= 1017.53
+(2140457)Without filter: 0.42
+(2140467)With filter: 0.33
+(2141532)CO2 level: <400 ppm
+(2145456)Pressure corrected (mbar)= 1017.53
+(2145458)Without filter: 0.28
+(2145468)With filter: 0.36
+(2150457)Pressure corrected (mbar)= 1017.33
+(2150459)Without filter: 0.16
+(2150469)With filter: 0.12
+(2151533)CO2 level: <400 ppm
+(2155457)Pressure corrected (mbar)= 1017.33
+(2155460)Without filter: 0.13
+(2155469)With filter: 0.12
+(2160458)Pressure corrected (mbar)= 1017.23
+(2160461)Without filter: 3.28
+(2160471)With filter: 0.73
+(2160502)Humidity: 1.00
+(2161538)CO2 level: <400 ppm
+(2165459)Pressure corrected (mbar)= 1017.53
+(2165462)Without filter: 3.26
+(2165472)With filter: 2.92
+(2170461)Pressure corrected (mbar)= 1017.43
+(2170463)Without filter: 0.29
+(2170473)With filter: 0.28
+(2171538)CO2 level: <400 ppm
+(2175461)Pressure corrected (mbar)= 1017.53
+(2175464)Without filter: 0.29
+(2175473)With filter: 0.29
+(2180462)Pressure corrected (mbar)= 1017.43
+(2180465)Without filter: 0.39
+(2180474)With filter: 0.37
+(2181538)CO2 level: <400 ppm
+(2185463)Pressure corrected (mbar)= 1016.03
+(2185466)Without filter: 0.46
+(2185476)With filter: 0.37
+(2190465)Pressure corrected (mbar)= 1013.64
+(2190467)Without filter: 0.47
+(2190477)With filter: 0.41
+(2190509)Humidity: 1.00
+(2191544)CO2 level: <400 ppm
+(2195466)Pressure corrected (mbar)= 1011.15
+(2195468)Without filter: 0.48
+(2195478)With filter: 0.40
+(2200466)Pressure corrected (mbar)= 1007.75
+(2200469)Without filter: 0.63
+(2200478)With filter: 0.48
+(2201544)CO2 level: <400 ppm
+(2205467)Pressure corrected (mbar)= 1004.96
+(2205470)Without filter: 0.43
+(2205479)With filter: 0.36
+(2210468)Pressure corrected (mbar)= 1002.17
+(2210471)Without filter: 0.69
+(2210481)With filter: 0.45
+(2211545)CO2 level: <400 ppm
+(2215470)Pressure corrected (mbar)= 999.87
+(2215472)Without filter: 0.50
+(2215481)With filter: 0.35
+(2220471)Pressure corrected (mbar)= 997.28
+(2220473)Without filter: 0.44
+(2220482)With filter: 0.34
+(2220514)Humidity: 1.00
+(2221549)CO2 level: <400 ppm
+(2225471)Pressure corrected (mbar)= 994.49
+(2225474)Without filter: 0.49
+(2225482)With filter: 0.39
+(2230472)Pressure corrected (mbar)= 991.89
+(2230475)Without filter: 0.46
+(2230483)With filter: 0.36
+(2231548)CO2 level: <400 ppm
+(2235473)Pressure corrected (mbar)= 989.60
+(2235476)Without filter: 0.69
+(2235485)With filter: 0.55
+(2240475)Pressure corrected (mbar)= 987.41
+(2240477)Without filter: 0.66
+(2240486)With filter: 0.43
+(2241550)CO2 level: <400 ppm
+(2245476)Pressure corrected (mbar)= 984.31
+(2245478)Without filter: 0.48
+(2245487)With filter: 0.38
+(2250476)Pressure corrected (mbar)= 981.72
+(2250479)Without filter: 0.49
+(2250487)With filter: 0.39
+(2250519)Humidity: 1.00
+(2251554)CO2 level: <400 ppm
+(2255477)Pressure corrected (mbar)= 979.23
+(2255480)Without filter: 0.46
+(2255489)With filter: 0.35
+(2260478)Pressure corrected (mbar)= 976.83
+(2260481)Without filter: 0.44
+(2260490)With filter: 0.33
+(2261555)CO2 level: <400 ppm
+(2265480)Pressure corrected (mbar)= 973.64
+(2265482)Without filter: 0.44
+(2265491)With filter: 0.33
+(2270480)Pressure corrected (mbar)= 971.84
+(2270483)Without filter: 0.52
+(2270491)With filter: 0.38
+(2271556)CO2 level: <400 ppm
+(2275481)Pressure corrected (mbar)= 969.25
+(2275484)Without filter: 0.50
+(2275492)With filter: 0.37
+(2280482)Pressure corrected (mbar)= 966.66
+(2280485)Without filter: 0.47
+(2280494)With filter: 0.37
+(2280525)Humidity: 1.00
+(2281561)CO2 level: <400 ppm
+(2285484)Pressure corrected (mbar)= 964.06
+(2285486)Without filter: 0.48
+(2285495)With filter: 0.37
+(2290485)Pressure corrected (mbar)= 961.37
+(2290487)Without filter: 0.47
+(2290496)With filter: 0.38
+(2291561)CO2 level: <400 ppm
+(2295485)Pressure corrected (mbar)= 958.78
+(2295488)Without filter: 0.42
+(2295496)With filter: 0.34
+(2300486)Pressure corrected (mbar)= 955.68
+(2300489)Without filter: 0.65
+(2300497)With filter: 0.42
+(2301561)CO2 level: <400 ppm
+(2305487)Pressure corrected (mbar)= 952.99
+(2305490)Without filter: 0.54
+(2305499)With filter: 0.39
+(2310489)Pressure corrected (mbar)= 950.30
+(2310491)Without filter: 0.46
+(2310500)With filter: 0.36
+(2310532)Humidity: 1.00
+(2311567)CO2 level: <400 ppm
+(2315490)Pressure corrected (mbar)= 947.90
+(2315492)Without filter: 0.47
+(2315501)With filter: 0.36
+(2320490)Pressure corrected (mbar)= 944.91
+(2320493)Without filter: 0.83
+(2320501)With filter: 0.56
+(2321567)CO2 level: <400 ppm
+(2325491)Pressure corrected (mbar)= 942.52
+(2325494)Without filter: 0.79
+(2325502)With filter: 0.51
+(2330492)Pressure corrected (mbar)= 939.82
+(2330496)Without filter: 0.44
+(2330504)With filter: 0.35
+(2331569)CO2 level: <400 ppm
+(2335494)Pressure corrected (mbar)= 937.53
+(2335497)Without filter: 0.52
+(2335505)With filter: 0.39
+(2340495)Pressure corrected (mbar)= 935.04
+(2340498)Without filter: 0.47
+(2340506)With filter: 0.37
+(2340538)Humidity: 1.00
+(2341573)CO2 level: <400 ppm
+(2345496)Pressure corrected (mbar)= 932.14
+(2345499)Without filter: 0.50
+(2345507)With filter: 0.38
+(2350497)Pressure corrected (mbar)= 930.05
+(2350500)Without filter: 0.49
+(2350509)With filter: 0.38
+(2351572)CO2 level: <400 ppm
+(2355499)Pressure corrected (mbar)= 927.06
+(2355501)Without filter: 0.48
+(2355510)With filter: 0.38
+(2360500)Pressure corrected (mbar)= 925.06
+(2360502)Without filter: 0.49
+(2360511)With filter: 0.38
+(2361574)CO2 level: <400 ppm
+(2365500)Pressure corrected (mbar)= 922.37
+(2365503)Without filter: 0.58
+(2365511)With filter: 0.41
+(2370501)Pressure corrected (mbar)= 919.57
+(2370504)Without filter: 0.58
+(2370512)With filter: 0.43
+(2370544)Humidity: 1.00
+(2371579)CO2 level: <400 ppm
+(2375502)Pressure corrected (mbar)= 916.98
+(2375505)Without filter: 0.54
+(2375514)With filter: 0.43
+(2380504)Pressure corrected (mbar)= 914.79
+(2380506)Without filter: 0.47
+(2380515)With filter: 0.36
+(2381580)CO2 level: <400 ppm
+(2385505)Pressure corrected (mbar)= 912.69
+(2385507)Without filter: 0.79
+(2385516)With filter: 0.51
+(2390505)Pressure corrected (mbar)= 910.00
+(2390508)Without filter: 0.50
+(2390516)With filter: 0.39
+(2391581)CO2 level: <400 ppm
+(2395506)Pressure corrected (mbar)= 907.30
+(2395509)Without filter: 0.55
+(2395517)With filter: 0.39
+(2400507)Pressure corrected (mbar)= 905.31
+(2400510)Without filter: 0.48
+(2400519)With filter: 0.38
+(2400550)Humidity: 1.00
+(2401586)CO2 level: <400 ppm
+(2405509)Pressure corrected (mbar)= 902.52
+(2405511)Without filter: 0.48
+(2405520)With filter: 0.38
+(2410510)Pressure corrected (mbar)= 900.12
+(2410512)Without filter: 0.46
+(2410521)With filter: 0.37
+(2411586)CO2 level: <400 ppm
+(2415510)Pressure corrected (mbar)= 897.33
+(2415513)Without filter: 0.46
+(2415521)With filter: 0.35
+(2420511)Pressure corrected (mbar)= 894.94
+(2420514)Without filter: 0.49
+(2420523)With filter: 0.37
+(2421586)CO2 level: <400 ppm
+(2425512)Pressure corrected (mbar)= 892.34
+(2425515)Without filter: 0.61
+(2425524)With filter: 0.42
+(2430514)Pressure corrected (mbar)= 889.85
+(2430516)Without filter: 0.49
+(2430525)With filter: 0.38
+(2430557)Humidity: 1.00
+(2431592)CO2 level: <400 ppm
+(2435514)Pressure corrected (mbar)= 887.45
+(2435517)Without filter: 0.54
+(2435525)With filter: 0.42
+(2440515)Pressure corrected (mbar)= 884.86
+(2440518)Without filter: 0.51
+(2440526)With filter: 0.38
+(2441591)CO2 level: <400 ppm
+(2445516)Pressure corrected (mbar)= 882.27
+(2445519)Without filter: 0.51
+(2445528)With filter: 0.38
+(2450518)Pressure corrected (mbar)= 879.67
+(2450520)Without filter: 0.65
+(2450529)With filter: 0.43
+(2451593)CO2 level: <400 ppm
+(2455519)Pressure corrected (mbar)= 876.68
+(2455521)Without filter: 0.47
+(2455530)With filter: 0.37
+(2460519)Pressure corrected (mbar)= 874.39
+(2460522)Without filter: 0.59
+(2460530)With filter: 0.47
+(2460562)Humidity: 1.00
+(2461597)CO2 level: <400 ppm
+(2465520)Pressure corrected (mbar)= 871.99
+(2465523)Without filter: 0.62
+(2465531)With filter: 0.47
+(2470521)Pressure corrected (mbar)= 869.70
+(2470524)Without filter: 0.79
+(2470533)With filter: 0.60
+(2471597)CO2 level: <400 ppm
+(2475523)Pressure corrected (mbar)= 867.01
+(2475525)Without filter: 1.58
+(2475534)With filter: 1.36
+(2480524)Pressure corrected (mbar)= 864.21
+(2480526)Without filter: 0.57
+(2480535)With filter: 0.47
+(2481598)CO2 level: <400 ppm
+(2485524)Pressure corrected (mbar)= 861.82
+(2485527)Without filter: 0.62
+(2485535)With filter: 0.48
+(2490525)Pressure corrected (mbar)= 859.02
+(2490528)Without filter: 0.87
+(2490536)With filter: 0.63
+(2490568)Humidity: 1.00
+(2491603)CO2 level: <400 ppm
+(2495526)Pressure corrected (mbar)= 856.63
+(2495529)Without filter: 0.94
+(2495538)With filter: 0.65
+(2500528)Pressure corrected (mbar)= 854.04
+(2500530)Without filter: 0.50
+(2500539)With filter: 0.40
+(2501604)CO2 level: <400 ppm
+(2505529)Pressure corrected (mbar)= 851.44
+(2505531)Without filter: 0.59
+(2505540)With filter: 0.47
+(2510529)Pressure corrected (mbar)= 849.05
+(2510532)Without filter: 0.75
+(2510540)With filter: 0.58
+(2511604)CO2 level: <400 ppm
+(2515530)Pressure corrected (mbar)= 846.46
+(2515533)Without filter: 0.69
+(2515542)With filter: 0.51
+(2520531)Pressure corrected (mbar)= 843.86
+(2520534)Without filter: 0.59
+(2520543)With filter: 0.47
+(2520574)Humidity: 1.00
+(2521610)CO2 level: <400 ppm
+(2525533)Pressure corrected (mbar)= 841.57
+(2525535)Without filter: 0.60
+(2525544)With filter: 0.49
+(2530533)Pressure corrected (mbar)= 839.07
+(2530536)Without filter: 0.58
+(2530544)With filter: 0.48
+(2531610)CO2 level: <400 ppm
+(2535534)Pressure corrected (mbar)= 836.68
+(2535537)Without filter: 0.87
+(2535545)With filter: 0.61
+(2540535)Pressure corrected (mbar)= 834.09
+(2540538)Without filter: 0.59
+(2540547)With filter: 0.45
+(2541611)CO2 level: <400 ppm
+(2545537)Pressure corrected (mbar)= 831.69
+(2545539)Without filter: 0.62
+(2545548)With filter: 0.51
+(2550538)Pressure corrected (mbar)= 829.20
+(2550540)Without filter: 0.60
+(2550549)With filter: 0.50
+(2550581)Humidity: 1.00
+(2551616)CO2 level: <400 ppm
+(2555538)Pressure corrected (mbar)= 826.81
+(2555541)Without filter: 1.18
+(2555549)With filter: 0.99
+(2560539)Pressure corrected (mbar)= 824.31
+(2560542)Without filter: 0.65
+(2560550)With filter: 0.51
+(2561615)CO2 level: <400 ppm
+(2565540)Pressure corrected (mbar)= 821.92
+(2565543)Without filter: 0.56
+(2565552)With filter: 0.46
+(2570542)Pressure corrected (mbar)= 819.82
+(2570544)Without filter: 0.78
+(2570553)With filter: 0.59
+(2571617)CO2 level: <400 ppm
+(2575543)Pressure corrected (mbar)= 817.13
+(2575545)Without filter: 0.77
+(2575554)With filter: 0.55
+(2580543)Pressure corrected (mbar)= 814.54
+(2580546)Without filter: 0.59
+(2580554)With filter: 0.48
+(2580586)Humidity: 1.00
+(2581621)CO2 level: <400 ppm
+(2585544)Pressure corrected (mbar)= 812.34
+(2585547)Without filter: 0.59
+(2585555)With filter: 0.48
+(2590545)Pressure corrected (mbar)= 809.55
+(2590548)Without filter: 0.54
+(2590557)With filter: 0.44
+(2591622)CO2 level: <400 ppm
+(2595547)Pressure corrected (mbar)= 807.15
+(2595549)Without filter: 0.61
+(2595558)With filter: 0.48
+(2600548)Pressure corrected (mbar)= 804.66
+(2600550)Without filter: 0.61
+(2600559)With filter: 0.50
+(2601623)CO2 level: <400 ppm
+(2605548)Pressure corrected (mbar)= 802.67
+(2605551)Without filter: 0.76
+(2605559)With filter: 0.56
+(2610549)Pressure corrected (mbar)= 799.87
+(2610552)Without filter: 0.70
+(2610561)With filter: 0.53
+(2610592)Humidity: 1.00
+(2611628)CO2 level: <400 ppm
+(2615550)Pressure corrected (mbar)= 797.58
+(2615553)Without filter: 0.68
+(2615562)With filter: 0.52
+(2620552)Pressure corrected (mbar)= 794.78
+(2620554)Without filter: 0.61
+(2620563)With filter: 0.49
+(2621628)CO2 level: <400 ppm
+(2625552)Pressure corrected (mbar)= 792.49
+(2625555)Without filter: 0.61
+(2625563)With filter: 0.52
+(2630553)Pressure corrected (mbar)= 790.40
+(2630556)Without filter: 1.15
+(2630564)With filter: 0.88
+(2631628)CO2 level: <400 ppm
+(2635554)Pressure corrected (mbar)= 787.40
+(2635557)Without filter: 0.67
+(2635566)With filter: 0.50
+(2640556)Pressure corrected (mbar)= 784.61
+(2640558)Without filter: 0.50
+(2640567)With filter: 0.39
+(2640599)Humidity: 1.00
+(2641633)CO2 level: <400 ppm
+(2645557)Pressure corrected (mbar)= 782.52
+(2645559)Without filter: 0.59
+(2645568)With filter: 0.48
+(2650557)Pressure corrected (mbar)= 780.02
+(2650560)Without filter: 0.57
+(2650568)With filter: 0.44
+(2651634)CO2 level: <400 ppm
+(2655558)Pressure corrected (mbar)= 777.43
+(2655561)Without filter: 0.56
+(2655569)With filter: 0.41
+(2660559)Pressure corrected (mbar)= 775.33
+(2660562)Without filter: 0.70
+(2660571)With filter: 0.54
+(2661635)CO2 level: <400 ppm
+(2665561)Pressure corrected (mbar)= 772.84
+(2665563)Without filter: 0.60
+(2665572)With filter: 0.47
+(2670562)Pressure corrected (mbar)= 770.15
+(2670564)Without filter: 0.62
+(2670573)With filter: 0.49
+(2670605)Humidity: 1.00
+(2671640)CO2 level: <400 ppm
+(2675562)Pressure corrected (mbar)= 768.25
+(2675565)Without filter: 0.57
+(2675573)With filter: 0.43
+(2680563)Pressure corrected (mbar)= 765.46
+(2680566)Without filter: 0.58
+(2680574)With filter: 0.45
+(2681639)CO2 level: <400 ppm
+(2685564)Pressure corrected (mbar)= 763.36
+(2685568)Without filter: 0.77
+(2685576)With filter: 0.51
+(2690566)Pressure corrected (mbar)= 760.67
+(2690569)Without filter: 0.56
+(2690577)With filter: 0.43
+(2691641)CO2 level: <400 ppm
+(2695567)Pressure corrected (mbar)= 758.28
+(2695570)Without filter: 0.84
+(2695578)With filter: 0.58
+(2700568)Pressure corrected (mbar)= 755.88
+(2700571)Without filter: 0.57
+(2700579)With filter: 0.45
+(2700611)Humidity: 1.00
+(2701646)CO2 level: <400 ppm
+(2705569)Pressure corrected (mbar)= 753.59
+(2705572)Without filter: 0.61
+(2705581)With filter: 0.50
+(2710571)Pressure corrected (mbar)= 751.09
+(2710573)Without filter: 0.63
+(2710582)With filter: 0.53
+(2711647)CO2 level: <400 ppm
+(2715572)Pressure corrected (mbar)= 749.30
+(2715574)Without filter: 0.67
+(2715583)With filter: 0.49
+(2720572)Pressure corrected (mbar)= 746.60
+(2720575)Without filter: 0.58
+(2720583)With filter: 0.46
+(2721648)CO2 level: <400 ppm
+(2725573)Pressure corrected (mbar)= 744.11
+(2725576)Without filter: 0.55
+(2725584)With filter: 0.43
+(2730574)Pressure corrected (mbar)= 741.92
+(2730577)Without filter: 0.74
+(2730586)With filter: 0.53
+(2730617)Humidity: 1.00
+(2731653)CO2 level: <400 ppm
+(2735576)Pressure corrected (mbar)= 739.92
+(2735578)Without filter: 0.61
+(2735587)With filter: 0.48
+(2740577)Pressure corrected (mbar)= 737.13
+(2740579)Without filter: 0.58
+(2740588)With filter: 0.44
+(2741653)CO2 level: <400 ppm
+(2745577)Pressure corrected (mbar)= 735.23
+(2745580)Without filter: 0.57
+(2745588)With filter: 0.46
+(2750578)Pressure corrected (mbar)= 733.14
+(2750581)Without filter: 0.61
+(2750589)With filter: 0.47
+(2751653)CO2 level: <400 ppm
+(2755579)Pressure corrected (mbar)= 730.54
+(2755582)Without filter: 0.59
+(2755591)With filter: 0.46
+(2760581)Pressure corrected (mbar)= 728.25
+(2760583)Without filter: 0.56
+(2760592)With filter: 0.43
+(2760624)Humidity: 39.10
+(2761660)CO2 level: <400 ppm
+(2765582)Pressure corrected (mbar)= 725.96
+(2765584)Without filter: 0.56
+(2765593)With filter: 0.45
+(2770582)Pressure corrected (mbar)= 723.86
+(2770585)Without filter: 0.64
+(2770593)With filter: 0.47
+(2771659)CO2 level: <400 ppm
+(2775583)Pressure corrected (mbar)= 721.57
+(2775586)Without filter: 0.57
+(2775595)With filter: 0.44
+(2780584)Pressure corrected (mbar)= 718.97
+(2780587)Without filter: 0.60
+(2780596)With filter: 0.44
+(2781661)CO2 level: <400 ppm
+(2785586)Pressure corrected (mbar)= 716.88
+(2785588)Without filter: 0.64
+(2785597)With filter: 0.48
+(2790586)Pressure corrected (mbar)= 714.58
+(2790589)Without filter: 0.61
+(2790597)With filter: 0.49
+(2790629)Humidity: 74.20
+(2791665)CO2 level: <400 ppm
+(2795587)Pressure corrected (mbar)= 712.49
+(2795590)Without filter: 0.60
+(2795598)With filter: 0.48
+(2800588)Pressure corrected (mbar)= 709.80
+(2800591)Without filter: 0.60
+(2800600)With filter: 0.44
+(2801665)CO2 level: <400 ppm
+(2805590)Pressure corrected (mbar)= 708.00
+(2805592)Without filter: 0.69
+(2805601)With filter: 0.54
+(2810591)Pressure corrected (mbar)= 705.11
+(2810593)Without filter: 0.75
+(2810602)With filter: 0.57
+(2811666)CO2 level: <400 ppm
+(2815591)Pressure corrected (mbar)= 702.91
+(2815594)Without filter: 0.58
+(2815602)With filter: 0.44
+(2820592)Pressure corrected (mbar)= 700.92
+(2820595)Without filter: 0.65
+(2820603)With filter: 0.48
+(2820635)Humidity: 99.90
+(2821671)CO2 level: <400 ppm
+(2825593)Pressure corrected (mbar)= 698.23
+(2825596)Without filter: 0.62
+(2825605)With filter: 0.48
+(2830595)Pressure corrected (mbar)= 695.83
+(2830597)Without filter: 1.01
+(2830606)With filter: 0.74
+(2831672)CO2 level: <400 ppm
+(2835596)Pressure corrected (mbar)= 693.74
+(2835598)Without filter: 0.92
+(2835607)With filter: 0.62
+(2840596)Pressure corrected (mbar)= 691.74
+(2840599)Without filter: 0.71
+(2840607)With filter: 0.52
+(2841673)CO2 level: <400 ppm
+(2845597)Pressure corrected (mbar)= 689.35
+(2845600)Without filter: 0.62
+(2845608)With filter: 0.48
+(2850598)Pressure corrected (mbar)= 687.25
+(2850601)Without filter: 0.59
+(2850610)With filter: 0.46
+(2850641)Humidity: 99.90
+(2851678)CO2 level: <400 ppm
+(2855600)Pressure corrected (mbar)= 684.86
+(2855602)Without filter: 0.56
+(2855611)With filter: 0.43
+(2860601)Pressure corrected (mbar)= 682.86
+(2860603)Without filter: 0.71
+(2860612)With filter: 0.53
+(2861678)CO2 level: <400 ppm
+(2865601)Pressure corrected (mbar)= 680.27
+(2865604)Without filter: 0.60
+(2865612)With filter: 0.47
+(2870602)Pressure corrected (mbar)= 678.27
+(2870605)Without filter: 0.57
+(2870614)With filter: 0.45
+(2871678)CO2 level: <400 ppm
+(2875603)Pressure corrected (mbar)= 675.98
+(2875606)Without filter: 0.66
+(2875615)With filter: 0.50
+(2880605)Pressure corrected (mbar)= 673.99
+(2880607)Without filter: 0.60
+(2880616)With filter: 0.47
+(2880648)Humidity: 99.90
+(2881684)CO2 level: <400 ppm
+(2885605)Pressure corrected (mbar)= 671.59
+(2885608)Without filter: 0.62
+(2885616)With filter: 0.47
+(2890606)Pressure corrected (mbar)= 669.60
+(2890609)Without filter: 0.65
+(2890617)With filter: 0.49
+(2891683)CO2 level: <400 ppm
+(2895607)Pressure corrected (mbar)= 667.70
+(2895610)Without filter: 0.63
+(2895619)With filter: 0.48
+(2900609)Pressure corrected (mbar)= 665.21
+(2900611)Without filter: 0.59
+(2900620)With filter: 0.45
+(2901685)CO2 level: <400 ppm
+(2905610)Pressure corrected (mbar)= 662.91
+(2905612)Without filter: 0.66
+(2905621)With filter: 0.49
+(2910610)Pressure corrected (mbar)= 660.82
+(2910613)Without filter: 0.71
+(2910621)With filter: 0.51
+(2910653)Humidity: 99.90
+(2911689)CO2 level: <400 ppm
+(2915611)Pressure corrected (mbar)= 658.72
+(2915614)Without filter: 0.60
+(2915622)With filter: 0.46
+(2920612)Pressure corrected (mbar)= 656.13
+(2920615)Without filter: 0.98
+(2920624)With filter: 0.66
+(2921689)CO2 level: <400 ppm
+(2925614)Pressure corrected (mbar)= 654.04
+(2925616)Without filter: 0.64
+(2925625)With filter: 0.48
+(2930615)Pressure corrected (mbar)= 651.64
+(2930617)Without filter: 0.61
+(2930626)With filter: 0.47
+(2931690)CO2 level: <400 ppm
+(2935615)Pressure corrected (mbar)= 649.45
+(2935618)Without filter: 0.66
+(2935626)With filter: 0.51
+(2940616)Pressure corrected (mbar)= 647.25
+(2940619)Without filter: 0.76
+(2940627)With filter: 0.52
+(2940659)Humidity: 99.90
+(2941696)CO2 level: <400 ppm
+(2945617)Pressure corrected (mbar)= 644.86
+(2945620)Without filter: 0.62
+(2945629)With filter: 0.48
+(2950619)Pressure corrected (mbar)= 642.76
+(2950621)Without filter: 0.60
+(2950630)With filter: 0.46
+(2951696)CO2 level: <400 ppm
+(2955620)Pressure corrected (mbar)= 639.97
+(2955622)Without filter: 0.85
+(2955631)With filter: 0.59
+(2960620)Pressure corrected (mbar)= 638.17
+(2960623)Without filter: 1.05
+(2960631)With filter: 0.73
+(2961696)CO2 level: <400 ppm
+(2965621)Pressure corrected (mbar)= 635.78
+(2965624)Without filter: 0.64
+(2965633)With filter: 0.50
+(2970622)Pressure corrected (mbar)= 633.89
+(2970625)Without filter: 0.67
+(2970634)With filter: 0.53
+(2970665)Humidity: 99.90
+(2971702)CO2 level: <400 ppm
+(2975624)Pressure corrected (mbar)= 631.39
+(2975626)Without filter: 0.94
+(2975635)With filter: 0.65
+(2980624)Pressure corrected (mbar)= 629.30
+(2980627)Without filter: 0.66
+(2980635)With filter: 0.51
+(2981702)CO2 level: <400 ppm
+(2985625)Pressure corrected (mbar)= 627.70
+(2985628)Without filter: 0.63
+(2985636)With filter: 0.49
+(2990626)Pressure corrected (mbar)= 625.31
+(2990629)Without filter: 0.61
+(2990638)With filter: 0.47
+(2991703)CO2 level: <400 ppm
+(2995628)Pressure corrected (mbar)= 622.91
+(2995630)Without filter: 0.67
+(2995639)With filter: 0.51
+(3000629)Pressure corrected (mbar)= 621.02
+(3000631)Without filter: 0.65
+(3000640)With filter: 0.52
+(3000672)Humidity: 99.90
+(3001708)CO2 level: <400 ppm
+(3005629)Pressure corrected (mbar)= 618.82
+(3005632)Without filter: 0.63
+(3005640)With filter: 0.51
+(3010630)Pressure corrected (mbar)= 616.53
+(3010633)Without filter: 0.65
+(3010641)With filter: 0.53
+(3011707)CO2 level: <400 ppm
+(3015631)Pressure corrected (mbar)= 614.73
+(3015634)Without filter: 0.64
+(3015643)With filter: 0.51
+(3020633)Pressure corrected (mbar)= 612.54
+(3020635)Without filter: 0.60
+(3020644)With filter: 0.46
+(3021709)CO2 level: <400 ppm
+(3025634)Pressure corrected (mbar)= 610.24
+(3025636)Without filter: 0.62
+(3025645)With filter: 0.49
+(3030634)Pressure corrected (mbar)= 608.25
+(3030637)Without filter: 0.69
+(3030645)With filter: 0.54
+(3030677)Humidity: 99.90
+(3031713)CO2 level: <400 ppm
+(3035635)Pressure corrected (mbar)= 606.05
+(3035638)Without filter: 0.62
+(3035646)With filter: 0.49
+(3040636)Pressure corrected (mbar)= 603.96
+(3040640)Without filter: 0.61
+(3040648)With filter: 0.46
+(3041714)CO2 level: <400 ppm
+(3045638)Pressure corrected (mbar)= 602.16
+(3045641)Without filter: 0.67
+(3045649)With filter: 0.52
+(3050639)Pressure corrected (mbar)= 599.57
+(3050642)Without filter: 0.62
+(3050650)With filter: 0.50
+(3051715)CO2 level: <400 ppm
+(3055640)Pressure corrected (mbar)= 597.78
+(3055643)Without filter: 0.60
+(3055651)With filter: 0.47
+(3060641)Pressure corrected (mbar)= 595.38
+(3060644)Without filter: 0.68
+(3060653)With filter: 0.54
+(3060684)Humidity: 99.90
+(3061721)CO2 level: <400 ppm
+(3065643)Pressure corrected (mbar)= 593.49
+(3065645)Without filter: 0.64
+(3065654)With filter: 0.51
+(3070644)Pressure corrected (mbar)= 591.19
+(3070646)Without filter: 0.60
+(3070655)With filter: 0.46
+(3071721)CO2 level: <400 ppm
+(3075644)Pressure corrected (mbar)= 589.20
+(3075647)Without filter: 0.89
+(3075655)With filter: 0.61
+(3080645)Pressure corrected (mbar)= 587.10
+(3080648)Without filter: 0.63
+(3080656)With filter: 0.49
+(3081721)CO2 level: <400 ppm
+(3085646)Pressure corrected (mbar)= 585.11
+(3085649)Without filter: 0.63
+(3085658)With filter: 0.50
+(3090648)Pressure corrected (mbar)= 583.01
+(3090650)Without filter: 0.72
+(3090659)With filter: 0.53
+(3090691)Humidity: 99.90
+(3091727)CO2 level: <400 ppm
+(3095649)Pressure corrected (mbar)= 580.82
+(3095651)Without filter: 0.72
+(3095660)With filter: 0.54
+(3100649)Pressure corrected (mbar)= 578.72
+(3100652)Without filter: 0.64
+(3100660)With filter: 0.49
+(3101727)CO2 level: <400 ppm
+(3105650)Pressure corrected (mbar)= 576.83
+(3105653)Without filter: 0.62
+(3105661)With filter: 0.48
+(3110651)Pressure corrected (mbar)= 574.73
+(3110654)Without filter: 0.62
+(3110663)With filter: 0.50
+(3111729)CO2 level: <400 ppm
+(3115653)Pressure corrected (mbar)= 572.74
+(3115655)Without filter: 0.64
+(3115664)With filter: 0.49
+(3120654)Pressure corrected (mbar)= 570.54
+(3120656)Without filter: 0.61
+(3120665)With filter: 0.49
+(3120697)Humidity: 99.90
+(3121733)CO2 level: <400 ppm
+(3125654)Pressure corrected (mbar)= 568.75
+(3125657)Without filter: 0.62
+(3125665)With filter: 0.49
+(3130655)Pressure corrected (mbar)= 566.25
+(3130658)Without filter: 0.64
+(3130667)With filter: 0.50
+(3131732)CO2 level: <400 ppm
+(3135656)Pressure corrected (mbar)= 564.76
+(3135659)Without filter: 0.63
+(3135668)With filter: 0.49
+(3140658)Pressure corrected (mbar)= 562.16
+(3140660)Without filter: 0.62
+(3140669)With filter: 0.50
+(3141734)CO2 level: <400 ppm
+(3145658)Pressure corrected (mbar)= 560.67
+(3145661)Without filter: 0.66
+(3145669)With filter: 0.50
+(3150659)Pressure corrected (mbar)= 558.77
+(3150662)Without filter: 0.63
+(3150670)With filter: 0.51
+(3150702)Humidity: 99.90
+(3151738)CO2 level: <400 ppm
+(3155660)Pressure corrected (mbar)= 556.58
+(3155663)Without filter: 0.63
+(3155672)With filter: 0.49
+(3160662)Pressure corrected (mbar)= 554.58
+(3160664)Without filter: 0.64
+(3160673)With filter: 0.50
+(3161739)CO2 level: <400 ppm
+(3165663)Pressure corrected (mbar)= 552.39
+(3165665)Without filter: 0.63
+(3165674)With filter: 0.49
+(3170663)Pressure corrected (mbar)= 550.09
+(3170666)Without filter: 0.65
+(3170674)With filter: 0.49
+(3171740)CO2 level: <400 ppm
+(3175664)Pressure corrected (mbar)= 548.60
+(3175667)Without filter: 0.76
+(3175675)With filter: 0.55
+(3180665)Pressure corrected (mbar)= 546.10
+(3180668)Without filter: 0.63
+(3180677)With filter: 0.51
+(3180708)Humidity: 99.90
+(3181745)CO2 level: <400 ppm
+(3185667)Pressure corrected (mbar)= 544.31
+(3185669)Without filter: 0.64
+(3185678)With filter: 0.48
+(3190668)Pressure corrected (mbar)= 542.31
+(3190670)Without filter: 0.65
+(3190679)With filter: 0.51
+(3191745)CO2 level: <400 ppm
+(3195668)Pressure corrected (mbar)= 539.72
+(3195671)Without filter: 0.65
+(3195679)With filter: 0.50
+(3200669)Pressure corrected (mbar)= 538.32
+(3200672)Without filter: 0.63
+(3200680)With filter: 0.49
+(3201745)CO2 level: <400 ppm
+(3205670)Pressure corrected (mbar)= 536.23
+(3205673)Without filter: 0.66
+(3205682)With filter: 0.51
+(3210672)Pressure corrected (mbar)= 534.23
+(3210674)Without filter: 0.65
+(3210683)With filter: 0.52
+(3210715)Humidity: 99.90
+(3211751)CO2 level: <400 ppm
+(3215673)Pressure corrected (mbar)= 532.04
+(3215675)Without filter: 0.68
+(3215684)With filter: 0.52
+(3220673)Pressure corrected (mbar)= 530.14
+(3220676)Without filter: 0.67
+(3220684)With filter: 0.51
+(3221750)CO2 level: <400 ppm
+(3225674)Pressure corrected (mbar)= 527.85
+(3225677)Without filter: 0.69
+(3225686)With filter: 0.54
+(3230675)Pressure corrected (mbar)= 525.85
+(3230678)Without filter: 0.64
+(3230687)With filter: 0.49
+(3231752)CO2 level: <400 ppm
+(3235677)Pressure corrected (mbar)= 523.66
+(3235679)Without filter: 0.70
+(3235688)With filter: 0.54
+(3240677)Pressure corrected (mbar)= 521.76
+(3240680)Without filter: 0.66
+(3240688)With filter: 0.54
+(3240720)Humidity: 99.90
+(3241756)CO2 level: <400 ppm
+(3245678)Pressure corrected (mbar)= 519.87
+(3245681)Without filter: 0.66
+(3245689)With filter: 0.50
+(3250679)Pressure corrected (mbar)= 517.77
+(3250682)Without filter: 0.68
+(3250691)With filter: 0.53
+(3251756)CO2 level: <400 ppm
+(3255681)Pressure corrected (mbar)= 515.98
+(3255683)Without filter: 0.65
+(3255692)With filter: 0.51
+(3260682)Pressure corrected (mbar)= 514.08
+(3260684)Without filter: 0.70
+(3260693)With filter: 0.55
+(3261757)CO2 level: <400 ppm
+(3265682)Pressure corrected (mbar)= 512.09
+(3265685)Without filter: 0.63
+(3265693)With filter: 0.52
+(3270683)Pressure corrected (mbar)= 509.40
+(3270686)Without filter: 0.63
+(3270694)With filter: 0.49
+(3270726)Humidity: 99.90
+(3271762)CO2 level: <400 ppm
+(3275684)Pressure corrected (mbar)= 507.80
+(3275687)Without filter: 1.00
+(3275696)With filter: 0.66
+(3280686)Pressure corrected (mbar)= 505.90
+(3280688)Without filter: 0.67
+(3280697)With filter: 0.53
+(3281763)CO2 level: <400 ppm
+(3285687)Pressure corrected (mbar)= 503.81
+(3285689)Without filter: 0.96
+(3285698)With filter: 0.67
+(3290687)Pressure corrected (mbar)= 502.01
+(3290690)Without filter: 0.62
+(3290698)With filter: 0.51
+(3291764)CO2 level: <400 ppm
+(3295688)Pressure corrected (mbar)= 500.02
+(3295691)Without filter: 1.11
+(3295699)With filter: 0.77
+(3300689)Pressure corrected (mbar)= 497.72
+(3300692)Without filter: 1.01
+(3300701)With filter: 0.68
+(3300733)Humidity: 99.90
+(3301769)CO2 level: <400 ppm
+(3305691)Pressure corrected (mbar)= 496.03
+(3305693)Without filter: 0.69
+(3305702)With filter: 0.50
+(3310692)Pressure corrected (mbar)= 494.23
+(3310694)Without filter: 1.29
+(3310703)With filter: 0.92
+(3311770)CO2 level: <400 ppm
+(3315692)Pressure corrected (mbar)= 492.04
+(3315695)Without filter: 0.68
+(3315703)With filter: 0.53
+(3320693)Pressure corrected (mbar)= 490.14
+(3320696)Without filter: 0.66
+(3320705)With filter: 0.54
+(3321771)CO2 level: <400 ppm
+(3325694)Pressure corrected (mbar)= 488.25
+(3325697)Without filter: 0.70
+(3325706)With filter: 0.56
+(3330696)Pressure corrected (mbar)= 486.65
+(3330698)Without filter: 0.65
+(3330707)With filter: 0.55
+(3330739)Humidity: 99.90
+(3331775)CO2 level: <400 ppm
+(3335696)Pressure corrected (mbar)= 485.06
+(3335699)Without filter: 0.67
+(3335707)With filter: 0.53
+(3340697)Pressure corrected (mbar)= 482.96
+(3340700)Without filter: 0.65
+(3340708)With filter: 0.50
+(3341775)CO2 level: <400 ppm
+(3345698)Pressure corrected (mbar)= 481.07
+(3345701)Without filter: 0.85
+(3345710)With filter: 0.59
+(3350700)Pressure corrected (mbar)= 479.47
+(3350702)Without filter: 0.67
+(3350711)With filter: 0.56
+(3351777)CO2 level: <400 ppm
+(3355701)Pressure corrected (mbar)= 477.77
+(3355703)Without filter: 0.65
+(3355712)With filter: 0.53
+(3360701)Pressure corrected (mbar)= 475.78
+(3360704)Without filter: 0.66
+(3360712)With filter: 0.51
+(3360744)Humidity: 99.90
+(3361780)CO2 level: <400 ppm
+(3365702)Pressure corrected (mbar)= 474.08
+(3365705)Without filter: 0.65
+(3365713)With filter: 0.52
+(3370703)Pressure corrected (mbar)= 471.99
+(3370706)Without filter: 0.66
+(3370715)With filter: 0.52
+(3371782)CO2 level: <400 ppm
+(3375705)Pressure corrected (mbar)= 470.39
+(3375707)Without filter: 0.65
+(3375716)With filter: 0.51
+(3380706)Pressure corrected (mbar)= 468.40
+(3380708)Without filter: 0.65
+(3380717)With filter: 0.51
+(3381783)CO2 level: <400 ppm
+(3385706)Pressure corrected (mbar)= 466.50
+(3385709)Without filter: 0.92
+(3385717)With filter: 0.65
+(3390707)Pressure corrected (mbar)= 464.71
+(3390710)Without filter: 0.66
+(3390718)With filter: 0.53
+(3390750)Humidity: 1.00
+(3391785)CO2 level: <400 ppm
+(3395708)Pressure corrected (mbar)= 462.91
+(3395712)Without filter: 0.65
+(3395720)With filter: 0.51
+(3400710)Pressure corrected (mbar)= 460.92
+(3400713)Without filter: 0.64
+(3400721)With filter: 0.47
+(3401786)CO2 level: <400 ppm
+(3405711)Pressure corrected (mbar)= 458.92
+(3405714)Without filter: 0.70
+(3405722)With filter: 0.52
+(3410712)Pressure corrected (mbar)= 457.23
+(3410715)Without filter: 0.67
+(3410723)With filter: 0.53
+(3411786)CO2 level: <400 ppm
+(3415713)Pressure corrected (mbar)= 455.43
+(3415716)Without filter: 0.69
+(3415725)With filter: 0.55
+(3420715)Pressure corrected (mbar)= 453.93
+(3420717)Without filter: 0.66
+(3420726)With filter: 0.52
+(3420758)Humidity: 1.00
+(3421793)CO2 level: <400 ppm
+(3425716)Pressure corrected (mbar)= 452.04
+(3425718)Without filter: 0.74
+(3425727)With filter: 0.61
+(3430716)Pressure corrected (mbar)= 450.24
+(3430719)Without filter: 0.66
+(3430727)With filter: 0.55
+(3431793)CO2 level: <400 ppm
+(3435717)Pressure corrected (mbar)= 448.65
+(3435720)Without filter: 0.68
+(3435728)With filter: 0.55
+(3440718)Pressure corrected (mbar)= 446.65
+(3440721)Without filter: 0.76
+(3440730)With filter: 0.63
+(3441794)CO2 level: <400 ppm
+(3445720)Pressure corrected (mbar)= 445.16
+(3445722)Without filter: 0.72
+(3445731)With filter: 0.57
+(3450721)Pressure corrected (mbar)= 442.96
+(3450723)Without filter: 0.81
+(3450732)With filter: 0.62
+(3450764)Humidity: 1.00
+(3451799)CO2 level: <400 ppm
+(3455721)Pressure corrected (mbar)= 441.56
+(3455724)Without filter: 1.10
+(3455732)With filter: 0.73
+(3460722)Pressure corrected (mbar)= 439.37
+(3460725)Without filter: 0.64
+(3460733)With filter: 0.50
+(3461798)CO2 level: <400 ppm
+(3465723)Pressure corrected (mbar)= 437.57
+(3465726)Without filter: 0.68
+(3465735)With filter: 0.55
+(3470725)Pressure corrected (mbar)= 436.08
+(3470727)Without filter: 1.16
+(3470736)With filter: 0.85
+(3471800)CO2 level: <400 ppm
+(3475726)Pressure corrected (mbar)= 434.28
+(3475728)Without filter: 0.79
+(3475737)With filter: 0.60
+(3480726)Pressure corrected (mbar)= 432.89
+(3480729)Without filter: 1.11
+(3480737)With filter: 0.74
+(3480769)Humidity: 1.00
+(3481804)CO2 level: <400 ppm
+(3485727)Pressure corrected (mbar)= 431.09
+(3485730)Without filter: 0.66
+(3485739)With filter: 0.52
+(3490728)Pressure corrected (mbar)= 429.29
+(3490731)Without filter: 0.86
+(3490740)With filter: 0.60
+(3491805)CO2 level: <400 ppm
+(3495730)Pressure corrected (mbar)= 427.70
+(3495732)Without filter: 1.10
+(3495741)With filter: 0.72
+(3500730)Pressure corrected (mbar)= 425.80
+(3500733)Without filter: 0.67
+(3500741)With filter: 0.56
+(3501806)CO2 level: <400 ppm
+(3505731)Pressure corrected (mbar)= 424.31
+(3505734)Without filter: 0.69
+(3505742)With filter: 0.53
+(3510732)Pressure corrected (mbar)= 422.41
+(3510735)Without filter: 0.65
+(3510744)With filter: 0.54
+(3510775)Humidity: 1.00
+(3511811)CO2 level: <400 ppm
+(3515734)Pressure corrected (mbar)= 421.12
+(3515736)Without filter: 0.67
+(3515745)With filter: 0.52
+(3520735)Pressure corrected (mbar)= 418.62
+(3520737)Without filter: 0.71
+(3520746)With filter: 0.54
+(3521811)CO2 level: <400 ppm
+(3525735)Pressure corrected (mbar)= 417.42
+(3525738)Without filter: 0.68
+(3525746)With filter: 0.55
+(3530736)Pressure corrected (mbar)= 415.83
+(3530739)Without filter: 0.66
+(3530747)With filter: 0.53
+(3531811)CO2 level: <400 ppm
+(3535737)Pressure corrected (mbar)= 414.23
+(3535740)Without filter: 0.67
+(3535749)With filter: 0.54
+(3540739)Pressure corrected (mbar)= 412.44
+(3540741)Without filter: 0.68
+(3540750)With filter: 0.54
+(3540782)Humidity: 1.00
+(3541817)CO2 level: <400 ppm
+(3545740)Pressure corrected (mbar)= 411.04
+(3545742)Without filter: 0.68
+(3545751)With filter: 0.57
+(3550740)Pressure corrected (mbar)= 409.15
+(3550743)Without filter: 0.68
+(3550751)With filter: 0.53
+(3551817)CO2 level: <400 ppm
+(3555741)Pressure corrected (mbar)= 407.45
+(3555744)Without filter: 0.68
+(3555752)With filter: 0.53
+(3560742)Pressure corrected (mbar)= 405.85
+(3560745)Without filter: 0.86
+(3560754)With filter: 0.61
+(3561818)CO2 level: <400 ppm
+(3565744)Pressure corrected (mbar)= 403.96
+(3565746)Without filter: 0.88
+(3565755)With filter: 0.64
+(3570745)Pressure corrected (mbar)= 402.96
+(3570747)Without filter: 0.58
+(3570756)With filter: 0.49
+(3570788)Humidity: 1.00
+(3571823)CO2 level: <400 ppm
+(3575745)Pressure corrected (mbar)= 400.97
+(3575748)Without filter: 0.68
+(3575756)With filter: 0.54
+(3580746)Pressure corrected (mbar)= 399.17
+(3580749)Without filter: 0.85
+(3580758)With filter: 0.65
+(3581822)CO2 level: <400 ppm
+(3585747)Pressure corrected (mbar)= 397.47
+(3585750)Without filter: 0.56
+(3585759)With filter: 0.52
+(3590749)Pressure corrected (mbar)= 395.98
+(3590751)Without filter: 1.13
+(3590760)With filter: 0.73
+(3591824)CO2 level: <400 ppm
+(3595749)Pressure corrected (mbar)= 394.38
+(3595752)Without filter: 0.69
+(3595760)With filter: 0.55
+(3600750)Pressure corrected (mbar)= 392.69
+(3600753)Without filter: 0.67
+(3600761)With filter: 0.61
+(3600793)Humidity: 1.00
+(3601828)CO2 level: <400 ppm
+(3605751)Pressure corrected (mbar)= 391.19
+(3605754)Without filter: 0.70
+(3605763)With filter: 0.55
+(3610753)Pressure corrected (mbar)= 389.49
+(3610755)Without filter: 0.66
+(3610764)With filter: 0.57
+(3611829)CO2 level: <400 ppm
+(3615754)Pressure corrected (mbar)= 387.80
+(3615756)Without filter: 0.75
+(3615765)With filter: 0.64
+(3620754)Pressure corrected (mbar)= 385.70
+(3620757)Without filter: 0.95
+(3620765)With filter: 0.67
+(3621830)CO2 level: <400 ppm
+(3625755)Pressure corrected (mbar)= 384.91
+(3625758)Without filter: 1.04
+(3625766)With filter: 0.73
+(3630756)Pressure corrected (mbar)= 383.31
+(3630759)Without filter: 0.88
+(3630768)With filter: 0.62
+(3630799)Humidity: 1.00
+(3631835)CO2 level: <400 ppm
+(3635758)Pressure corrected (mbar)= 381.71
+(3635760)Without filter: 0.66
+(3635769)With filter: 0.53
+(3640759)Pressure corrected (mbar)= 380.22
+(3640761)Without filter: 0.60
+(3640770)With filter: 0.56
+(3641835)CO2 level: <400 ppm
+(3645759)Pressure corrected (mbar)= 378.62
+(3645762)Without filter: 1.13
+(3645770)With filter: 0.76
+(3650760)Pressure corrected (mbar)= 376.93
+(3650763)Without filter: 0.69
+(3650771)With filter: 0.54
+(3651835)CO2 level: <400 ppm
+(3655761)Pressure corrected (mbar)= 375.03
+(3655764)Without filter: 0.67
+(3655773)With filter: 0.53
+(3660763)Pressure corrected (mbar)= 373.43
+(3660765)Without filter: 0.75
+(3660774)With filter: 0.59
+(3660806)Humidity: 1.00
+(3661841)CO2 level: <400 ppm
+(3665764)Pressure corrected (mbar)= 371.84
+(3665766)Without filter: 0.63
+(3665775)With filter: 0.56
+(3670764)Pressure corrected (mbar)= 370.64
+(3670767)Without filter: 1.03
+(3670775)With filter: 0.68
+(3671840)CO2 level: <400 ppm
+(3675765)Pressure corrected (mbar)= 368.65
+(3675768)Without filter: 0.83
+(3675777)With filter: 0.63
+(3680766)Pressure corrected (mbar)= 366.95
+(3680769)Without filter: 0.67
+(3680778)With filter: 0.57
+(3681842)CO2 level: <400 ppm
+(3685768)Pressure corrected (mbar)= 365.75
+(3685770)Without filter: 0.82
+(3685779)With filter: 0.61
+(3690768)Pressure corrected (mbar)= 364.36
+(3690771)Without filter: 0.69
+(3690779)With filter: 0.52
+(3690811)Humidity: 1.00
+(3691845)CO2 level: <400 ppm
+(3695769)Pressure corrected (mbar)= 362.46
+(3695772)Without filter: 0.63
+(3695780)With filter: 0.59
+(3700770)Pressure corrected (mbar)= 360.87
+(3700773)Without filter: 0.74
+(3700782)With filter: 0.61
+(3701846)CO2 level: <400 ppm
+(3705772)Pressure corrected (mbar)= 359.47
+(3705774)Without filter: 0.98
+(3705783)With filter: 0.68
+(3710773)Pressure corrected (mbar)= 357.57
+(3710775)Without filter: 0.71
+(3710784)With filter: 0.54
+(3711847)CO2 level: <400 ppm
+(3715773)Pressure corrected (mbar)= 356.18
+(3715776)Without filter: 1.05
+(3715784)With filter: 0.73
+(3720774)Pressure corrected (mbar)= 354.58
+(3720777)Without filter: 0.84
+(3720785)With filter: 0.62
+(3720817)Humidity: 1.00
+(3721852)CO2 level: <400 ppm
+(3725775)Pressure corrected (mbar)= 353.38
+(3725778)Without filter: 0.65
+(3725787)With filter: 0.56
+(3730777)Pressure corrected (mbar)= 351.69
+(3730779)Without filter: 0.69
+(3730788)With filter: 0.54
+(3731853)CO2 level: <400 ppm
+(3735778)Pressure corrected (mbar)= 350.19
+(3735780)Without filter: 0.69
+(3735789)With filter: 0.55
+(3740778)Pressure corrected (mbar)= 348.99
+(3740781)Without filter: 1.06
+(3740789)With filter: 0.73
+(3741854)CO2 level: <400 ppm
+(3745779)Pressure corrected (mbar)= 347.50
+(3745782)Without filter: 0.92
+(3745790)With filter: 0.64
+(3750780)Pressure corrected (mbar)= 345.60
+(3750784)Without filter: 1.29
+(3750792)With filter: 0.84
+(3750823)Humidity: 1.00
+(3751859)CO2 level: <400 ppm
+(3755782)Pressure corrected (mbar)= 344.21
+(3755785)Without filter: 0.69
+(3755793)With filter: 0.53
+(3760783)Pressure corrected (mbar)= 343.01
+(3760786)Without filter: 1.25
+(3760794)With filter: 0.87
+(3761859)CO2 level: <400 ppm
+(3765784)Pressure corrected (mbar)= 341.11
+(3765787)Without filter: 0.65
+(3765795)With filter: 0.52
+(3770785)Pressure corrected (mbar)= 339.92
+(3770788)Without filter: 1.07
+(3770797)With filter: 0.79
+(3771859)CO2 level: <400 ppm
+(3775787)Pressure corrected (mbar)= 338.42
+(3775789)Without filter: 0.69
+(3775798)With filter: 0.54
+(3780788)Pressure corrected (mbar)= 336.92
+(3780790)Without filter: 0.96
+(3780799)With filter: 0.69
+(3780831)Humidity: 1.00
+(3781866)CO2 level: <400 ppm
+(3785788)Pressure corrected (mbar)= 335.53
+(3785791)Without filter: 0.69
+(3785799)With filter: 0.57
+(3790789)Pressure corrected (mbar)= 334.03
+(3790792)Without filter: 0.91
+(3790800)With filter: 0.63
+(3791865)CO2 level: <400 ppm
+(3795790)Pressure corrected (mbar)= 332.54
+(3795793)Without filter: 0.67
+(3795802)With filter: 0.57
+(3800792)Pressure corrected (mbar)= 330.94
+(3800794)Without filter: 0.78
+(3800803)With filter: 0.61
+(3801867)CO2 level: <400 ppm
+(3805793)Pressure corrected (mbar)= 329.84
+(3805795)Without filter: 0.67
+(3805804)With filter: 0.56
+(3810793)Pressure corrected (mbar)= 328.35
+(3810796)Without filter: 1.29
+(3810804)With filter: 0.83
+(3810836)Humidity: 1.00
+(3811871)CO2 level: <400 ppm
+(3815794)Pressure corrected (mbar)= 326.65
+(3815797)Without filter: 0.70
+(3815805)With filter: 0.54
+(3820795)Pressure corrected (mbar)= 325.05
+(3820798)Without filter: 1.16
+(3820807)With filter: 0.76
+(3821871)CO2 level: <400 ppm
+(3825797)Pressure corrected (mbar)= 323.86
+(3825799)Without filter: 0.67
+(3825808)With filter: 0.56
+(3830798)Pressure corrected (mbar)= 322.46
+(3830800)Without filter: 0.64
+(3830809)With filter: 0.59
+(3831872)CO2 level: <400 ppm
+(3835798)Pressure corrected (mbar)= 320.47
+(3835801)Without filter: 0.72
+(3835809)With filter: 0.52
+(3840799)Pressure corrected (mbar)= 319.17
+(3840802)Without filter: 1.07
+(3840811)With filter: 0.75
+(3840842)Humidity: 1.00
+(3841876)CO2 level: <400 ppm
+(3845800)Pressure corrected (mbar)= 317.87
+(3845803)Without filter: 0.98
+(3845812)With filter: 0.65
+(3850802)Pressure corrected (mbar)= 316.18
+(3850804)Without filter: 0.97
+(3850813)With filter: 0.66
+(3851878)CO2 level: <400 ppm
+(3855802)Pressure corrected (mbar)= 315.18
+(3855805)Without filter: 0.68
+(3855813)With filter: 0.55
+(3860803)Pressure corrected (mbar)= 314.38
+(3860806)Without filter: 0.92
+(3860814)With filter: 0.67
+(3861878)CO2 level: <400 ppm
+(3865804)Pressure corrected (mbar)= 312.79
+(3865807)Without filter: 0.92
+(3865816)With filter: 0.65
+(3870806)Pressure corrected (mbar)= 311.19
+(3870808)Without filter: 1.15
+(3870817)With filter: 0.75
+(3870849)Humidity: 1.00
+(3871884)CO2 level: <400 ppm
+(3875807)Pressure corrected (mbar)= 309.59
+(3875809)Without filter: 0.64
+(3875818)With filter: 0.61
+(3880807)Pressure corrected (mbar)= 308.40
+(3880810)Without filter: 1.03
+(3880818)With filter: 0.73
+(3881884)CO2 level: <400 ppm
+(3885808)Pressure corrected (mbar)= 306.60
+(3885811)Without filter: 0.78
+(3885819)With filter: 0.61
+(3890809)Pressure corrected (mbar)= 305.10
+(3890812)Without filter: 0.67
+(3890821)With filter: 0.65
+(3891885)CO2 level: <400 ppm
+(3895811)Pressure corrected (mbar)= 303.51
+(3895813)Without filter: 0.75
+(3895822)With filter: 0.48
+(3900812)Pressure corrected (mbar)= 302.41
+(3900814)Without filter: 1.17
+(3900823)With filter: 0.83
+(3900855)Humidity: 1.00
+(3901890)CO2 level: <400 ppm
+(3905812)Pressure corrected (mbar)= 301.51
+(3905815)Without filter: 1.09
+(3905823)With filter: 0.76
+(3910813)Pressure corrected (mbar)= 299.52
+(3910816)Without filter: 0.68
+(3910824)With filter: 0.56
+(3911889)CO2 level: <400 ppm
+(3915814)Pressure corrected (mbar)= 297.82
+(3915817)Without filter: 0.65
+(3915826)With filter: 0.59
+(3920816)Pressure corrected (mbar)= 296.92
+(3920818)Without filter: 1.09
+(3920827)With filter: 0.71
+(3921891)CO2 level: <400 ppm
+(3925817)Pressure corrected (mbar)= 295.43
+(3925819)Without filter: 0.70
+(3925828)With filter: 0.56
+(3930817)Pressure corrected (mbar)= 294.33
+(3930820)Without filter: 0.93
+(3930828)With filter: 0.64
+(3930860)Humidity: 1.00
+(3931895)CO2 level: <400 ppm
+(3935818)Pressure corrected (mbar)= 292.83
+(3935821)Without filter: 0.70
+(3935830)With filter: 0.53
+(3940819)Pressure corrected (mbar)= 291.94
+(3940822)Without filter: 0.73
+(3940831)With filter: 0.53
+(3941896)CO2 level: <400 ppm
+(3945821)Pressure corrected (mbar)= 290.94
+(3945823)Without filter: 1.03
+(3945832)With filter: 0.71
+(3950821)Pressure corrected (mbar)= 289.64
+(3950824)Without filter: 1.02
+(3950832)With filter: 0.69
+(3951897)CO2 level: <400 ppm
+(3955822)Pressure corrected (mbar)= 288.55
+(3955825)Without filter: 0.79
+(3955833)With filter: 0.61
+(3960823)Pressure corrected (mbar)= 287.25
+(3960826)Without filter: 0.71
+(3960835)With filter: 0.54
+(3960866)Humidity: 1.00
+(3961902)CO2 level: <400 ppm
+(3965825)Pressure corrected (mbar)= 286.35
+(3965827)Without filter: 0.69
+(3965836)With filter: 0.54
+(3970826)Pressure corrected (mbar)= 285.35
+(3970828)Without filter: 1.14
+(3970837)With filter: 0.79
+(3971902)CO2 level: <400 ppm
+(3975826)Pressure corrected (mbar)= 284.06
+(3975829)Without filter: 0.61
+(3975837)With filter: 0.57
+(3980827)Pressure corrected (mbar)= 282.36
+(3980830)Without filter: 0.67
+(3980838)With filter: 0.54
+(3981902)CO2 level: <400 ppm
+(3985828)Pressure corrected (mbar)= 280.96
+(3985831)Without filter: 0.71
+(3985840)With filter: 0.57
+(3990830)Pressure corrected (mbar)= 279.97
+(3990832)Without filter: 0.67
+(3990841)With filter: 0.57
+(3990873)Humidity: 1.00
+(3991907)CO2 level: <400 ppm
+(3995831)Pressure corrected (mbar)= 278.37
+(3995833)Without filter: 0.65
+(3995842)With filter: 0.51
+(4000831)Pressure corrected (mbar)= 277.27
+(4000834)Without filter: 0.71
+(4000842)With filter: 0.58
+(4001908)CO2 level: <400 ppm
+(4005832)Pressure corrected (mbar)= 275.88
+(4005835)Without filter: 0.91
+(4005843)With filter: 0.67
+(4010833)Pressure corrected (mbar)= 274.98
+(4010836)Without filter: 0.90
+(4010845)With filter: 0.63
+(4011910)CO2 level: <400 ppm
+(4015835)Pressure corrected (mbar)= 273.48
+(4015837)Without filter: 0.70
+(4015846)With filter: 0.53
+(4020836)Pressure corrected (mbar)= 272.78
+(4020838)Without filter: 0.69
+(4020847)With filter: 0.53
+(4020879)Humidity: 1.00
+(4021913)CO2 level: <400 ppm
+(4025836)Pressure corrected (mbar)= 271.39
+(4025839)Without filter: 0.71
+(4025847)With filter: 0.56
+(4030837)Pressure corrected (mbar)= 270.19
+(4030840)Without filter: 0.68
+(4030849)With filter: 0.56
+(4031913)CO2 level: <400 ppm
+(4035838)Pressure corrected (mbar)= 268.89
+(4035841)Without filter: 1.06
+(4035850)With filter: 0.75
+(4040840)Pressure corrected (mbar)= 268.40
+(4040842)Without filter: 0.68
+(4040851)With filter: 0.54
+(4041915)CO2 level: <400 ppm
+(4045840)Pressure corrected (mbar)= 267.40
+(4045843)Without filter: 0.67
+(4045851)With filter: 0.55
+(4050841)Pressure corrected (mbar)= 265.80
+(4050844)Without filter: 0.86
+(4050852)With filter: 0.61
+(4050884)Humidity: 1.00
+(4051919)CO2 level: <400 ppm
+(4055842)Pressure corrected (mbar)= 264.70
+(4055845)Without filter: 1.11
+(4055854)With filter: 0.75
+(4060844)Pressure corrected (mbar)= 263.61
+(4060846)Without filter: 0.66
+(4060855)With filter: 0.56
+(4061920)CO2 level: <400 ppm
+(4065845)Pressure corrected (mbar)= 262.11
+(4065847)Without filter: 1.19
+(4065856)With filter: 0.81
+(4070845)Pressure corrected (mbar)= 261.31
+(4070848)Without filter: 0.99
+(4070856)With filter: 0.70
+(4071921)CO2 level: <400 ppm
+(4075846)Pressure corrected (mbar)= 259.72
+(4075849)Without filter: 1.11
+(4075857)With filter: 0.75
+(4080847)Pressure corrected (mbar)= 258.92
+(4080850)Without filter: 1.06
+(4080859)With filter: 0.72
+(4080890)Humidity: 1.00
+(4081926)CO2 level: <400 ppm
+(4085849)Pressure corrected (mbar)= 258.12
+(4085851)Without filter: 0.70
+(4085860)With filter: 0.54
+(4090850)Pressure corrected (mbar)= 256.82
+(4090852)Without filter: 0.72
+(4090861)With filter: 0.52
+(4091926)CO2 level: <400 ppm
+(4095850)Pressure corrected (mbar)= 255.83
+(4095853)Without filter: 0.84
+(4095861)With filter: 0.63
+(4100851)Pressure corrected (mbar)= 254.33
+(4100854)Without filter: 1.14
+(4100862)With filter: 0.75
+(4101926)CO2 level: <400 ppm
+(4105852)Pressure corrected (mbar)= 253.63
+(4105856)Without filter: 0.69
+(4105864)With filter: 0.56
+(4110854)Pressure corrected (mbar)= 252.44
+(4110857)Without filter: 1.03
+(4110865)With filter: 0.70
+(4110897)Humidity: 1.00
+(4111932)CO2 level: <400 ppm
+(4115855)Pressure corrected (mbar)= 251.64
+(4115858)Without filter: 0.63
+(4115866)With filter: 0.50
+(4120856)Pressure corrected (mbar)= 250.04
+(4120859)Without filter: 0.69
+(4120867)With filter: 0.54
+(4121931)CO2 level: <400 ppm
+(4125857)Pressure corrected (mbar)= 249.14
+(4125860)Without filter: 0.78
+(4125869)With filter: 0.61
+(4130859)Pressure corrected (mbar)= 248.25
+(4130861)Without filter: 0.67
+(4130870)With filter: 0.59
+(4131933)CO2 level: <400 ppm
+(4135860)Pressure corrected (mbar)= 247.45
+(4135862)Without filter: 0.70
+(4135871)With filter: 0.55
+(4140860)Pressure corrected (mbar)= 246.25
+(4140863)Without filter: 0.77
+(4140871)With filter: 0.61
+(4140903)Humidity: 1.00
+(4141938)CO2 level: <400 ppm
+(4145861)Pressure corrected (mbar)= 245.75
+(4145864)Without filter: 1.34
+(4145872)With filter: 0.92
+(4150862)Pressure corrected (mbar)= 244.65
+(4150865)Without filter: 0.78
+(4150874)With filter: 0.62
+(4151938)CO2 level: <400 ppm
+(4155864)Pressure corrected (mbar)= 243.56
+(4155866)Without filter: 0.94
+(4155875)With filter: 0.67
+(4160865)Pressure corrected (mbar)= 242.16
+(4160867)Without filter: 0.68
+(4160876)With filter: 0.55
+(4161939)CO2 level: <400 ppm
+(4165865)Pressure corrected (mbar)= 241.16
+(4165868)Without filter: 1.01
+(4165876)With filter: 0.69
+(4170866)Pressure corrected (mbar)= 240.27
+(4170869)Without filter: 1.18
+(4170877)With filter: 0.81
+(4170909)Humidity: 1.00
+(4171944)CO2 level: <400 ppm
+(4175867)Pressure corrected (mbar)= 238.97
+(4175870)Without filter: 0.91
+(4175879)With filter: 0.64
+(4180869)Pressure corrected (mbar)= 237.97
+(4180871)Without filter: 0.98
+(4180880)With filter: 0.70
+(4181945)CO2 level: <400 ppm
+(4185870)Pressure corrected (mbar)= 236.77
+(4185872)Without filter: 0.93
+(4185881)With filter: 0.66
+(4190870)Pressure corrected (mbar)= 236.18
+(4190873)Without filter: 0.96
+(4190881)With filter: 0.65
+(4191946)CO2 level: <400 ppm
+(4195871)Pressure corrected (mbar)= 234.08
+(4195874)Without filter: 0.62
+(4195883)With filter: 0.48
+(4200872)Pressure corrected (mbar)= 233.48
+(4200875)Without filter: 0.70
+(4200884)With filter: 0.55
+(4200915)Humidity: 1.00
+(4201951)CO2 level: <400 ppm
+(4205874)Pressure corrected (mbar)= 232.09
+(4205876)Without filter: 0.69
+(4205885)With filter: 0.55
+(4210874)Pressure corrected (mbar)= 231.59
+(4210877)Without filter: 1.14
+(4210885)With filter: 0.81
+(4211951)CO2 level: <400 ppm
+(4215875)Pressure corrected (mbar)= 230.19
+(4215878)Without filter: 0.68
+(4215886)With filter: 0.54
+(4220876)Pressure corrected (mbar)= 229.59
+(4220879)Without filter: 0.93
+(4220888)With filter: 0.64
+(4221952)CO2 level: <400 ppm
+(4225878)Pressure corrected (mbar)= 228.69
+(4225880)Without filter: 0.69
+(4225889)With filter: 0.65
+(4230879)Pressure corrected (mbar)= 227.20
+(4230881)Without filter: 0.68
+(4230890)With filter: 0.54
+(4230922)Humidity: 1.00
+(4231957)CO2 level: <400 ppm
+(4235879)Pressure corrected (mbar)= 226.40
+(4235882)Without filter: 1.01
+(4235890)With filter: 0.67
+(4240880)Pressure corrected (mbar)= 225.40
+(4240883)Without filter: 0.73
+(4240891)With filter: 0.48
+(4241956)CO2 level: <400 ppm
+(4245881)Pressure corrected (mbar)= 224.60
+(4245884)Without filter: 0.80
+(4245893)With filter: 0.60
+(4250883)Pressure corrected (mbar)= 223.51
+(4250885)Without filter: 0.98
+(4250894)With filter: 0.67
+(4251958)CO2 level: <400 ppm
+(4255884)Pressure corrected (mbar)= 222.21
+(4255886)Without filter: 0.72
+(4255895)With filter: 0.57
+(4260884)Pressure corrected (mbar)= 221.41
+(4260887)Without filter: 1.13
+(4260895)With filter: 0.75
+(4260927)Humidity: 1.00
+(4261962)CO2 level: <400 ppm
+(4265885)Pressure corrected (mbar)= 221.01
+(4265888)Without filter: 1.24
+(4265896)With filter: 0.81
+(4270886)Pressure corrected (mbar)= 220.22
+(4270889)Without filter: 0.96
+(4270898)With filter: 0.66
+(4271962)CO2 level: <400 ppm
+(4275888)Pressure corrected (mbar)= 219.22
+(4275890)Without filter: 0.73
+(4275899)With filter: 0.46
+(4280889)Pressure corrected (mbar)= 218.42
+(4280891)Without filter: 1.01
+(4280900)With filter: 0.73
+(4281963)CO2 level: <400 ppm
+(4285889)Pressure corrected (mbar)= 216.82
+(4285892)Without filter: 0.70
+(4285900)With filter: 0.59
+(4290890)Pressure corrected (mbar)= 216.23
+(4290893)Without filter: 0.70
+(4290902)With filter: 0.55
+(4290933)Humidity: 1.00
+(4291969)CO2 level: <400 ppm
+(4295891)Pressure corrected (mbar)= 215.13
+(4295894)Without filter: 1.41
+(4295903)With filter: 0.97
+(4300893)Pressure corrected (mbar)= 213.83
+(4300895)Without filter: 0.94
+(4300904)With filter: 0.66
+(4301969)CO2 level: <400 ppm
+(4305893)Pressure corrected (mbar)= 213.53
+(4305896)Without filter: 1.13
+(4305904)With filter: 0.81
+(4310894)Pressure corrected (mbar)= 212.14
+(4310897)Without filter: 0.68
+(4310905)With filter: 0.56
+(4311969)CO2 level: <400 ppm
+(4315895)Pressure corrected (mbar)= 211.04
+(4315898)Without filter: 0.72
+(4315907)With filter: 0.54
+(4320897)Pressure corrected (mbar)= 210.24
+(4320899)Without filter: 1.01
+(4320908)With filter: 0.68
+(4320940)Humidity: 1.00
+(4321975)CO2 level: <400 ppm
+(4325898)Pressure corrected (mbar)= 209.14
+(4325900)Without filter: 1.15
+(4325909)With filter: 0.84
+(4330898)Pressure corrected (mbar)= 208.44
+(4330901)Without filter: 1.01
+(4330909)With filter: 0.68
+(4331975)CO2 level: <400 ppm
+(4335899)Pressure corrected (mbar)= 207.35
+(4335902)Without filter: 0.69
+(4335910)With filter: 0.57
+(4340900)Pressure corrected (mbar)= 206.15
+(4340903)Without filter: 1.23
+(4340912)With filter: 0.81
+(4341976)CO2 level: <400 ppm
+(4345902)Pressure corrected (mbar)= 205.15
+(4345904)Without filter: 0.75
+(4345913)With filter: 0.59
+(4350903)Pressure corrected (mbar)= 204.75
+(4350905)Without filter: 0.65
+(4350914)With filter: 0.56
+(4350946)Humidity: 1.00
+(4351980)CO2 level: <400 ppm
+(4355903)Pressure corrected (mbar)= 204.16
+(4355906)Without filter: 0.69
+(4355914)With filter: 0.66
+(4360904)Pressure corrected (mbar)= 202.96
+(4360907)Without filter: 0.65
+(4360915)With filter: 0.56
+(4361980)CO2 level: <400 ppm
+(4365905)Pressure corrected (mbar)= 201.96
+(4365908)Without filter: 0.66
+(4365917)With filter: 0.58
+(4370907)Pressure corrected (mbar)= 201.56
+(4370909)Without filter: 0.69
+(4370918)With filter: 0.55
+(4371982)CO2 level: <400 ppm
+(4375908)Pressure corrected (mbar)= 200.56
+(4375910)Without filter: 0.70
+(4375919)With filter: 0.55
+(4380908)Pressure corrected (mbar)= 199.47
+(4380911)Without filter: 1.10
+(4380919)With filter: 0.79
+(4380951)Humidity: 1.00
+(4381985)CO2 level: <400 ppm
+(4385909)Pressure corrected (mbar)= 198.47
+(4385912)Without filter: 0.70
+(4385921)With filter: 0.53
+(4390910)Pressure corrected (mbar)= 197.97
+(4390913)Without filter: 0.64
+(4390922)With filter: 0.57
+(4391987)CO2 level: <400 ppm
+(4395912)Pressure corrected (mbar)= 196.97
+(4395914)Without filter: 1.26
+(4395923)With filter: 0.88
+(4400912)Pressure corrected (mbar)= 195.78
+(4400915)Without filter: 0.68
+(4400923)With filter: 0.56
+(4401988)CO2 level: <400 ppm
+(4405913)Pressure corrected (mbar)= 194.98
+(4405916)Without filter: 0.72
+(4405924)With filter: 0.56
+(4410914)Pressure corrected (mbar)= 193.68
+(4410917)Without filter: 0.70
+(4410926)With filter: 0.52
+(4410957)Humidity: 1.00
+(4411992)CO2 level: <400 ppm
+(4415916)Pressure corrected (mbar)= 192.78
+(4415918)Without filter: 0.68
+(4415927)With filter: 0.57
+(4420917)Pressure corrected (mbar)= 192.19
+(4420919)Without filter: 0.84
+(4420928)With filter: 0.58
+(4421993)CO2 level: <400 ppm
+(4425917)Pressure corrected (mbar)= 191.29
+(4425920)Without filter: 1.47
+(4425928)With filter: 0.96
+(4430918)Pressure corrected (mbar)= 190.39
+(4430921)Without filter: 1.37
+(4430929)With filter: 0.90
+(4431993)CO2 level: <400 ppm
+(4435919)Pressure corrected (mbar)= 189.59
+(4435922)Without filter: 0.67
+(4435931)With filter: 0.56
+(4440921)Pressure corrected (mbar)= 188.59
+(4440923)Without filter: 1.05
+(4440932)With filter: 0.71
+(4440964)Humidity: 1.00
+(4441999)CO2 level: <400 ppm
+(4445922)Pressure corrected (mbar)= 187.80
+(4445924)Without filter: 1.10
+(4445933)With filter: 0.75
+(4450922)Pressure corrected (mbar)= 186.80
+(4450925)Without filter: 0.68
+(4450933)With filter: 0.55
+(4451999)CO2 level: <400 ppm
+(4455923)Pressure corrected (mbar)= 185.80
+(4455926)Without filter: 1.38
+(4455934)With filter: 0.90
+(4460924)Pressure corrected (mbar)= 185.00
+(4460928)Without filter: 1.33
+(4460936)With filter: 0.89
+(4462001)CO2 level: <400 ppm
+(4465926)Pressure corrected (mbar)= 183.91
+(4465929)Without filter: 0.71
+(4465937)With filter: 0.58
+(4470927)Pressure corrected (mbar)= 182.81
+(4470930)Without filter: 0.72
+(4470938)With filter: 0.55
+(4470970)Humidity: 1.00
+(4472004)CO2 level: <400 ppm
+(4475928)Pressure corrected (mbar)= 181.91
+(4475931)Without filter: 0.68
+(4475939)With filter: 0.54
+(4480929)Pressure corrected (mbar)= 181.41
+(4480932)Without filter: 1.20
+(4480941)With filter: 0.83
+(4482004)CO2 level: <400 ppm
+(4485931)Pressure corrected (mbar)= 180.51
+(4485933)Without filter: 0.66
+(4485942)With filter: 0.57
+(4490932)Pressure corrected (mbar)= 179.12
+(4490934)Without filter: 0.79
+(4490943)With filter: 0.68
+(4492006)CO2 level: <400 ppm
+(4495932)Pressure corrected (mbar)= 178.02
+(4495935)Without filter: 0.73
+(4495943)With filter: 0.49
+(4500933)Pressure corrected (mbar)= 177.52
+(4500936)Without filter: 0.62
+(4500944)With filter: 0.59
+(4500976)Humidity: 1.00
+(4502010)CO2 level: <400 ppm
+(4505934)Pressure corrected (mbar)= 176.82
+(4505937)Without filter: 0.65
+(4505946)With filter: 0.59
+(4510936)Pressure corrected (mbar)= 176.52
+(4510938)Without filter: 0.66
+(4510947)With filter: 0.57
+(4512012)CO2 level: <400 ppm
+(4515937)Pressure corrected (mbar)= 175.53
+(4515939)Without filter: 0.78
+(4515948)With filter: 0.58
+(4520937)Pressure corrected (mbar)= 174.33
+(4520940)Without filter: 0.70
+(4520948)With filter: 0.58
+(4522013)CO2 level: <400 ppm
+(4525938)Pressure corrected (mbar)= 172.93
+(4525941)Without filter: 0.99
+(4525949)With filter: 0.67
+(4530939)Pressure corrected (mbar)= 172.14
+(4530942)Without filter: 0.72
+(4530951)With filter: 0.65
+(4530982)Humidity: 1.00
+(4532018)CO2 level: <400 ppm
+(4535941)Pressure corrected (mbar)= 171.64
+(4535943)Without filter: 0.69
+(4535952)With filter: 0.55
+(4540942)Pressure corrected (mbar)= 170.64
+(4540944)Without filter: 0.87
+(4540953)With filter: 0.64
+(4542018)CO2 level: <400 ppm
+(4545942)Pressure corrected (mbar)= 170.64
+(4545945)Without filter: 1.00
+(4545953)With filter: 0.68
+(4550943)Pressure corrected (mbar)= 169.24
+(4550946)Without filter: 0.98
+(4550955)With filter: 0.66
+(4552018)CO2 level: <400 ppm
+(4555944)Pressure corrected (mbar)= 168.54
+(4555947)Without filter: 0.71
+(4555956)With filter: 0.57
+(4560946)Pressure corrected (mbar)= 167.85
+(4560948)Without filter: 0.70
+(4560957)With filter: 0.57
+(4560989)Humidity: 1.00
+(4562024)CO2 level: <400 ppm
+(4565946)Pressure corrected (mbar)= 166.75
+(4565949)Without filter: 0.73
+(4565957)With filter: 0.55
+(4570947)Pressure corrected (mbar)= 166.05
+(4570950)Without filter: 1.49
+(4570958)With filter: 0.94
+(4572023)CO2 level: <400 ppm
+(4575948)Pressure corrected (mbar)= 165.45
+(4575951)Without filter: 0.69
+(4575960)With filter: 0.56
+(4580950)Pressure corrected (mbar)= 164.45
+(4580952)Without filter: 0.76
+(4580961)With filter: 0.60
+(4582025)CO2 level: <400 ppm
+(4585951)Pressure corrected (mbar)= 164.25
+(4585953)Without filter: 0.69
+(4585962)With filter: 0.58
+(4590951)Pressure corrected (mbar)= 163.66
+(4590954)Without filter: 0.73
+(4590962)With filter: 0.52
+(4590994)Humidity: 1.00
+(4592029)CO2 level: <400 ppm
+(4595952)Pressure corrected (mbar)= 162.76
+(4595955)Without filter: 1.15
+(4595963)With filter: 0.82
+(4600953)Pressure corrected (mbar)= 161.96
+(4600956)Without filter: 0.99
+(4600965)With filter: 0.73
+(4602029)CO2 level: <400 ppm
+(4605955)Pressure corrected (mbar)= 161.66
+(4605957)Without filter: 0.58
+(4605966)With filter: 0.56
+(4610956)Pressure corrected (mbar)= 161.06
+(4610958)Without filter: 0.89
+(4610967)With filter: 0.69
+(4612030)CO2 level: <400 ppm
+(4615956)Pressure corrected (mbar)= 159.87
+(4615959)Without filter: 0.71
+(4615967)With filter: 0.60
+(4620957)Pressure corrected (mbar)= 158.97
+(4620960)Without filter: 1.48
+(4620968)With filter: 0.94
+(4621000)Humidity: 1.00
+(4622034)CO2 level: <400 ppm
+(4625958)Pressure corrected (mbar)= 158.17
+(4625961)Without filter: 0.69
+(4625970)With filter: 0.60
+(4630960)Pressure corrected (mbar)= 156.67
+(4630962)Without filter: 1.52
+(4630971)With filter: 1.01
+(4632036)CO2 level: <400 ppm
+(4635961)Pressure corrected (mbar)= 156.08
+(4635963)Without filter: 0.58
+(4635972)With filter: 0.54
+(4640961)Pressure corrected (mbar)= 155.78
+(4640964)Without filter: 0.99
+(4640972)With filter: 0.69
+(4642036)CO2 level: <400 ppm
+(4645962)Pressure corrected (mbar)= 154.88
+(4645965)Without filter: 0.74
+(4645974)With filter: 0.53
+(4650963)Pressure corrected (mbar)= 154.28
+(4650966)Without filter: 1.02
+(4650975)With filter: 0.68
+(4651006)Humidity: 1.00
+(4652041)CO2 level: <400 ppm
+(4655965)Pressure corrected (mbar)= 153.88
+(4655967)Without filter: 0.79
+(4655976)With filter: 0.63
+(4660965)Pressure corrected (mbar)= 153.78
+(4660968)Without filter: 1.22
+(4660976)With filter: 0.89
+(4662042)CO2 level: <400 ppm
+(4665966)Pressure corrected (mbar)= 152.38
+(4665969)Without filter: 0.71
+(4665977)With filter: 0.55
+(4670967)Pressure corrected (mbar)= 151.79
+(4670970)Without filter: 0.94
+(4670979)With filter: 0.56
+(4672043)CO2 level: <400 ppm
+(4675969)Pressure corrected (mbar)= 150.79
+(4675971)Without filter: 0.67
+(4675980)With filter: 0.56
+(4680970)Pressure corrected (mbar)= 149.89
+(4680972)Without filter: 1.00
+(4680981)With filter: 0.78
+(4681013)Humidity: 1.00
+(4682047)CO2 level: <400 ppm
+(4685970)Pressure corrected (mbar)= 149.39
+(4685973)Without filter: 0.73
+(4685981)With filter: 0.60
+(4690971)Pressure corrected (mbar)= 148.69
+(4690974)Without filter: 0.92
+(4690982)With filter: 0.74
+(4692047)CO2 level: <400 ppm
+(4695972)Pressure corrected (mbar)= 147.80
+(4695975)Without filter: 0.79
+(4695984)With filter: 0.67
+(4700974)Pressure corrected (mbar)= 147.30
+(4700976)Without filter: 0.87
+(4700985)With filter: 0.71
+(4702049)CO2 level: <400 ppm
+(4705975)Pressure corrected (mbar)= 146.80
+(4705977)Without filter: 0.71
+(4705986)With filter: 0.53
+(4710975)Pressure corrected (mbar)= 146.30
+(4710978)Without filter: 1.12
+(4710986)With filter: 0.87
+(4711018)Humidity: 1.00
+(4712053)CO2 level: <400 ppm
+(4715976)Pressure corrected (mbar)= 145.50
+(4715979)Without filter: 0.66
+(4715987)With filter: 0.50
+(4720977)Pressure corrected (mbar)= 144.70
+(4720980)Without filter: 0.71
+(4720989)With filter: 0.61
+(4722054)CO2 level: <400 ppm
+(4725979)Pressure corrected (mbar)= 144.40
+(4725981)Without filter: 0.72
+(4725990)With filter: 0.58
+(4730980)Pressure corrected (mbar)= 143.71
+(4730982)Without filter: 0.72
+(4730991)With filter: 0.52
+(4732055)CO2 level: <400 ppm
+(4735980)Pressure corrected (mbar)= 143.41
+(4735983)Without filter: 0.65
+(4735991)With filter: 0.59
+(4740981)Pressure corrected (mbar)= 142.81
+(4740984)Without filter: 0.78
+(4740993)With filter: 0.64
+(4741024)Humidity: 1.00
+(4742059)CO2 level: <400 ppm
+(4745982)Pressure corrected (mbar)= 142.31
+(4745985)Without filter: 0.73
+(4745994)With filter: 0.59
+(4750984)Pressure corrected (mbar)= 141.51
+(4750986)Without filter: 1.17
+(4750995)With filter: 0.84
+(4752060)CO2 level: <400 ppm
+(4755984)Pressure corrected (mbar)= 141.01
+(4755987)Without filter: 0.82
+(4755995)With filter: 0.67
+(4760985)Pressure corrected (mbar)= 140.31
+(4760988)Without filter: 0.74
+(4760996)With filter: 0.53
+(4762060)CO2 level: <400 ppm
+(4765986)Pressure corrected (mbar)= 139.32
+(4765989)Without filter: 0.81
+(4765998)With filter: 0.68
+(4770988)Pressure corrected (mbar)= 138.92
+(4770990)Without filter: 0.68
+(4770999)With filter: 0.59
+(4771031)Humidity: 1.00
+(4772065)CO2 level: <400 ppm
+(4775989)Pressure corrected (mbar)= 138.02
+(4775991)Without filter: 0.68
+(4776000)With filter: 0.53
+(4780989)Pressure corrected (mbar)= 137.52
+(4780992)Without filter: 0.59
+(4781000)With filter: 0.53
+(4782066)CO2 level: <400 ppm
+(4785990)Pressure corrected (mbar)= 136.82
+(4785993)Without filter: 0.70
+(4786001)With filter: 0.57
+(4790991)Pressure corrected (mbar)= 136.03
+(4790994)Without filter: 0.74
+(4791003)With filter: 0.51
+(4792067)CO2 level: <400 ppm
+(4795993)Pressure corrected (mbar)= 135.63
+(4795995)Without filter: 0.87
+(4796004)With filter: 0.72
+(4800994)Pressure corrected (mbar)= 134.63
+(4800996)Without filter: 1.73
+(4801005)With filter: 1.11
+(4801037)Humidity: 1.00
+(4802071)CO2 level: <400 ppm
+(4805994)Pressure corrected (mbar)= 133.63
+(4805997)Without filter: 0.70
+(4806005)With filter: 0.55
+(4810995)Pressure corrected (mbar)= 132.73
+(4810998)Without filter: 0.78
+(4811006)With filter: 0.55
+(4812071)CO2 level: <400 ppm
+(4815996)Pressure corrected (mbar)= 132.23
+(4816000)Without filter: 0.63
+(4816008)With filter: 0.49
+(4820998)Pressure corrected (mbar)= 131.44
+(4821001)Without filter: 0.72
+(4821009)With filter: 0.53
+(4822073)CO2 level: <400 ppm
+(4825999)Pressure corrected (mbar)= 130.64
+(4826002)Without filter: 1.07
+(4826010)With filter: 0.75
+(4831000)Pressure corrected (mbar)= 130.04
+(4831003)Without filter: 0.62
+(4831011)With filter: 0.51
+(4831043)Humidity: 1.00
+(4832078)CO2 level: <400 ppm
+(4836001)Pressure corrected (mbar)= 129.74
+(4836004)Without filter: 0.69
+(4836013)With filter: 0.56
+(4841003)Pressure corrected (mbar)= 128.94
+(4841005)Without filter: 0.69
+(4841014)With filter: 0.59
+(4842079)CO2 level: <400 ppm
+(4846004)Pressure corrected (mbar)= 128.44
+(4846006)Without filter: 0.74
+(4846015)With filter: 0.54
+(4851004)Pressure corrected (mbar)= 128.44
+(4851007)Without filter: 0.66
+(4851015)With filter: 0.52
+(4852080)CO2 level: <400 ppm
+(4856005)Pressure corrected (mbar)= 127.85
+(4856008)Without filter: 0.69
+(4856016)With filter: 0.57
+(4861006)Pressure corrected (mbar)= 127.05
+(4861009)Without filter: 0.71
+(4861018)With filter: 0.55
+(4861049)Humidity: 1.00
+(4862085)CO2 level: <400 ppm
+(4866008)Pressure corrected (mbar)= 126.45
+(4866010)Without filter: 0.62
+(4866019)With filter: 0.56
+(4871009)Pressure corrected (mbar)= 126.15
+(4871011)Without filter: 0.70
+(4871020)With filter: 0.56
+(4872085)CO2 level: <400 ppm
+(4876009)Pressure corrected (mbar)= 125.65
+(4876012)Without filter: 1.05
+(4876020)With filter: 0.72
+(4881010)Pressure corrected (mbar)= 125.15
+(4881013)Without filter: 0.72
+(4881021)With filter: 0.53
+(4882085)CO2 level: <400 ppm
+(4886011)Pressure corrected (mbar)= 124.45
+(4886014)Without filter: 0.66
+(4886023)With filter: 0.51
+(4891013)Pressure corrected (mbar)= 123.76
+(4891015)Without filter: 0.76
+(4891024)With filter: 0.50
+(4891056)Humidity: 1.00
+(4892090)CO2 level: <400 ppm
+(4896014)Pressure corrected (mbar)= 123.46
+(4896016)Without filter: 0.71
+(4896025)With filter: 0.54
+(4901014)Pressure corrected (mbar)= 122.56
+(4901017)Without filter: 1.30
+(4901025)With filter: 0.96
+(4902090)CO2 level: <400 ppm
+(4906015)Pressure corrected (mbar)= 121.76
+(4906018)Without filter: 0.61
+(4906027)With filter: 0.45
+(4911016)Pressure corrected (mbar)= 121.36
+(4911019)Without filter: 0.69
+(4911028)With filter: 0.58
+(4912092)CO2 level: <400 ppm
+(4916018)Pressure corrected (mbar)= 120.66
+(4916020)Without filter: 0.62
+(4916029)With filter: 0.57
+(4921018)Pressure corrected (mbar)= 119.67
+(4921021)Without filter: 0.70
+(4921029)With filter: 0.59
+(4921061)Humidity: 1.00
+(4922095)CO2 level: <400 ppm
+(4926019)Pressure corrected (mbar)= 119.07
+(4926022)Without filter: 0.65
+(4926030)With filter: 0.58
+(4931020)Pressure corrected (mbar)= 118.27
+(4931023)Without filter: 0.69
+(4931032)With filter: 0.59
+(4932096)CO2 level: <400 ppm
+(4936022)Pressure corrected (mbar)= 117.67
+(4936024)Without filter: 1.29
+(4936033)With filter: 0.86
+(4941023)Pressure corrected (mbar)= 116.97
+(4941025)Without filter: 0.70
+(4941034)With filter: 0.59
+(4942097)CO2 level: <400 ppm
+(4946023)Pressure corrected (mbar)= 116.07
+(4946026)Without filter: 0.68
+(4946034)With filter: 0.55
+(4951024)Pressure corrected (mbar)= 115.68
+(4951027)Without filter: 0.67
+(4951035)With filter: 0.65
+(4951067)Humidity: 1.00
+(4952101)CO2 level: <400 ppm
+(4956025)Pressure corrected (mbar)= 115.28
+(4956028)Without filter: 1.62
+(4956037)With filter: 1.15
+(4961027)Pressure corrected (mbar)= 114.88
+(4961029)Without filter: 0.96
+(4961038)With filter: 0.81
+(4962103)CO2 level: <400 ppm
+(4966028)Pressure corrected (mbar)= 113.98
+(4966030)Without filter: 0.69
+(4966039)With filter: 0.56
+(4971028)Pressure corrected (mbar)= 113.58
+(4971031)Without filter: 1.75
+(4971039)With filter: 1.07
+(4972104)CO2 level: <400 ppm
+(4976029)Pressure corrected (mbar)= 112.68
+(4976032)Without filter: 0.79
+(4976040)With filter: 0.64
+(4981030)Pressure corrected (mbar)= 111.99
+(4981033)Without filter: 0.71
+(4981042)With filter: 0.55
+(4981073)Humidity: 1.00
+(4982108)CO2 level: <400 ppm
+(4986032)Pressure corrected (mbar)= 111.19
+(4986034)Without filter: 1.00
+(4986043)With filter: 0.62
+(4991033)Pressure corrected (mbar)= 110.19
+(4991035)Without filter: 0.72
+(4991044)With filter: 0.53
+(4992109)CO2 level: <400 ppm
+(4996033)Pressure corrected (mbar)= 109.99
+(4996036)Without filter: 0.62
+(4996044)With filter: 0.51
+(5001034)Pressure corrected (mbar)= 108.99
+(5001037)Without filter: 0.66
+(5001046)With filter: 0.58
+(5002109)CO2 level: <400 ppm
+(5006035)Pressure corrected (mbar)= 108.49
+(5006038)Without filter: 0.72
+(5006047)With filter: 0.57
+(5011037)Pressure corrected (mbar)= 107.80
+(5011039)Without filter: 0.47
+(5011048)With filter: 0.61
+(5011080)Humidity: 1.00
+(5012115)CO2 level: <400 ppm
+(5016037)Pressure corrected (mbar)= 107.20
+(5016040)Without filter: 1.69
+(5016048)With filter: 1.20
+(5021038)Pressure corrected (mbar)= 106.40
+(5021041)Without filter: 0.73
+(5021049)With filter: 0.61
+(5022114)CO2 level: <400 ppm
+(5026039)Pressure corrected (mbar)= 105.60
+(5026042)Without filter: 0.98
+(5026051)With filter: 0.84
+(5031041)Pressure corrected (mbar)= 104.70
+(5031043)Without filter: 0.71
+(5031052)With filter: 0.61
+(5032116)CO2 level: <400 ppm
+(5036042)Pressure corrected (mbar)= 104.30
+(5036044)Without filter: 0.72
+(5036053)With filter: 0.59
+(5041042)Pressure corrected (mbar)= 103.61
+(5041045)Without filter: 0.73
+(5041053)With filter: 0.57
+(5041085)Humidity: 1.00
+(5042119)CO2 level: <400 ppm
+(5046043)Pressure corrected (mbar)= 102.71
+(5046046)Without filter: 0.72
+(5046054)With filter: 0.59
+(5051044)Pressure corrected (mbar)= 102.51
+(5051047)Without filter: 0.69
+(5051056)With filter: 0.57
+(5052120)CO2 level: <400 ppm
+(5056046)Pressure corrected (mbar)= 101.61
+(5056048)Without filter: 1.49
+(5056057)With filter: 1.03
+(5061047)Pressure corrected (mbar)= 101.01
+(5061049)Without filter: 0.52
+(5061058)With filter: 0.34
+(5062121)CO2 level: <400 ppm
+(5066047)Pressure corrected (mbar)= 100.71
+(5066050)Without filter: 0.65
+(5066058)With filter: 0.60
+(5071048)Pressure corrected (mbar)= 99.92
+(5071051)Without filter: 0.69
+(5071058)With filter: 0.57
+(5071090)Humidity: 1.00
+(5072124)CO2 level: <400 ppm
+(5076049)Pressure corrected (mbar)= 99.52
+(5076052)Without filter: 0.74
+(5076060)With filter: 0.59
+(5081051)Pressure corrected (mbar)= 98.72
+(5081053)Without filter: 0.67
+(5081061)With filter: 0.59
+(5082126)CO2 level: <400 ppm
+(5086052)Pressure corrected (mbar)= 98.02
+(5086054)Without filter: 0.58
+(5086062)With filter: 0.58
+(5091052)Pressure corrected (mbar)= 97.22
+(5091055)Without filter: 1.03
+(5091062)With filter: 0.86
+(5092127)CO2 level: <400 ppm
+(5096053)Pressure corrected (mbar)= 96.82
+(5096056)Without filter: 0.64
+(5096064)With filter: 0.48
+(5101054)Pressure corrected (mbar)= 96.22
+(5101057)Without filter: 1.31
+(5101065)With filter: 1.00
+(5101096)Humidity: 1.00
+(5102131)CO2 level: <400 ppm
+(5106056)Pressure corrected (mbar)= 95.63
+(5106058)Without filter: 1.18
+(5106066)With filter: 0.90
+(5111056)Pressure corrected (mbar)= 94.93
+(5111059)Without filter: 0.71
+(5111066)With filter: 0.59
+(5112132)CO2 level: <400 ppm
+(5116057)Pressure corrected (mbar)= 94.23
+(5116060)Without filter: 0.72
+(5116067)With filter: 0.54
+(5121058)Pressure corrected (mbar)= 93.83
+(5121061)Without filter: 0.70
+(5121069)With filter: 0.55
+(5122132)CO2 level: <400 ppm
+(5126060)Pressure corrected (mbar)= 93.13
+(5126062)Without filter: 0.69
+(5126070)With filter: 0.56
+(5131061)Pressure corrected (mbar)= 92.43
+(5131063)Without filter: 0.66
+(5131071)With filter: 0.63
+(5131103)Humidity: 1.00
+(5132137)CO2 level: <400 ppm
+(5136061)Pressure corrected (mbar)= 91.74
+(5136064)Without filter: 1.04
+(5136071)With filter: 0.78
+(5141062)Pressure corrected (mbar)= 91.44
+(5141065)Without filter: 0.69
+(5141072)With filter: 0.60
+(5142137)CO2 level: <400 ppm
+(5146063)Pressure corrected (mbar)= 90.84
+(5146066)Without filter: 0.60
+(5146074)With filter: 0.64
+(5151065)Pressure corrected (mbar)= 90.64
+(5151067)Without filter: 0.65
+(5151075)With filter: 0.51
+(5152139)CO2 level: <400 ppm
+(5156066)Pressure corrected (mbar)= 90.14
+(5156068)Without filter: 0.72
+(5156076)With filter: 0.52
+(5161066)Pressure corrected (mbar)= 89.94
+(5161069)Without filter: 0.62
+(5161076)With filter: 0.60
+(5161108)Humidity: 1.00
+(5162142)CO2 level: <400 ppm
+(5166067)Pressure corrected (mbar)= 89.24
+(5166070)Without filter: 0.67
+(5166077)With filter: 0.59
+(5171068)Pressure corrected (mbar)= 88.94
+(5171072)Without filter: 0.94
+(5171079)With filter: 0.75
+(5172143)CO2 level: <400 ppm
+(5176070)Pressure corrected (mbar)= 88.54
+(5176073)Without filter: 0.73
+(5176080)With filter: 0.58
+(5181071)Pressure corrected (mbar)= 88.44
+(5181074)Without filter: 0.87
+(5181081)With filter: 0.73
+(5182144)CO2 level: <400 ppm
+(5186072)Pressure corrected (mbar)= 87.75
+(5186075)Without filter: 0.73
+(5186082)With filter: 0.55
+(5191073)Pressure corrected (mbar)= 87.55
+(5191076)Without filter: 0.69
+(5191084)With filter: 0.56
+(5191115)Humidity: 1.00
+(5192150)CO2 level: <400 ppm
+(5196075)Pressure corrected (mbar)= 87.25
+(5196077)Without filter: 0.58
+(5196085)With filter: 0.57
+(5201076)Pressure corrected (mbar)= 86.55
+(5201078)Without filter: 0.72
+(5201086)With filter: 0.59
+(5202151)CO2 level: <400 ppm
+(5206076)Pressure corrected (mbar)= 86.25
+(5206079)Without filter: 1.06
+(5206086)With filter: 0.82
+(5211077)Pressure corrected (mbar)= 85.85
+(5211080)Without filter: 0.67
+(5211087)With filter: 0.53
+(5212151)CO2 level: <400 ppm
+(5216078)Pressure corrected (mbar)= 85.55
+(5216081)Without filter: 0.71
+(5216089)With filter: 0.59
+(5221080)Pressure corrected (mbar)= 85.15
+(5221082)Without filter: 0.85
+(5221090)With filter: 0.70
+(5221122)Humidity: 1.00
+(5222156)CO2 level: <400 ppm
+(5226081)Pressure corrected (mbar)= 84.85
+(5226083)Without filter: 0.85
+(5226091)With filter: 0.70
+(5231081)Pressure corrected (mbar)= 84.15
+(5231084)Without filter: 0.82
+(5231091)With filter: 0.67
+(5232157)CO2 level: <400 ppm
+(5236082)Pressure corrected (mbar)= 84.05
+(5236085)Without filter: 0.88
+(5236092)With filter: 0.75
+(5241083)Pressure corrected (mbar)= 83.46
+(5241086)Without filter: 0.73
+(5241094)With filter: 0.52
+(5242158)CO2 level: <400 ppm
+(5246085)Pressure corrected (mbar)= 83.26
+(5246087)Without filter: 0.73
+(5246095)With filter: 0.59
+(5251086)Pressure corrected (mbar)= 82.86
+(5251088)Without filter: 0.87
+(5251096)With filter: 0.70
+(5251128)Humidity: 1.00
+(5252162)CO2 level: <400 ppm
+(5256086)Pressure corrected (mbar)= 82.46
+(5256089)Without filter: 0.67
+(5256096)With filter: 0.55
+(5261087)Pressure corrected (mbar)= 82.26
+(5261090)Without filter: 0.98
+(5261097)With filter: 0.79
+(5262162)CO2 level: <400 ppm
+(5266088)Pressure corrected (mbar)= 81.96
+(5266091)Without filter: 0.91
+(5266099)With filter: 0.74
+(5271090)Pressure corrected (mbar)= 81.56
+(5271092)Without filter: 0.70
+(5271100)With filter: 0.60
+(5272164)CO2 level: <400 ppm
+(5276090)Pressure corrected (mbar)= 80.86
+(5276093)Without filter: 0.81
+(5276100)With filter: 0.67
+(5281091)Pressure corrected (mbar)= 80.76
+(5281094)Without filter: 0.70
+(5281101)With filter: 0.51
+(5281133)Humidity: 1.00
+(5282167)CO2 level: <400 ppm
+(5286092)Pressure corrected (mbar)= 80.56
+(5286095)Without filter: 0.69
+(5286103)With filter: 0.54
+(5291094)Pressure corrected (mbar)= 79.96
+(5291096)Without filter: 0.72
+(5291104)With filter: 0.58
+(5292169)CO2 level: <400 ppm
+(5296095)Pressure corrected (mbar)= 79.77
+(5296097)Without filter: 0.85
+(5296105)With filter: 0.70
+(5301095)Pressure corrected (mbar)= 79.17
+(5301098)Without filter: 1.04
+(5301105)With filter: 0.80
+(5302170)CO2 level: <400 ppm
+(5306096)Pressure corrected (mbar)= 79.07
+(5306099)Without filter: 0.61
+(5306106)With filter: 0.52
+(5311097)Pressure corrected (mbar)= 78.67
+(5311100)Without filter: 0.71
+(5311108)With filter: 0.58
+(5311139)Humidity: 1.00
+(5312174)CO2 level: <400 ppm
+(5316099)Pressure corrected (mbar)= 78.17
+(5316101)Without filter: 0.68
+(5316109)With filter: 0.55
+(5321100)Pressure corrected (mbar)= 78.37
+(5321102)Without filter: 0.68
+(5321110)With filter: 0.57
+(5322175)CO2 level: <400 ppm
+(5326100)Pressure corrected (mbar)= 77.47
+(5326103)Without filter: 0.69
+(5326110)With filter: 0.56
+(5331101)Pressure corrected (mbar)= 76.87
+(5331104)Without filter: 0.69
+(5331111)With filter: 0.58
+(5332175)CO2 level: <400 ppm
+(5336102)Pressure corrected (mbar)= 77.07
+(5336105)Without filter: 1.07
+(5336113)With filter: 0.83
+(5341104)Pressure corrected (mbar)= 76.37
+(5341106)Without filter: 0.63
+(5341114)With filter: 0.52
+(5341146)Humidity: 1.00
+(5342180)CO2 level: <400 ppm
+(5346105)Pressure corrected (mbar)= 76.47
+(5346107)Without filter: 1.01
+(5346115)With filter: 0.80
+(5351105)Pressure corrected (mbar)= 75.97
+(5351108)Without filter: 0.85
+(5351115)With filter: 0.67
+(5352180)CO2 level: <400 ppm
+(5356106)Pressure corrected (mbar)= 75.87
+(5356109)Without filter: 0.67
+(5356116)With filter: 0.60
+(5361107)Pressure corrected (mbar)= 75.28
+(5361110)Without filter: 0.65
+(5361118)With filter: 0.48
+(5362182)CO2 level: <400 ppm
+(5366109)Pressure corrected (mbar)= 75.08
+(5366111)Without filter: 0.85
+(5366119)With filter: 0.70
+(5371109)Pressure corrected (mbar)= 74.58
+(5371112)Without filter: 0.71
+(5371119)With filter: 0.59
+(5371151)Humidity: 1.00
+(5372185)CO2 level: <400 ppm
+(5376110)Pressure corrected (mbar)= 73.88
+(5376113)Without filter: 0.63
+(5376120)With filter: 0.56
+(5381111)Pressure corrected (mbar)= 74.18
+(5381114)Without filter: 0.74
+(5381122)With filter: 0.59
+(5382185)CO2 level: <400 ppm
+(5386113)Pressure corrected (mbar)= 73.58
+(5386115)Without filter: 0.90
+(5386123)With filter: 0.74
+(5391114)Pressure corrected (mbar)= 73.28
+(5391116)Without filter: 0.88
+(5391124)With filter: 0.72
+(5392187)CO2 level: <400 ppm
+(5396114)Pressure corrected (mbar)= 72.98
+(5396117)Without filter: 0.72
+(5396124)With filter: 0.50
+(5401115)Pressure corrected (mbar)= 72.68
+(5401118)Without filter: 0.74
+(5401125)With filter: 0.58
+(5401157)Humidity: 1.00
+(5402191)CO2 level: <400 ppm
+(5406116)Pressure corrected (mbar)= 72.28
+(5406119)Without filter: 0.82
+(5406127)With filter: 0.69
+(5411118)Pressure corrected (mbar)= 71.59
+(5411120)Without filter: 0.74
+(5411128)With filter: 0.58
+(5412193)CO2 level: <400 ppm
+(5416119)Pressure corrected (mbar)= 71.49
+(5416121)Without filter: 1.14
+(5416129)With filter: 0.83
+(5421119)Pressure corrected (mbar)= 71.09
+(5421122)Without filter: 0.97
+(5421129)With filter: 0.77
+(5422194)CO2 level: <400 ppm
+(5426120)Pressure corrected (mbar)= 70.89
+(5426123)Without filter: 0.70
+(5426130)With filter: 0.55
+(5431121)Pressure corrected (mbar)= 70.39
+(5431124)Without filter: 0.69
+(5431132)With filter: 0.58
+(5431164)Humidity: 1.00
+(5432199)CO2 level: <400 ppm
+(5436123)Pressure corrected (mbar)= 70.29
+(5436125)Without filter: 0.67
+(5436133)With filter: 0.51
+(5441124)Pressure corrected (mbar)= 69.49
+(5441126)Without filter: 0.70
+(5441134)With filter: 0.59
+(5442200)CO2 level: <400 ppm
+(5446124)Pressure corrected (mbar)= 69.39
+(5446127)Without filter: 1.21
+(5446134)With filter: 0.83
+(5451125)Pressure corrected (mbar)= 69.29
+(5451128)Without filter: 0.88
+(5451136)With filter: 0.74
+(5452200)CO2 level: <400 ppm
+(5456126)Pressure corrected (mbar)= 68.69
+(5456129)Without filter: 0.85
+(5456137)With filter: 0.72
+(5461128)Pressure corrected (mbar)= 68.39
+(5461130)Without filter: 0.87
+(5461138)With filter: 0.73
+(5461170)Humidity: 1.00
+(5462204)CO2 level: <400 ppm
+(5466128)Pressure corrected (mbar)= 68.19
+(5466131)Without filter: 0.84
+(5466138)With filter: 0.69
+(5471129)Pressure corrected (mbar)= 67.89
+(5471132)Without filter: 0.75
+(5471139)With filter: 0.63
+(5472204)CO2 level: <400 ppm
+(5476130)Pressure corrected (mbar)= 67.00
+(5476133)Without filter: 0.69
+(5476141)With filter: 0.55
+(5481132)Pressure corrected (mbar)= 67.00
+(5481134)Without filter: 0.71
+(5481142)With filter: 0.57
+(5482206)CO2 level: <400 ppm
+(5486133)Pressure corrected (mbar)= 66.50
+(5486135)Without filter: 0.73
+(5486143)With filter: 0.56
+(5491133)Pressure corrected (mbar)= 66.50
+(5491136)Without filter: 0.69
+(5491143)With filter: 0.56
+(5491175)Humidity: 1.00
+(5492209)CO2 level: <400 ppm
+(5496134)Pressure corrected (mbar)= 66.10
+(5496137)Without filter: 0.72
+(5496144)With filter: 0.57
+(5501135)Pressure corrected (mbar)= 65.70
+(5501138)Without filter: 0.72
+(5501146)With filter: 0.57
+(5502210)CO2 level: <400 ppm
+(5506137)Pressure corrected (mbar)= 65.40
+(5506139)Without filter: 0.71
+(5506147)With filter: 0.59
+(5511138)Pressure corrected (mbar)= 65.00
+(5511140)Without filter: 0.89
+(5511148)With filter: 0.74
+(5512211)CO2 level: <400 ppm
+(5516138)Pressure corrected (mbar)= 65.00
+(5516141)Without filter: 0.69
+(5516148)With filter: 0.63
+(5521139)Pressure corrected (mbar)= 64.30
+(5521142)Without filter: 1.26
+(5521149)With filter: 0.86
+(5521181)Humidity: 1.00
+(5522215)CO2 level: <400 ppm
+(5526140)Pressure corrected (mbar)= 64.10
+(5526144)Without filter: 0.72
+(5526151)With filter: 0.53
+(5531142)Pressure corrected (mbar)= 63.71
+(5531145)Without filter: 0.67
+(5531152)With filter: 0.57
+(5532217)CO2 level: <400 ppm
+(5536143)Pressure corrected (mbar)= 63.61
+(5536146)Without filter: 0.73
+(5536153)With filter: 0.54
+(5541144)Pressure corrected (mbar)= 63.01
+(5541147)Without filter: 0.84
+(5541154)With filter: 0.71
+(5542218)CO2 level: <400 ppm
+(5546145)Pressure corrected (mbar)= 62.91
+(5546148)Without filter: 0.78
+(5546156)With filter: 0.65
+(5551147)Pressure corrected (mbar)= 62.71
+(5551149)Without filter: 0.73
+(5551157)With filter: 0.60
+(5551188)Humidity: 1.00
+(5552223)CO2 level: <400 ppm
+(5556148)Pressure corrected (mbar)= 62.51
+(5556150)Without filter: 0.74
+(5556158)With filter: 0.55
+(5561148)Pressure corrected (mbar)= 61.81
+(5561151)Without filter: 0.98
+(5561158)With filter: 0.78
+(5562224)CO2 level: <400 ppm
+(5566149)Pressure corrected (mbar)= 61.81
+(5566152)Without filter: 0.71
+(5566159)With filter: 0.60
+(5571150)Pressure corrected (mbar)= 61.81
+(5571153)Without filter: 0.65
+(5571161)With filter: 0.49
+(5572225)CO2 level: <400 ppm
+(5576152)Pressure corrected (mbar)= 61.31
+(5576154)Without filter: 0.67
+(5576162)With filter: 0.54
+(5581153)Pressure corrected (mbar)= 61.21
+(5581155)Without filter: 0.80
+(5581163)With filter: 0.67
+(5581195)Humidity: 1.00
+(5582229)CO2 level: <400 ppm
+(5586153)Pressure corrected (mbar)= 60.61
+(5586156)Without filter: 1.05
+(5586163)With filter: 0.82
+(5591154)Pressure corrected (mbar)= 60.31
+(5591157)Without filter: 0.61
+(5591164)With filter: 0.52
+(5592229)CO2 level: <400 ppm
+(5596155)Pressure corrected (mbar)= 60.21
+(5596158)Without filter: 1.07
+(5596166)With filter: 0.81
+(5601157)Pressure corrected (mbar)= 59.91
+(5601159)Without filter: 0.74
+(5601167)With filter: 0.61
+(5602231)CO2 level: <400 ppm
+(5606158)Pressure corrected (mbar)= 59.52
+(5606160)Without filter: 0.80
+(5606168)With filter: 0.67
+(5611158)Pressure corrected (mbar)= 59.42
+(5611161)Without filter: 0.66
+(5611168)With filter: 0.64
+(5611200)Humidity: 1.00
+(5612234)CO2 level: <400 ppm
+(5616159)Pressure corrected (mbar)= 59.22
+(5616162)Without filter: 0.68
+(5616169)With filter: 0.52
+(5621160)Pressure corrected (mbar)= 58.72
+(5621163)Without filter: 0.71
+(5621171)With filter: 0.57
+(5622236)CO2 level: <400 ppm
+(5626162)Pressure corrected (mbar)= 58.52
+(5626164)Without filter: 0.93
+(5626172)With filter: 0.74
+(5631162)Pressure corrected (mbar)= 58.02
+(5631165)Without filter: 0.65
+(5631172)With filter: 0.53
+(5632237)CO2 level: <400 ppm
+(5636163)Pressure corrected (mbar)= 57.82
+(5636166)Without filter: 0.82
+(5636173)With filter: 0.69
+(5641164)Pressure corrected (mbar)= 57.72
+(5641167)Without filter: 0.73
+(5641175)With filter: 0.52
+(5641206)Humidity: 1.00
+(5642241)CO2 level: <400 ppm
+(5646166)Pressure corrected (mbar)= 57.62
+(5646168)Without filter: 0.67
+(5646176)With filter: 0.55
+(5651167)Pressure corrected (mbar)= 57.02
+(5651169)Without filter: 0.73
+(5651177)With filter: 0.60
+(5652242)CO2 level: <400 ppm
+(5656167)Pressure corrected (mbar)= 56.82
+(5656170)Without filter: 0.74
+(5656177)With filter: 0.53
+(5661168)Pressure corrected (mbar)= 56.72
+(5661171)Without filter: 0.67
+(5661178)With filter: 0.59
+(5662242)CO2 level: <400 ppm
+(5666169)Pressure corrected (mbar)= 56.42
+(5666172)Without filter: 0.72
+(5666180)With filter: 0.59
+(5671171)Pressure corrected (mbar)= 56.12
+(5671173)Without filter: 0.67
+(5671181)With filter: 0.55
+(5671213)Humidity: 1.00
+(5672247)CO2 level: <400 ppm
+(5676172)Pressure corrected (mbar)= 56.02
+(5676174)Without filter: 0.85
+(5676182)With filter: 0.70
+(5681172)Pressure corrected (mbar)= 55.43
+(5681175)Without filter: 0.60
+(5681182)With filter: 0.46
+(5682248)CO2 level: <400 ppm
+(5686173)Pressure corrected (mbar)= 55.23
+(5686176)Without filter: 0.71
+(5686183)With filter: 0.56
+(5691174)Pressure corrected (mbar)= 55.03
+(5691177)Without filter: 0.71
+(5691185)With filter: 0.56
+(5692249)CO2 level: <400 ppm
+(5696176)Pressure corrected (mbar)= 54.63
+(5696178)Without filter: 0.73
+(5696186)With filter: 0.57
+(5701177)Pressure corrected (mbar)= 54.53
+(5701179)Without filter: 0.80
+(5701187)With filter: 0.65
+(5701219)Humidity: 1.00
+(5702253)CO2 level: <400 ppm
+(5706177)Pressure corrected (mbar)= 54.23
+(5706180)Without filter: 0.89
+(5706187)With filter: 0.72
+(5711178)Pressure corrected (mbar)= 54.13
+(5711181)Without filter: 1.11
+(5711188)With filter: 0.84
+(5712253)CO2 level: <400 ppm
+(5716179)Pressure corrected (mbar)= 53.83
+(5716182)Without filter: 0.68
+(5716190)With filter: 0.56
+(5721181)Pressure corrected (mbar)= 53.23
+(5721183)Without filter: 0.64
+(5721191)With filter: 0.52
+(5722255)CO2 level: <400 ppm
+(5726181)Pressure corrected (mbar)= 53.13
+(5726184)Without filter: 0.67
+(5726191)With filter: 0.53
+(5731182)Pressure corrected (mbar)= 53.03
+(5731185)Without filter: 0.97
+(5731192)With filter: 0.77
+(5731224)Humidity: 1.00
+(5732258)CO2 level: <400 ppm
+(5736183)Pressure corrected (mbar)= 53.03
+(5736186)Without filter: 0.83
+(5736194)With filter: 0.69
+(5741185)Pressure corrected (mbar)= 52.43
+(5741187)Without filter: 0.81
+(5741195)With filter: 0.67
+(5742260)CO2 level: <400 ppm
+(5746186)Pressure corrected (mbar)= 51.93
+(5746188)Without filter: 0.58
+(5746196)With filter: 0.63
+(5751186)Pressure corrected (mbar)= 52.23
+(5751189)Without filter: 0.99
+(5751196)With filter: 0.81
+(5752261)CO2 level: <400 ppm
+(5756187)Pressure corrected (mbar)= 51.44
+(5756190)Without filter: 0.67
+(5756197)With filter: 0.56
+(5761188)Pressure corrected (mbar)= 51.04
+(5761191)Without filter: 0.68
+(5761199)With filter: 0.59
+(5761230)Humidity: 1.00
+(5762265)CO2 level: <400 ppm
+(5766190)Pressure corrected (mbar)= 50.74
+(5766192)Without filter: 0.87
+(5766200)With filter: 0.73
+(5771191)Pressure corrected (mbar)= 50.64
+(5771193)Without filter: 0.83
+(5771201)With filter: 0.67
+(5772266)CO2 level: <400 ppm
+(5776191)Pressure corrected (mbar)= 50.34
+(5776194)Without filter: 1.21
+(5776201)With filter: 0.84
+(5781192)Pressure corrected (mbar)= 50.34
+(5781195)Without filter: 0.74
+(5781202)With filter: 0.56
+(5782266)CO2 level: <400 ppm
+(5786193)Pressure corrected (mbar)= 50.24
+(5786196)Without filter: 0.81
+(5786204)With filter: 0.67
+(5791195)Pressure corrected (mbar)= 49.64
+(5791197)Without filter: 0.66
+(5791205)With filter: 0.63
+(5791237)Humidity: 1.00
+(5792271)CO2 level: <400 ppm
+(5796196)Pressure corrected (mbar)= 49.44
+(5796198)Without filter: 0.70
+(5796206)With filter: 0.56
+(5801196)Pressure corrected (mbar)= 48.94
+(5801199)Without filter: 0.68
+(5801206)With filter: 0.54
+(5802271)CO2 level: <400 ppm
+(5806197)Pressure corrected (mbar)= 49.14
+(5806200)Without filter: 0.62
+(5806208)With filter: 0.51
+(5811198)Pressure corrected (mbar)= 48.84
+(5811201)Without filter: 0.74
+(5811209)With filter: 0.61
+(5812273)CO2 level: <400 ppm
+(5816200)Pressure corrected (mbar)= 48.34
+(5816202)Without filter: 0.76
+(5816210)With filter: 0.63
+(5821200)Pressure corrected (mbar)= 48.34
+(5821203)Without filter: 0.73
+(5821210)With filter: 0.52
+(5821242)Humidity: 1.00
+(5822276)CO2 level: <400 ppm
+(5826201)Pressure corrected (mbar)= 48.04
+(5826204)Without filter: 0.85
+(5826211)With filter: 0.69
+(5831202)Pressure corrected (mbar)= 47.94
+(5831205)Without filter: 0.65
+(5831213)With filter: 0.65
+(5832276)CO2 level: <400 ppm
+(5836204)Pressure corrected (mbar)= 47.35
+(5836206)Without filter: 0.65
+(5836214)With filter: 0.64
+(5841205)Pressure corrected (mbar)= 47.35
+(5841207)Without filter: 0.62
+(5841215)With filter: 0.63
+(5842278)CO2 level: <400 ppm
+(5846205)Pressure corrected (mbar)= 47.05
+(5846208)Without filter: 0.81
+(5846215)With filter: 0.67
+(5851206)Pressure corrected (mbar)= 46.85
+(5851209)Without filter: 0.80
+(5851216)With filter: 0.68
+(5851248)Humidity: 1.00
+(5852282)CO2 level: <400 ppm
+(5856207)Pressure corrected (mbar)= 46.95
+(5856210)Without filter: 0.62
+(5856218)With filter: 0.51
+(5861209)Pressure corrected (mbar)= 46.45
+(5861211)Without filter: 0.68
+(5861219)With filter: 0.60
+(5862284)CO2 level: <400 ppm
+(5866210)Pressure corrected (mbar)= 46.25
+(5866212)Without filter: 1.01
+(5866220)With filter: 0.82
+(5871210)Pressure corrected (mbar)= 46.25
+(5871213)Without filter: 0.82
+(5871220)With filter: 0.68
+(5872285)CO2 level: <400 ppm
+(5876211)Pressure corrected (mbar)= 45.65
+(5876214)Without filter: 0.69
+(5876221)With filter: 0.60
+(5881212)Pressure corrected (mbar)= 45.15
+(5881216)Without filter: 0.68
+(5881223)With filter: 0.50
+(5881254)Humidity: 1.00
+(5882290)CO2 level: <400 ppm
+(5886214)Pressure corrected (mbar)= 45.45
+(5886217)Without filter: 0.83
+(5886224)With filter: 0.68
+(5891215)Pressure corrected (mbar)= 45.05
+(5891218)Without filter: 0.80
+(5891225)With filter: 0.67
+(5892290)CO2 level: <400 ppm
+(5896216)Pressure corrected (mbar)= 45.15
+(5896219)Without filter: 0.85
+(5896226)With filter: 0.70
+(5901217)Pressure corrected (mbar)= 44.75
+(5901220)Without filter: 0.71
+(5901228)With filter: 0.58
+(5902290)CO2 level: <400 ppm
+(5906219)Pressure corrected (mbar)= 44.55
+(5906221)Without filter: 0.77
+(5906229)With filter: 0.65
+(5911220)Pressure corrected (mbar)= 44.05
+(5911222)Without filter: 0.76
+(5911230)With filter: 0.64
+(5911262)Humidity: 1.00
+(5912296)CO2 level: <400 ppm
+(5916220)Pressure corrected (mbar)= 43.95
+(5916223)Without filter: 0.80
+(5916230)With filter: 0.66
+(5921221)Pressure corrected (mbar)= 43.85
+(5921224)Without filter: 0.74
+(5921231)With filter: 0.52
+(5922296)CO2 level: <400 ppm
+(5926222)Pressure corrected (mbar)= 43.66
+(5926225)Without filter: 0.62
+(5926233)With filter: 0.54
+(5931224)Pressure corrected (mbar)= 43.16
+(5931226)Without filter: 1.04
+(5931234)With filter: 0.81
+(5932298)CO2 level: <400 ppm
+(5936225)Pressure corrected (mbar)= 43.16
+(5936227)Without filter: 0.68
+(5936235)With filter: 0.57
+(5941225)Pressure corrected (mbar)= 43.46
+(5941228)Without filter: 0.67
+(5941235)With filter: 0.59
+(5941267)Humidity: 1.00
+(5942301)CO2 level: <400 ppm
+(5946226)Pressure corrected (mbar)= 42.76
+(5946229)Without filter: 0.72
+(5946236)With filter: 0.57
+(5951227)Pressure corrected (mbar)= 42.56
+(5951230)Without filter: 0.74
+(5951238)With filter: 0.59
+(5952302)CO2 level: <400 ppm
+(5956229)Pressure corrected (mbar)= 42.66
+(5956231)Without filter: 1.30
+(5956239)With filter: 0.86
+(5961230)Pressure corrected (mbar)= 42.06
+(5961232)Without filter: 0.70
+(5961240)With filter: 0.57
+(5962303)CO2 level: <400 ppm
+(5966230)Pressure corrected (mbar)= 41.96
+(5966233)Without filter: 0.64
+(5966240)With filter: 0.55
+(5971231)Pressure corrected (mbar)= 41.76
+(5971234)Without filter: 0.73
+(5971241)With filter: 0.57
+(5971273)Humidity: 1.00
+(5972307)CO2 level: <400 ppm
+(5976232)Pressure corrected (mbar)= 41.16
+(5976235)Without filter: 0.75
+(5976243)With filter: 0.62
+(5981234)Pressure corrected (mbar)= 41.26
+(5981236)Without filter: 1.29
+(5981244)With filter: 0.87
+(5982309)CO2 level: <400 ppm
+(5986234)Pressure corrected (mbar)= 41.26
+(5986237)Without filter: 0.73
+(5986244)With filter: 0.57
+(5991235)Pressure corrected (mbar)= 41.16
+(5991238)Without filter: 0.85
+(5991245)With filter: 0.70
+(5992309)CO2 level: <400 ppm
+(5996236)Pressure corrected (mbar)= 40.66
+(5996239)Without filter: 0.88
+(5996247)With filter: 0.72
+(6001238)Pressure corrected (mbar)= 40.26
+(6001240)Without filter: 0.68
+(6001248)With filter: 0.52
+(6001280)Humidity: 1.00
+(6002314)CO2 level: <400 ppm
+(6006239)Pressure corrected (mbar)= 39.86
+(6006241)Without filter: 0.73
+(6006249)With filter: 0.59
+(6011239)Pressure corrected (mbar)= 40.06
+(6011242)Without filter: 0.72
+(6011249)With filter: 0.58
+(6012315)CO2 level: <400 ppm
+(6016240)Pressure corrected (mbar)= 39.86
+(6016243)Without filter: 1.01
+(6016250)With filter: 0.79
+(6021241)Pressure corrected (mbar)= 39.76
+(6021244)Without filter: 0.70
+(6021252)With filter: 0.57
+(6022316)CO2 level: <400 ppm
+(6026243)Pressure corrected (mbar)= 39.47
+(6026245)Without filter: 0.82
+(6026253)With filter: 0.67
+(6031244)Pressure corrected (mbar)= 38.97
+(6031246)Without filter: 1.20
+(6031254)With filter: 0.85
+(6031286)Humidity: 1.00
+(6032320)CO2 level: <400 ppm
+(6036244)Pressure corrected (mbar)= 38.87
+(6036247)Without filter: 0.66
+(6036254)With filter: 0.56
+(6041245)Pressure corrected (mbar)= 38.87
+(6041248)Without filter: 0.72
+(6041255)With filter: 0.51
+(6042320)CO2 level: <400 ppm
+(6046246)Pressure corrected (mbar)= 38.47
+(6046249)Without filter: 0.64
+(6046257)With filter: 0.49
+(6051248)Pressure corrected (mbar)= 38.57
+(6051250)Without filter: 0.62
+(6051258)With filter: 0.64
+(6052322)CO2 level: <400 ppm
+(6056249)Pressure corrected (mbar)= 38.27
+(6056251)Without filter: 0.79
+(6056259)With filter: 0.66
+(6061249)Pressure corrected (mbar)= 38.17
+(6061252)Without filter: 0.81
+(6061259)With filter: 0.67
+(6061291)Humidity: 1.00
+(6062326)CO2 level: <400 ppm
+(6066250)Pressure corrected (mbar)= 37.57
+(6066253)Without filter: 0.89
+(6066260)With filter: 0.73
+(6071251)Pressure corrected (mbar)= 37.87
+(6071254)Without filter: 0.71
+(6071262)With filter: 0.55
+(6072327)CO2 level: <400 ppm
+(6076253)Pressure corrected (mbar)= 37.27
+(6076255)Without filter: 0.72
+(6076263)With filter: 0.61
+(6081253)Pressure corrected (mbar)= 37.17
+(6081256)Without filter: 0.73
+(6081263)With filter: 0.61
+(6082328)CO2 level: <400 ppm
+(6086254)Pressure corrected (mbar)= 36.77
+(6086257)Without filter: 0.71
+(6086264)With filter: 0.58
+(6091255)Pressure corrected (mbar)= 36.77
+(6091258)Without filter: 0.55
+(6091266)With filter: 0.47
+(6091297)Humidity: 1.00
+(6092332)CO2 level: <400 ppm
+(6096257)Pressure corrected (mbar)= 36.77
+(6096259)Without filter: 0.62
+(6096267)With filter: 0.48
+(6101258)Pressure corrected (mbar)= 36.37
+(6101260)Without filter: 0.77
+(6101268)With filter: 0.64
+(6102333)CO2 level: <400 ppm
+(6106258)Pressure corrected (mbar)= 36.07
+(6106261)Without filter: 0.73
+(6106268)With filter: 0.58
+(6111259)Pressure corrected (mbar)= 36.17
+(6111262)Without filter: 0.92
+(6111269)With filter: 0.79
+(6112333)CO2 level: <400 ppm
+(6116260)Pressure corrected (mbar)= 36.07
+(6116263)Without filter: 0.73
+(6116271)With filter: 0.59
+(6121262)Pressure corrected (mbar)= 35.48
+(6121264)Without filter: 1.28
+(6121272)With filter: 0.86
+(6121304)Humidity: 1.00
+(6122339)CO2 level: <400 ppm
+(6126263)Pressure corrected (mbar)= 35.68
+(6126265)Without filter: 0.71
+(6126273)With filter: 0.54
+(6131263)Pressure corrected (mbar)= 35.38
+(6131266)Without filter: 0.61
+(6131273)With filter: 0.61
+(6132339)CO2 level: <400 ppm
+(6136264)Pressure corrected (mbar)= 35.08
+(6136267)Without filter: 0.71
+(6136274)With filter: 0.56
+(6141265)Pressure corrected (mbar)= 34.88
+(6141268)Without filter: 0.63
+(6141276)With filter: 0.53
+(6142340)CO2 level: <400 ppm
+(6146267)Pressure corrected (mbar)= 34.78
+(6146269)Without filter: 0.67
+(6146277)With filter: 0.62
+(6151268)Pressure corrected (mbar)= 34.48
+(6151270)Without filter: 0.57
+(6151278)With filter: 0.45
+(6151310)Humidity: 1.00
+(6152344)CO2 level: <400 ppm
+(6156268)Pressure corrected (mbar)= 34.18
+(6156271)Without filter: 1.30
+(6156278)With filter: 0.87
+(6161269)Pressure corrected (mbar)= 34.28
+(6161272)Without filter: 0.67
+(6161280)With filter: 0.52
+(6162344)CO2 level: <400 ppm
+(6166270)Pressure corrected (mbar)= 33.98
+(6166273)Without filter: 0.68
+(6166281)With filter: 0.56
+(6171272)Pressure corrected (mbar)= 33.78
+(6171274)Without filter: 0.71
+(6171282)With filter: 0.54
+(6172346)CO2 level: <400 ppm
+(6176272)Pressure corrected (mbar)= 33.88
+(6176275)Without filter: 0.83
+(6176282)With filter: 0.68
+(6181273)Pressure corrected (mbar)= 33.38
+(6181276)Without filter: 0.64
+(6181283)With filter: 0.58
+(6181315)Humidity: 1.00
+(6182349)CO2 level: <400 ppm
+(6186274)Pressure corrected (mbar)= 33.58
+(6186277)Without filter: 0.65
+(6186285)With filter: 0.53
+(6191276)Pressure corrected (mbar)= 32.88
+(6191278)Without filter: 0.96
+(6191286)With filter: 0.80
+(6192351)CO2 level: <400 ppm
+(6196277)Pressure corrected (mbar)= 33.18
+(6196279)Without filter: 0.67
+(6196287)With filter: 0.62
+(6201277)Pressure corrected (mbar)= 32.68
+(6201280)Without filter: 0.69
+(6201287)With filter: 0.59
+(6202352)CO2 level: <400 ppm
+(6206278)Pressure corrected (mbar)= 32.88
+(6206281)Without filter: 1.07
+(6206288)With filter: 0.81
+(6211279)Pressure corrected (mbar)= 32.08
+(6211282)Without filter: 0.94
+(6211290)With filter: 0.76
+(6211321)Humidity: 1.00
+(6212356)CO2 level: <400 ppm
+(6216281)Pressure corrected (mbar)= 32.28
+(6216283)Without filter: 0.68
+(6216291)With filter: 0.57
+(6221282)Pressure corrected (mbar)= 32.08
+(6221284)Without filter: 0.59
+(6221292)With filter: 0.52
+(6222357)CO2 level: <400 ppm
+(6226282)Pressure corrected (mbar)= 32.08
+(6226285)Without filter: 0.82
+(6226292)With filter: 0.67
+(6231283)Pressure corrected (mbar)= 31.78
+(6231286)Without filter: 0.68
+(6231293)With filter: 0.53
+(6232357)CO2 level: <400 ppm
+(6236284)Pressure corrected (mbar)= 31.39
+(6236288)Without filter: 0.75
+(6236295)With filter: 0.56
+(6241286)Pressure corrected (mbar)= 31.29
+(6241289)Without filter: 0.67
+(6241296)With filter: 0.59
+(6241328)Humidity: 1.00
+(6242362)CO2 level: <400 ppm
+(6246287)Pressure corrected (mbar)= 31.59
+(6246290)Without filter: 0.81
+(6246297)With filter: 0.67
+(6251288)Pressure corrected (mbar)= 30.99
+(6251291)Without filter: 1.11
+(6251298)With filter: 0.85
+(6252362)CO2 level: <400 ppm
+(6256289)Pressure corrected (mbar)= 30.99
+(6256292)Without filter: 0.71
+(6256300)With filter: 0.54
+(6261291)Pressure corrected (mbar)= 30.89
+(6261293)Without filter: 0.85
+(6261301)With filter: 0.70
+(6262364)CO2 level: <400 ppm
+(6266292)Pressure corrected (mbar)= 30.59
+(6266294)Without filter: 0.64
+(6266302)With filter: 0.55
+(6271292)Pressure corrected (mbar)= 30.59
+(6271295)Without filter: 1.06
+(6271302)With filter: 0.79
+(6271334)Humidity: 1.00
+(6272369)CO2 level: <400 ppm
+(6276293)Pressure corrected (mbar)= 29.99
+(6276296)Without filter: 0.67
+(6276303)With filter: 0.52
+(6281294)Pressure corrected (mbar)= 30.39
+(6281297)Without filter: 0.65
+(6281305)With filter: 0.55
+(6282369)CO2 level: <400 ppm
+(6286296)Pressure corrected (mbar)= 30.09
+(6286298)Without filter: 0.70
+(6286306)With filter: 0.54
+(6291297)Pressure corrected (mbar)= 29.99
+(6291299)Without filter: 1.03
+(6291307)With filter: 0.84
+(6292370)CO2 level: <400 ppm
+(6296297)Pressure corrected (mbar)= 29.69
+(6296300)Without filter: 0.66
+(6296307)With filter: 0.52
+(6301298)Pressure corrected (mbar)= 29.69
+(6301301)Without filter: 0.62
+(6301308)With filter: 0.52
+(6301340)Humidity: 1.00
+(6302374)CO2 level: <400 ppm
+(6306299)Pressure corrected (mbar)= 29.49
+(6306302)Without filter: 1.24
+(6306310)With filter: 0.88
+(6311301)Pressure corrected (mbar)= 29.29
+(6311303)Without filter: 0.64
+(6311311)With filter: 0.60
+(6312376)CO2 level: <400 ppm
+(6316302)Pressure corrected (mbar)= 28.99
+(6316304)Without filter: 0.64
+(6316312)With filter: 0.58
+(6321302)Pressure corrected (mbar)= 29.09
+(6321305)Without filter: 0.74
+(6321312)With filter: 0.61
+(6322377)CO2 level: <400 ppm
+(6326303)Pressure corrected (mbar)= 28.89
+(6326306)Without filter: 0.70
+(6326313)With filter: 0.57
+(6331304)Pressure corrected (mbar)= 28.79
+(6331307)Without filter: 0.76
+(6331315)With filter: 0.62
+(6331346)Humidity: 1.00
+(6332381)CO2 level: <400 ppm
+(6336306)Pressure corrected (mbar)= 28.39
+(6336308)Without filter: 0.85
+(6336316)With filter: 0.72
+(6341306)Pressure corrected (mbar)= 28.19
+(6341309)Without filter: 0.80
+(6341316)With filter: 0.67
+(6342382)CO2 level: <400 ppm
+(6346307)Pressure corrected (mbar)= 28.09
+(6346310)Without filter: 0.64
+(6346317)With filter: 0.54
+(6351308)Pressure corrected (mbar)= 27.79
+(6351311)Without filter: 0.74
+(6351319)With filter: 0.55
+(6352382)CO2 level: <400 ppm
+(6356310)Pressure corrected (mbar)= 27.89
+(6356312)Without filter: 0.63
+(6356320)With filter: 0.54
+(6361311)Pressure corrected (mbar)= 27.40
+(6361313)Without filter: 0.94
+(6361321)With filter: 0.79
+(6361353)Humidity: 1.00
+(6362387)CO2 level: <400 ppm
+(6366311)Pressure corrected (mbar)= 27.60
+(6366314)Without filter: 0.62
+(6366321)With filter: 0.50
+(6371312)Pressure corrected (mbar)= 27.00
+(6371315)Without filter: 0.74
+(6371322)With filter: 0.54
+(6372387)CO2 level: <400 ppm
+(6376313)Pressure corrected (mbar)= 27.30
+(6376316)Without filter: 0.83
+(6376324)With filter: 0.69
+(6381315)Pressure corrected (mbar)= 27.10
+(6381317)Without filter: 0.68
+(6381325)With filter: 0.55
+(6382389)CO2 level: <400 ppm
+(6386316)Pressure corrected (mbar)= 26.70
+(6386318)Without filter: 0.84
+(6386326)With filter: 0.71
+(6391316)Pressure corrected (mbar)= 26.70
+(6391319)Without filter: 0.64
+(6391326)With filter: 0.55
+(6391358)Humidity: 1.00
+(6392392)CO2 level: <400 ppm
+(6396317)Pressure corrected (mbar)= 26.60
+(6396320)Without filter: 0.71
+(6396327)With filter: 0.56
+(6401318)Pressure corrected (mbar)= 26.40
+(6401321)Without filter: 0.63
+(6401329)With filter: 0.54
+(6402393)CO2 level: <400 ppm
+(6406320)Pressure corrected (mbar)= 26.40
+(6406322)Without filter: 0.72
+(6406330)With filter: 0.57
+(6411321)Pressure corrected (mbar)= 25.80
+(6411323)Without filter: 0.64
+(6411331)With filter: 0.55
+(6412394)CO2 level: <400 ppm
+(6416321)Pressure corrected (mbar)= 26.00
+(6416324)Without filter: 0.82
+(6416331)With filter: 0.67
+(6421322)Pressure corrected (mbar)= 25.50
+(6421325)Without filter: 0.57
+(6421332)With filter: 0.47
+(6421364)Humidity: 1.00
+(6422400)CO2 level: <400 ppm
+(6426323)Pressure corrected (mbar)= 25.60
+(6426326)Without filter: 0.75
+(6426334)With filter: 0.51
+(6431325)Pressure corrected (mbar)= 25.40
+(6431327)Without filter: 0.84
+(6431335)With filter: 0.69
+(6432400)CO2 level: <400 ppm
+(6436325)Pressure corrected (mbar)= 25.30
+(6436328)Without filter: 0.73
+(6436335)With filter: 0.57
+(6441326)Pressure corrected (mbar)= 25.00
+(6441329)Without filter: 0.84
+(6441336)With filter: 0.72
+(6442400)CO2 level: <400 ppm
+(6446327)Pressure corrected (mbar)= 25.00
+(6446330)Without filter: 0.85
+(6446338)With filter: 0.72
+(6451329)Pressure corrected (mbar)= 24.80
+(6451331)Without filter: 1.04
+(6451339)With filter: 0.78
+(6451371)Humidity: 1.00
+(6452406)CO2 level: <400 ppm
+(6456330)Pressure corrected (mbar)= 24.50
+(6456332)Without filter: 0.80
+(6456340)With filter: 0.67
+(6461330)Pressure corrected (mbar)= 24.50
+(6461333)Without filter: 1.22
+(6461340)With filter: 0.83
+(6462406)CO2 level: <400 ppm
+(6466331)Pressure corrected (mbar)= 24.40
+(6466334)Without filter: 0.64
+(6466341)With filter: 0.52
+(6471332)Pressure corrected (mbar)= 24.20
+(6471335)Without filter: 0.73
+(6471343)With filter: 0.59
+(6472407)CO2 level: <400 ppm
+(6476334)Pressure corrected (mbar)= 24.30
+(6476336)Without filter: 0.72
+(6476344)With filter: 0.60
+(6481335)Pressure corrected (mbar)= 24.10
+(6481337)Without filter: 0.99
+(6481345)With filter: 0.78
+(6481377)Humidity: 1.00
+(6482412)CO2 level: <400 ppm
+(6486335)Pressure corrected (mbar)= 23.90
+(6486338)Without filter: 1.21
+(6486345)With filter: 0.87
+(6491336)Pressure corrected (mbar)= 23.51
+(6491339)Without filter: 0.71
+(6491346)With filter: 0.54
+(6492411)CO2 level: <400 ppm
+(6496337)Pressure corrected (mbar)= 23.51
+(6496340)Without filter: 0.77
+(6496348)With filter: 0.65
+(6501339)Pressure corrected (mbar)= 23.51
+(6501341)Without filter: 0.71
+(6501349)With filter: 0.54
+(6502413)CO2 level: <400 ppm
+(6506340)Pressure corrected (mbar)= 23.31
+(6506342)Without filter: 0.90
+(6506350)With filter: 0.77
+(6511340)Pressure corrected (mbar)= 23.31
+(6511343)Without filter: 0.66
+(6511350)With filter: 0.49
+(6511382)Humidity: 1.00
+(6512416)CO2 level: <400 ppm
+(6516341)Pressure corrected (mbar)= 22.91
+(6516344)Without filter: 0.65
+(6516352)With filter: 0.51
+(6521342)Pressure corrected (mbar)= 23.11
+(6521345)Without filter: 0.65
+(6521353)With filter: 0.65
+(6522418)CO2 level: <400 ppm
+(6526344)Pressure corrected (mbar)= 22.81
+(6526346)Without filter: 1.04
+(6526354)With filter: 0.81
+(6531344)Pressure corrected (mbar)= 22.41
+(6531347)Without filter: 0.72
+(6531354)With filter: 0.45
+(6532419)CO2 level: <400 ppm
+(6536345)Pressure corrected (mbar)= 22.51
+(6536348)Without filter: 0.86
+(6536355)With filter: 0.73
+(6541346)Pressure corrected (mbar)= 22.41
+(6541349)Without filter: 0.81
+(6541357)With filter: 0.68
+(6541388)Humidity: 1.00
+(6542424)CO2 level: <400 ppm
+(6546348)Pressure corrected (mbar)= 22.31
+(6546350)Without filter: 0.65
+(6546358)With filter: 0.47
+(6551349)Pressure corrected (mbar)= 22.41
+(6551351)Without filter: 0.68
+(6551359)With filter: 0.57
+(6552424)CO2 level: <400 ppm
+(6556349)Pressure corrected (mbar)= 21.71
+(6556352)Without filter: 0.61
+(6556359)With filter: 0.48
+(6561350)Pressure corrected (mbar)= 21.91
+(6561353)Without filter: 0.61
+(6561360)With filter: 0.51
+(6562424)CO2 level: <400 ppm
+(6566351)Pressure corrected (mbar)= 21.81
+(6566354)Without filter: 1.10
+(6566362)With filter: 0.83
+(6571353)Pressure corrected (mbar)= 21.51
+(6571355)Without filter: 0.72
+(6571363)With filter: 0.59
+(6571395)Humidity: 1.00
+(6572429)CO2 level: <400 ppm
+(6576354)Pressure corrected (mbar)= 21.31
+(6576356)Without filter: 0.71
+(6576364)With filter: 0.56
+(6581354)Pressure corrected (mbar)= 21.31
+(6581357)Without filter: 0.66
+(6581364)With filter: 0.56
+(6582430)CO2 level: <400 ppm
+(6586355)Pressure corrected (mbar)= 21.41
+(6586358)Without filter: 1.09
+(6586365)With filter: 0.80
+(6591356)Pressure corrected (mbar)= 20.91
+(6591360)Without filter: 0.62
+(6591367)With filter: 0.50
+(6592431)CO2 level: <400 ppm
+(6596358)Pressure corrected (mbar)= 20.71
+(6596361)Without filter: 0.78
+(6596368)With filter: 0.66
+(6601359)Pressure corrected (mbar)= 20.71
+(6601362)Without filter: 0.76
+(6601369)With filter: 0.62
+(6601401)Humidity: 1.00
+(6602436)CO2 level: <400 ppm
+(6606360)Pressure corrected (mbar)= 20.81
+(6606363)Without filter: 0.54
+(6606370)With filter: 0.64
+(6611361)Pressure corrected (mbar)= 20.31
+(6611364)Without filter: 0.62
+(6611372)With filter: 0.54
+(6612435)CO2 level: <400 ppm
+(6616363)Pressure corrected (mbar)= 20.41
+(6616365)Without filter: 0.72
+(6616373)With filter: 0.58
+(6621364)Pressure corrected (mbar)= 20.41
+(6621366)Without filter: 0.70
+(6621374)With filter: 0.55
+(6622437)CO2 level: <400 ppm
+(6626364)Pressure corrected (mbar)= 20.01
+(6626367)Without filter: 0.63
+(6626374)With filter: 0.58
+(6631365)Pressure corrected (mbar)= 20.21
+(6631368)Without filter: 0.63
+(6631375)With filter: 0.48
+(6631407)Humidity: 1.00
+(6632441)CO2 level: <400 ppm
+(6636366)Pressure corrected (mbar)= 19.91
+(6636369)Without filter: 0.70
+(6636377)With filter: 0.57
+(6641368)Pressure corrected (mbar)= 19.81
+(6641370)Without filter: 0.72
+(6641378)With filter: 0.53
+(6642443)CO2 level: <400 ppm
+(6646369)Pressure corrected (mbar)= 19.81
+(6646371)Without filter: 0.93
+(6646379)With filter: 0.79
+(6651369)Pressure corrected (mbar)= 19.52
+(6651372)Without filter: 0.69
+(6651379)With filter: 0.60
+(6652444)CO2 level: <400 ppm
+(6656370)Pressure corrected (mbar)= 19.52
+(6656373)Without filter: 0.75
+(6656380)With filter: 0.59
+(6661371)Pressure corrected (mbar)= 19.42
+(6661374)Without filter: 0.63
+(6661382)With filter: 0.51
+(6661413)Humidity: 1.00
+(6662449)CO2 level: <400 ppm
+(6666373)Pressure corrected (mbar)= 19.42
+(6666375)Without filter: 0.95
+(6666383)With filter: 0.76
+(6671374)Pressure corrected (mbar)= 19.32
+(6671376)Without filter: 0.76
+(6671384)With filter: 0.63
+(6672449)CO2 level: <400 ppm
+(6676374)Pressure corrected (mbar)= 18.72
+(6676377)Without filter: 0.74
+(6676384)With filter: 0.57
+(6681375)Pressure corrected (mbar)= 18.72
+(6681378)Without filter: 0.66
+(6681385)With filter: 0.55
+(6682449)CO2 level: <400 ppm
+(6686376)Pressure corrected (mbar)= 18.72
+(6686379)Without filter: 0.75
+(6686387)With filter: 0.58
+(6691378)Pressure corrected (mbar)= 18.32
+(6691380)Without filter: 0.73
+(6691388)With filter: 0.61
+(6691420)Humidity: 1.00
+(6692455)CO2 level: <400 ppm
+(6696378)Pressure corrected (mbar)= 18.72
+(6696381)Without filter: 0.74
+(6696388)With filter: 0.62
+(6701379)Pressure corrected (mbar)= 18.52
+(6701382)Without filter: 0.65
+(6701389)With filter: 0.53
+(6702454)CO2 level: <400 ppm
+(6706380)Pressure corrected (mbar)= 18.52
+(6706383)Without filter: 0.60
+(6706391)With filter: 0.53
+(6711382)Pressure corrected (mbar)= 18.32
+(6711384)Without filter: 1.08
+(6711392)With filter: 0.81
+(6712456)CO2 level: <400 ppm
+(6716383)Pressure corrected (mbar)= 18.02
+(6716385)Without filter: 0.73
+(6716393)With filter: 0.61
+(6721383)Pressure corrected (mbar)= 17.82
+(6721386)Without filter: 0.61
+(6721393)With filter: 0.48
+(6721425)Humidity: 1.00
+(6722460)CO2 level: <400 ppm
+(6726384)Pressure corrected (mbar)= 18.12
+(6726387)Without filter: 0.74
+(6726394)With filter: 0.57
+(6731385)Pressure corrected (mbar)= 17.72
+(6731388)Without filter: 0.71
+(6731396)With filter: 0.58
+(6732460)CO2 level: <400 ppm
+(6736387)Pressure corrected (mbar)= 17.42
+(6736389)Without filter: 0.71
+(6736397)With filter: 0.54
+(6741388)Pressure corrected (mbar)= 17.52
+(6741390)Without filter: 0.93
+(6741398)With filter: 0.73
+(6742461)CO2 level: <400 ppm
+(6746388)Pressure corrected (mbar)= 17.42
+(6746391)Without filter: 0.75
+(6746398)With filter: 0.63
+(6751389)Pressure corrected (mbar)= 17.42
+(6751392)Without filter: 0.73
+(6751399)With filter: 0.60
+(6751431)Humidity: 1.00
+(6752465)CO2 level: <400 ppm
+(6756390)Pressure corrected (mbar)= 17.32
+(6756393)Without filter: 0.59
+(6756401)With filter: 0.48
+(6761392)Pressure corrected (mbar)= 17.02
+(6761394)Without filter: 1.24
+(6761402)With filter: 0.84
+(6762467)CO2 level: <400 ppm
+(6766393)Pressure corrected (mbar)= 17.02
+(6766395)Without filter: 0.61
+(6766403)With filter: 0.47
+(6771393)Pressure corrected (mbar)= 16.82
+(6771396)Without filter: 1.21
+(6771403)With filter: 0.82
+(6772468)CO2 level: <400 ppm
+(6776394)Pressure corrected (mbar)= 16.72
+(6776397)Without filter: 0.75
+(6776404)With filter: 0.62
+(6781395)Pressure corrected (mbar)= 16.62
+(6781398)Without filter: 0.73
+(6781406)With filter: 0.49
+(6781437)Humidity: 1.00
+(6782472)CO2 level: <400 ppm
+(6786397)Pressure corrected (mbar)= 16.62
+(6786399)Without filter: 0.68
+(6786407)With filter: 0.60
+(6791397)Pressure corrected (mbar)= 16.32
+(6791400)Without filter: 0.69
+(6791407)With filter: 0.56
+(6792473)CO2 level: <400 ppm
+(6796398)Pressure corrected (mbar)= 16.12
+(6796401)Without filter: 0.73
+(6796408)With filter: 0.63
+(6801399)Pressure corrected (mbar)= 16.12
+(6801402)Without filter: 0.72
+(6801410)With filter: 0.59
+(6802473)CO2 level: <400 ppm
+(6806401)Pressure corrected (mbar)= 16.12
+(6806403)Without filter: 0.73
+(6806411)With filter: 0.51
+(6811402)Pressure corrected (mbar)= 15.63
+(6811404)Without filter: 0.57
+(6811412)With filter: 0.64
+(6811444)Humidity: 1.00
+(6812478)CO2 level: <400 ppm
+(6816402)Pressure corrected (mbar)= 16.12
+(6816405)Without filter: 0.69
+(6816412)With filter: 0.56
+(6821403)Pressure corrected (mbar)= 15.72
+(6821406)Without filter: 0.65
+(6821413)With filter: 0.48
+(6822478)CO2 level: <400 ppm
+(6826404)Pressure corrected (mbar)= 15.82
+(6826407)Without filter: 0.94
+(6826415)With filter: 0.75
+(6831406)Pressure corrected (mbar)= 15.33
+(6831408)Without filter: 0.69
+(6831416)With filter: 0.61
+(6832480)CO2 level: <400 ppm
+(6836407)Pressure corrected (mbar)= 15.53
+(6836409)Without filter: 0.81
+(6836417)With filter: 0.65
+(6841407)Pressure corrected (mbar)= 15.33
+(6841410)Without filter: 0.67
+(6841417)With filter: 0.58
+(6841449)Humidity: 1.00
+(6842483)CO2 level: <400 ppm
+(6846408)Pressure corrected (mbar)= 15.23
+(6846411)Without filter: 0.47
+(6846418)With filter: 0.56
+(6851409)Pressure corrected (mbar)= 15.43
+(6851412)Without filter: 0.56
+(6851420)With filter: 0.43
+(6852484)CO2 level: <400 ppm
+(6856411)Pressure corrected (mbar)= 15.13
+(6856413)Without filter: 0.66
+(6856421)With filter: 0.62
+(6861412)Pressure corrected (mbar)= 15.33
+(6861414)Without filter: 0.78
+(6861422)With filter: 0.65
+(6862485)CO2 level: <400 ppm
+(6866412)Pressure corrected (mbar)= 14.93
+(6866415)Without filter: 0.63
+(6866422)With filter: 0.55
+(6871413)Pressure corrected (mbar)= 14.93
+(6871416)Without filter: 0.70
+(6871424)With filter: 0.55
+(6871455)Humidity: 1.00
+(6872491)CO2 level: <400 ppm
+(6876414)Pressure corrected (mbar)= 15.13
+(6876417)Without filter: 0.56
+(6876425)With filter: 0.42
+(6881416)Pressure corrected (mbar)= 14.43
+(6881418)Without filter: 0.63
+(6881426)With filter: 0.49
+(6882491)CO2 level: <400 ppm
+(6886416)Pressure corrected (mbar)= 14.63
+(6886419)Without filter: 0.60
+(6886426)With filter: 0.50
+(6891417)Pressure corrected (mbar)= 14.43
+(6891420)Without filter: 0.79
+(6891427)With filter: 0.65
+(6892491)CO2 level: <400 ppm
+(6896418)Pressure corrected (mbar)= 14.43
+(6896421)Without filter: 0.68
+(6896429)With filter: 0.54
+(6901420)Pressure corrected (mbar)= 14.33
+(6901422)Without filter: 0.63
+(6901430)With filter: 0.50
+(6901462)Humidity: 1.00
+(6902497)CO2 level: <400 ppm
+(6906421)Pressure corrected (mbar)= 14.43
+(6906423)Without filter: 0.76
+(6906431)With filter: 0.63
+(6911421)Pressure corrected (mbar)= 14.33
+(6911424)Without filter: 0.76
+(6911431)With filter: 0.65
+(6912497)CO2 level: <400 ppm
+(6916422)Pressure corrected (mbar)= 14.13
+(6916425)Without filter: 0.71
+(6916432)With filter: 0.58
+(6921423)Pressure corrected (mbar)= 14.13
+(6921426)Without filter: 0.72
+(6921434)With filter: 0.59
+(6922498)CO2 level: <400 ppm
+(6926425)Pressure corrected (mbar)= 13.83
+(6926427)Without filter: 0.75
+(6926435)With filter: 0.54
+(6931426)Pressure corrected (mbar)= 14.03
+(6931428)Without filter: 0.69
+(6931436)With filter: 0.57
+(6931468)Humidity: 1.00
+(6932503)CO2 level: <400 ppm
+(6936426)Pressure corrected (mbar)= 13.73
+(6936429)Without filter: 0.77
+(6936436)With filter: 0.64
+(6941427)Pressure corrected (mbar)= 13.33
+(6941430)Without filter: 0.64
+(6941437)With filter: 0.48
+(6942502)CO2 level: <400 ppm
+(6946428)Pressure corrected (mbar)= 13.43
+(6946432)Without filter: 0.76
+(6946439)With filter: 0.65
+(6951430)Pressure corrected (mbar)= 13.93
+(6951433)Without filter: 0.49
+(6951440)With filter: 0.43
+(6952504)CO2 level: <400 ppm
+(6956431)Pressure corrected (mbar)= 14.53
+(6956434)Without filter: 0.99
+(6956441)With filter: 0.72
+(6961432)Pressure corrected (mbar)= 15.23
+(6961435)Without filter: 1.13
+(6961442)With filter: 0.79
+(6961474)Humidity: 1.00
+(6962508)CO2 level: <400 ppm
+(6966433)Pressure corrected (mbar)= 15.43
+(6966436)Without filter: 0.50
+(6966444)With filter: 0.39
+(6971435)Pressure corrected (mbar)= 16.12
+(6971437)Without filter: 0.48
+(6971445)With filter: 0.56
+(6972510)CO2 level: <400 ppm
+(6976436)Pressure corrected (mbar)= 16.72
+(6976438)Without filter: 0.81
+(6976446)With filter: 0.68
+(6981436)Pressure corrected (mbar)= 17.32
+(6981439)Without filter: 1.12
+(6981446)With filter: 0.77
+(6982511)CO2 level: <400 ppm
+(6986437)Pressure corrected (mbar)= 17.82
+(6986440)Without filter: 0.67
+(6986447)With filter: 0.58
+(6991438)Pressure corrected (mbar)= 18.42
+(6991441)Without filter: 0.49
+(6991449)With filter: 0.37
+(6991480)Humidity: 1.00
+(6992516)CO2 level: <400 ppm
+(6996440)Pressure corrected (mbar)= 19.32
+(6996442)Without filter: 0.53
+(6996450)With filter: 0.39
+(7001441)Pressure corrected (mbar)= 20.11
+(7001443)Without filter: 0.63
+(7001451)With filter: 0.47
+(7002516)CO2 level: <400 ppm
+(7006441)Pressure corrected (mbar)= 21.01
+(7006444)Without filter: 0.45
+(7006451)With filter: 0.60
+(7011442)Pressure corrected (mbar)= 22.01
+(7011445)Without filter: 0.69
+(7011452)With filter: 0.38
+(7012516)CO2 level: <400 ppm
+(7016443)Pressure corrected (mbar)= 22.91
+(7016446)Without filter: 0.71
+(7016454)With filter: 0.58
+(7021445)Pressure corrected (mbar)= 23.80
+(7021447)Without filter: 0.85
+(7021455)With filter: 0.70
+(7021487)Humidity: 1.00
+(7022522)CO2 level: <400 ppm
+(7026446)Pressure corrected (mbar)= 25.00
+(7026448)Without filter: 1.17
+(7026456)With filter: 0.81
+(7031446)Pressure corrected (mbar)= 25.80
+(7031449)Without filter: 1.01
+(7031456)With filter: 0.72
+(7032522)CO2 level: <400 ppm
+(7036447)Pressure corrected (mbar)= 27.10
+(7036450)Without filter: 1.00
+(7036457)With filter: 0.74
+(7041448)Pressure corrected (mbar)= 28.19
+(7041451)Without filter: 0.49
+(7041459)With filter: 0.49
+(7042524)CO2 level: <400 ppm
+(7046450)Pressure corrected (mbar)= 29.59
+(7046452)Without filter: 0.58
+(7046460)With filter: 0.53
+(7051450)Pressure corrected (mbar)= 30.79
+(7051453)Without filter: 0.58
+(7051460)With filter: 0.46
+(7051492)Humidity: 1.00
+(7052527)CO2 level: <400 ppm
+(7056451)Pressure corrected (mbar)= 31.78
+(7056454)Without filter: 0.39
+(7056461)With filter: 0.52
+(7061452)Pressure corrected (mbar)= 33.48
+(7061455)Without filter: 1.15
+(7061463)With filter: 0.84
+(7062526)CO2 level: <400 ppm
+(7066454)Pressure corrected (mbar)= 34.68
+(7066456)Without filter: 0.52
+(7066464)With filter: 0.52
+(7071455)Pressure corrected (mbar)= 35.77
+(7071457)Without filter: 0.78
+(7071465)With filter: 0.61
+(7072528)CO2 level: <400 ppm
+(7076455)Pressure corrected (mbar)= 37.47
+(7076458)Without filter: 0.89
+(7076465)With filter: 0.73
+(7081456)Pressure corrected (mbar)= 38.67
+(7081459)Without filter: 0.65
+(7081466)With filter: 0.62
+(7081498)Humidity: 1.00
+(7082532)CO2 level: <400 ppm
+(7086457)Pressure corrected (mbar)= 39.86
+(7086460)Without filter: 1.03
+(7086468)With filter: 0.77
+(7091459)Pressure corrected (mbar)= 41.46
+(7091461)Without filter: 0.66
+(7091469)With filter: 0.59
+(7092534)CO2 level: <400 ppm
+(7096460)Pressure corrected (mbar)= 42.66
+(7096462)Without filter: 0.50
+(7096470)With filter: 0.60
+(7101460)Pressure corrected (mbar)= 44.25
+(7101463)Without filter: 0.59
+(7101470)With filter: 0.49
+(7102535)CO2 level: <400 ppm
+(7106461)Pressure corrected (mbar)= 45.55
+(7106464)Without filter: 0.61
+(7106471)With filter: 0.40
+(7111462)Pressure corrected (mbar)= 46.95
+(7111465)Without filter: 0.99
+(7111473)With filter: 0.73
+(7111504)Humidity: 1.00
+(7112540)CO2 level: <400 ppm
+(7116464)Pressure corrected (mbar)= 48.64
+(7116466)Without filter: 0.71
+(7116474)With filter: 0.60
+(7121465)Pressure corrected (mbar)= 50.34
+(7121467)Without filter: 0.72
+(7121475)With filter: 0.47
+(7122540)CO2 level: <400 ppm
+(7126465)Pressure corrected (mbar)= 51.64
+(7126468)Without filter: 0.82
+(7126475)With filter: 0.67
+(7131466)Pressure corrected (mbar)= 53.23
+(7131469)Without filter: 0.51
+(7131476)With filter: 0.50
+(7132540)CO2 level: <400 ppm
+(7136467)Pressure corrected (mbar)= 54.83
+(7136470)Without filter: 0.69
+(7136478)With filter: 0.47
+(7141469)Pressure corrected (mbar)= 56.72
+(7141471)Without filter: 0.72
+(7141479)With filter: 0.51
+(7141511)Humidity: 1.00
+(7142545)CO2 level: <400 ppm
+(7146469)Pressure corrected (mbar)= 58.22
+(7146472)Without filter: 0.85
+(7146479)With filter: 0.66
+(7151470)Pressure corrected (mbar)= 60.11
+(7151473)Without filter: 0.61
+(7151480)With filter: 0.42
+(7152545)CO2 level: <400 ppm
+(7156471)Pressure corrected (mbar)= 61.51
+(7156474)Without filter: 0.40
+(7156482)With filter: 0.54
+(7161473)Pressure corrected (mbar)= 63.71
+(7161475)Without filter: 0.82
+(7161483)With filter: 0.66
+(7162547)CO2 level: <400 ppm
+(7166474)Pressure corrected (mbar)= 65.60
+(7166476)Without filter: 1.12
+(7166484)With filter: 0.80
+(7171474)Pressure corrected (mbar)= 67.20
+(7171477)Without filter: 0.78
+(7171484)With filter: 0.62
+(7171516)Humidity: 1.00
+(7172551)CO2 level: <400 ppm
+(7176475)Pressure corrected (mbar)= 68.89
+(7176478)Without filter: 1.13
+(7176485)With filter: 0.77
+(7181476)Pressure corrected (mbar)= 70.99
+(7181479)Without filter: 0.88
+(7181487)With filter: 0.70
+(7182551)CO2 level: <400 ppm
+(7186478)Pressure corrected (mbar)= 72.68
+(7186480)Without filter: 0.56
+(7186488)With filter: 0.60
+(7191479)Pressure corrected (mbar)= 74.68
+(7191481)Without filter: 1.19
+(7191489)With filter: 0.75
+(7192552)CO2 level: <400 ppm
+(7196479)Pressure corrected (mbar)= 76.57
+(7196482)Without filter: 0.54
+(7196489)With filter: 0.58
+(7201480)Pressure corrected (mbar)= 78.07
+(7201483)Without filter: 0.58
+(7201490)With filter: 0.48
+(7201522)Humidity: 1.00
+(7202557)CO2 level: <400 ppm
+(7206481)Pressure corrected (mbar)= 80.56
+(7206484)Without filter: 0.50
+(7206492)With filter: 0.53
+(7211483)Pressure corrected (mbar)= 82.26
+(7211485)Without filter: 0.63
+(7211493)With filter: 0.47
+(7212558)CO2 level: <400 ppm
+(7216484)Pressure corrected (mbar)= 84.45
+(7216486)Without filter: 2.40
+(7216494)With filter: 2.14
+(7221484)Pressure corrected (mbar)= 86.35
+(7221487)Without filter: 0.64
+(7221494)With filter: 0.53
+(7222559)CO2 level: <400 ppm
+(7226485)Pressure corrected (mbar)= 88.44
+(7226488)Without filter: 0.68
+(7226496)With filter: 0.53
+(7231486)Pressure corrected (mbar)= 90.44
+(7231489)Without filter: 0.91
+(7231497)With filter: 0.69
+(7231528)Humidity: 1.00
+(7232563)CO2 level: <400 ppm
+(7236488)Pressure corrected (mbar)= 93.03
+(7236490)Without filter: 0.98
+(7236498)With filter: 0.69
+(7241488)Pressure corrected (mbar)= 95.03
+(7241491)Without filter: 0.64
+(7241498)With filter: 0.55
+(7242564)CO2 level: <400 ppm
+(7246489)Pressure corrected (mbar)= 96.92
+(7246492)Without filter: 0.67
+(7246499)With filter: 0.49
+(7251490)Pressure corrected (mbar)= 99.22
+(7251493)Without filter: 0.75
+(7251501)With filter: 0.63
+(7252564)CO2 level: <400 ppm
+(7256492)Pressure corrected (mbar)= 101.71
+(7256494)Without filter: 0.63
+(7256503)With filter: 0.56
+(7261493)Pressure corrected (mbar)= 103.81
+(7261495)Without filter: 0.71
+(7261504)With filter: 0.71
+(7261536)Humidity: 1.00
+(7262570)CO2 level: <400 ppm
+(7266493)Pressure corrected (mbar)= 106.30
+(7266496)Without filter: 0.68
+(7266504)With filter: 0.58
+(7271494)Pressure corrected (mbar)= 108.59
+(7271497)Without filter: 0.83
+(7271505)With filter: 0.65
+(7272570)CO2 level: <400 ppm
+(7276495)Pressure corrected (mbar)= 111.09
+(7276498)Without filter: 0.46
+(7276507)With filter: 0.61
+(7281497)Pressure corrected (mbar)= 113.08
+(7281499)Without filter: 1.51
+(7281508)With filter: 0.87
+(7282572)CO2 level: <400 ppm
+(7286498)Pressure corrected (mbar)= 115.38
+(7286500)Without filter: 0.62
+(7286509)With filter: 0.55
+(7291498)Pressure corrected (mbar)= 117.87
+(7291501)Without filter: 0.85
+(7291509)With filter: 0.69
+(7291541)Humidity: 1.00
+(7292575)CO2 level: <400 ppm
+(7296499)Pressure corrected (mbar)= 120.56
+(7296502)Without filter: 0.96
+(7296510)With filter: 0.70
+(7301500)Pressure corrected (mbar)= 122.76
+(7301504)Without filter: 0.77
+(7301512)With filter: 0.61
+(7302577)CO2 level: <400 ppm
+(7306502)Pressure corrected (mbar)= 125.15
+(7306505)Without filter: 0.57
+(7306513)With filter: 0.63
+(7311503)Pressure corrected (mbar)= 127.85
+(7311506)Without filter: 0.64
+(7311514)With filter: 0.54
+(7312578)CO2 level: <400 ppm
+(7316504)Pressure corrected (mbar)= 130.14
+(7316507)Without filter: 0.95
+(7316515)With filter: 0.71
+(7321505)Pressure corrected (mbar)= 132.63
+(7321508)Without filter: 0.89
+(7321517)With filter: 0.74
+(7321548)Humidity: 1.00
+(7322583)CO2 level: <400 ppm
+(7326507)Pressure corrected (mbar)= 134.93
+(7326509)Without filter: 0.82
+(7326518)With filter: 0.68
+(7331508)Pressure corrected (mbar)= 137.42
+(7331510)Without filter: 0.73
+(7331519)With filter: 0.45
+(7332584)CO2 level: <400 ppm
+(7336508)Pressure corrected (mbar)= 140.12
+(7336511)Without filter: 1.24
+(7336519)With filter: 0.93
+(7341509)Pressure corrected (mbar)= 142.11
+(7341512)Without filter: 0.89
+(7341520)With filter: 0.73
+(7342584)CO2 level: <400 ppm
+(7346510)Pressure corrected (mbar)= 145.40
+(7346513)Without filter: 0.55
+(7346522)With filter: 0.65
+(7351512)Pressure corrected (mbar)= 148.00
+(7351514)Without filter: 0.63
+(7351523)With filter: 0.63
+(7351555)Humidity: 1.00
+(7352589)CO2 level: <400 ppm
+(7356513)Pressure corrected (mbar)= 150.59
+(7356515)Without filter: 0.71
+(7356524)With filter: 0.64
+(7361513)Pressure corrected (mbar)= 153.18
+(7361516)Without filter: 0.62
+(7361524)With filter: 0.59
+(7362590)CO2 level: <400 ppm
+(7366514)Pressure corrected (mbar)= 155.78
+(7366517)Without filter: 0.91
+(7366525)With filter: 0.72
+(7371515)Pressure corrected (mbar)= 158.67
+(7371518)Without filter: 0.76
+(7371527)With filter: 0.64
+(7372591)CO2 level: <400 ppm
+(7376517)Pressure corrected (mbar)= 161.66
+(7376519)Without filter: 0.72
+(7376528)With filter: 0.55
+(7381518)Pressure corrected (mbar)= 164.45
+(7381520)Without filter: 0.97
+(7381529)With filter: 0.71
+(7381561)Humidity: 1.00
+(7382595)CO2 level: <400 ppm
+(7386518)Pressure corrected (mbar)= 167.25
+(7386521)Without filter: 0.78
+(7386529)With filter: 0.63
+(7391519)Pressure corrected (mbar)= 169.74
+(7391522)Without filter: 0.77
+(7391531)With filter: 0.53
+(7392595)CO2 level: <400 ppm
+(7396520)Pressure corrected (mbar)= 172.73
+(7396523)Without filter: 1.05
+(7396532)With filter: 0.71
+(7401522)Pressure corrected (mbar)= 175.53
+(7401524)Without filter: 0.77
+(7401533)With filter: 0.66
+(7402597)CO2 level: <400 ppm
+(7406522)Pressure corrected (mbar)= 178.42
+(7406525)Without filter: 0.80
+(7406533)With filter: 0.53
+(7411523)Pressure corrected (mbar)= 181.71
+(7411526)Without filter: 0.83
+(7411534)With filter: 0.71
+(7411566)Humidity: 1.00
+(7412600)CO2 level: <400 ppm
+(7416524)Pressure corrected (mbar)= 184.90
+(7416527)Without filter: 1.16
+(7416536)With filter: 0.89
+(7421526)Pressure corrected (mbar)= 187.30
+(7421528)Without filter: 0.88
+(7421537)With filter: 0.68
+(7422602)CO2 level: <400 ppm
+(7426527)Pressure corrected (mbar)= 190.59
+(7426529)Without filter: 0.69
+(7426538)With filter: 0.54
+(7431527)Pressure corrected (mbar)= 193.88
+(7431530)Without filter: 0.66
+(7431538)With filter: 0.62
+(7432603)CO2 level: <400 ppm
+(7436528)Pressure corrected (mbar)= 196.37
+(7436531)Without filter: 0.63
+(7436539)With filter: 0.65
+(7441529)Pressure corrected (mbar)= 199.57
+(7441532)Without filter: 0.36
+(7441541)With filter: 0.33
+(7441572)Humidity: 1.00
+(7442607)CO2 level: <400 ppm
+(7446531)Pressure corrected (mbar)= 202.46
+(7446533)Without filter: 0.87
+(7446542)With filter: 0.69
+(7451532)Pressure corrected (mbar)= 205.85
+(7451534)Without filter: 0.76
+(7451543)With filter: 0.66
+(7452608)CO2 level: <400 ppm
+(7456532)Pressure corrected (mbar)= 209.34
+(7456535)Without filter: 1.70
+(7456543)With filter: 2.76
+(7461533)Pressure corrected (mbar)= 212.04
+(7461536)Without filter: 0.82
+(7461544)With filter: 0.69
+(7462608)CO2 level: <400 ppm
+(7466534)Pressure corrected (mbar)= 215.13
+(7466537)Without filter: 0.72
+(7466546)With filter: 0.65
+(7471536)Pressure corrected (mbar)= 218.72
+(7471538)Without filter: 0.81
+(7471547)With filter: 0.57
+(7471579)Humidity: 1.00
+(7472613)CO2 level: <400 ppm
+(7476537)Pressure corrected (mbar)= 221.71
+(7476539)Without filter: 1.02
+(7476548)With filter: 0.81
+(7481537)Pressure corrected (mbar)= 225.20
+(7481540)Without filter: 0.93
+(7481548)With filter: 1.12
+(7482613)CO2 level: <400 ppm
+(7486538)Pressure corrected (mbar)= 228.30
+(7486541)Without filter: 0.79
+(7486550)With filter: 0.66
+(7491539)Pressure corrected (mbar)= 231.79
+(7491542)Without filter: 1.01
+(7491551)With filter: 0.76
+(7492615)CO2 level: <400 ppm
+(7496541)Pressure corrected (mbar)= 235.18
+(7496543)Without filter: 0.76
+(7496552)With filter: 0.61
+(7501541)Pressure corrected (mbar)= 238.27
+(7501544)Without filter: 0.77
+(7501552)With filter: 0.66
+(7501584)Humidity: 1.00
+(7502618)CO2 level: <400 ppm
+(7506542)Pressure corrected (mbar)= 241.46
+(7506545)Without filter: 0.86
+(7506553)With filter: 0.73
+(7511543)Pressure corrected (mbar)= 244.65
+(7511546)Without filter: 0.86
+(7511555)With filter: 0.72
+(7512619)CO2 level: <400 ppm
+(7516545)Pressure corrected (mbar)= 248.55
+(7516547)Without filter: 0.74
+(7516556)With filter: 0.65
+(7521546)Pressure corrected (mbar)= 251.84
+(7521548)Without filter: 0.95
+(7521557)With filter: 0.77
+(7522620)CO2 level: <400 ppm
+(7526546)Pressure corrected (mbar)= 254.83
+(7526549)Without filter: 0.99
+(7526557)With filter: 0.78
+(7531547)Pressure corrected (mbar)= 258.52
+(7531550)Without filter: 0.59
+(7531558)With filter: 0.70
+(7531590)Humidity: 1.00
+(7532625)CO2 level: <400 ppm
+(7536548)Pressure corrected (mbar)= 261.81
+(7536551)Without filter: 0.83
+(7536560)With filter: 0.70
+(7541550)Pressure corrected (mbar)= 265.60
+(7541552)Without filter: 1.15
+(7541561)With filter: 0.84
+(7542626)CO2 level: <400 ppm
+(7546551)Pressure corrected (mbar)= 268.89
+(7546553)Without filter: 1.10
+(7546562)With filter: 0.81
+(7551551)Pressure corrected (mbar)= 272.68
+(7551554)Without filter: 1.29
+(7551562)With filter: 1.02
+(7552627)CO2 level: <400 ppm
+(7556552)Pressure corrected (mbar)= 276.18
+(7556555)Without filter: 1.29
+(7556563)With filter: 0.98
+(7561553)Pressure corrected (mbar)= 279.67
+(7561556)Without filter: 0.93
+(7561565)With filter: 0.79
+(7561596)Humidity: 1.00
+(7562632)CO2 level: <400 ppm
+(7566555)Pressure corrected (mbar)= 283.66
+(7566557)Without filter: 0.97
+(7566566)With filter: 0.77
+(7571556)Pressure corrected (mbar)= 286.75
+(7571558)Without filter: 1.04
+(7571567)With filter: 0.84
+(7572632)CO2 level: <400 ppm
+(7576556)Pressure corrected (mbar)= 290.24
+(7576559)Without filter: 0.93
+(7576567)With filter: 0.60
+(7581557)Pressure corrected (mbar)= 293.73
+(7581560)Without filter: 1.13
+(7581569)With filter: 0.87
+(7582632)CO2 level: <400 ppm
+(7586558)Pressure corrected (mbar)= 297.72
+(7586561)Without filter: 0.95
+(7586570)With filter: 0.71
+(7591560)Pressure corrected (mbar)= 301.31
+(7591562)Without filter: 1.19
+(7591571)With filter: 0.88
+(7591603)Humidity: 1.00
+(7592638)CO2 level: <400 ppm
+(7596560)Pressure corrected (mbar)= 305.30
+(7596563)Without filter: 0.66
+(7596571)With filter: 0.58
+(7601561)Pressure corrected (mbar)= 308.10
+(7601564)Without filter: 1.05
+(7601572)With filter: 0.84
+(7602637)CO2 level: <400 ppm
+(7606562)Pressure corrected (mbar)= 312.49
+(7606565)Without filter: 1.25
+(7606574)With filter: 1.02
+(7611564)Pressure corrected (mbar)= 314.98
+(7611566)Without filter: 1.02
+(7611575)With filter: 0.85
+(7612639)CO2 level: <400 ppm
+(7616565)Pressure corrected (mbar)= 319.87
+(7616567)Without filter: 1.37
+(7616576)With filter: 0.99
+(7621565)Pressure corrected (mbar)= 323.26
+(7621568)Without filter: 4.13
+(7621576)With filter: 4.06
+(7621608)Humidity: 1.00
+(7622642)CO2 level: <400 ppm
+(7626566)Pressure corrected (mbar)= 327.05
+(7626569)Without filter: 1.22
+(7626577)With filter: 0.96
+(7631567)Pressure corrected (mbar)= 330.94
+(7631570)Without filter: 1.80
+(7631579)With filter: 1.29
+(7632643)CO2 level: <400 ppm
+(7636569)Pressure corrected (mbar)= 334.33
+(7636571)Without filter: 1.70
+(7636580)With filter: 1.18
+(7641570)Pressure corrected (mbar)= 337.92
+(7641572)Without filter: 1.03
+(7641581)With filter: 0.93
+(7642644)CO2 level: <400 ppm
