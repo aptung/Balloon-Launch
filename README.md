@@ -5,6 +5,8 @@ The files that ran during the space launch are: Balloon_arduino_1.ino, Balloon_a
 
 Folder "Arduino_2" contains all the files for Arduino 2. There are a lot of these because there are a lot of individual projects, but the main file is actually Arduino_2.ino, which calls all the other ones.
 
+Files "Arduino 1 raw data.txt" and "Arduino 2 raw data.txt" are the raw data recorded on the SD cards for Arduino 1 and Arduino 2, respectively.
+
 Folder "Individual_files" contains the code for the individual experiments in stand-alone files. These should all work because they came from the people themselves.
 
 File "Balloon.java" was used after the launch to process the raw output into a form that can be copy-pasted into a spreadsheet.
