@@ -1,7 +1,7 @@
 # Balloon-Launch
-Arduino code for the balloon launch. For ASR 2021-2022.
+Arduino code for Team Daedalus's balloon launch. For ASR 2021-2022.
 
-The files that ran during the space launch are: Balloon_arduino_1.ino, Balloon_arduino_3.ino, and the folder Arduino 2. Below are brief descriptions of each of the files/folders.
+The files that ran during the space launch are: Balloon_arduino_1.ino, Balloon_arduino_3.ino, Emory_Ozone.ino, and the folder Arduino 2. Below are brief descriptions of each of the files/folders.
 
 
 - Folder "Arduino_2" contains all the files for Arduino 2. There are a lot of these because there are a lot of individual projects, but the main file is actually Arduino_2.ino, which calls all the other ones.
