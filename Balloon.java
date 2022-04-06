@@ -2,7 +2,7 @@
 // Note that the program does not conduct the main analysis (which was done in a spreadsheet),
 // except for calculations of ground speed.
 
-import java.util.ArrayList;
+import java.util.ArrayList; // For ArrayLists
 import java.util.Scanner; // Used for reading in input
 
 public class Balloon {
@@ -15,7 +15,7 @@ public class Balloon {
 	// Reads in data in the form of the output of Arduino 1
 	// Prints out data in a useable format
 	public static void arduino1() {
-		// time in 1st pos, data in 2nd pos
+		// time in 1st position, data in 2nd position of double[]
 		ArrayList<double[]> pressureData = new ArrayList<double[]>();
 		ArrayList<double[]> tempData = new ArrayList<double[]>();
 		ArrayList<double[]> altitudeData = new ArrayList<double[]>();
@@ -28,9 +28,10 @@ public class Balloon {
 		double pressure = 0; // in mbar
 		double temp = 0; // in deg C
 		double altitude = 0; // in m
-		double lat = 0; // in degrees
-		double lon = 0; // in degrees
-
+		double lat = 0; // in degrees (decimal, not minutes/seconds)
+		double lon = 0; // in degrees (same as above, can be negative)
+		
+		// Step through each line of the input
 		while (CONSOLE.hasNextLine()) {
 			String input = CONSOLE.nextLine();
 			if (input.length() == 0) {
