@@ -18,4 +18,4 @@ The files that ran during the space launch are: Balloon_arduino_1.ino, Balloon_a
 
 - File "Balloon_launch_OLD.ino" contains the code which was used for the tethered launch, before we decided to split into different Arduinos. It is believed to be bug-free (although it is pretty complicated).
 
-= File "Emory_Ozone.ino" contains Emory's code for her ozone sensor, which ran independently of everything else.
+- File "Emory_Ozone.ino" contains Emory's code for her ozone sensor, which ran independently of everything else.
