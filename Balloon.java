@@ -1,3 +1,7 @@
+// Program for converting raw data from the Arduino into a useable format for data analysis.
+// Note that the program does not conduct the main analysis (which was done in a spreadsheet),
+// except for calculations of ground speed.
+
 import java.util.ArrayList;
 import java.util.Scanner; // Used for reading in input
 
