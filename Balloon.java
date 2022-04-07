@@ -12,7 +12,7 @@ public class Balloon {
 		arduino1(); // Replace this with "arduino2();" if reading in Arduino 2's output
 	}
 	
-	// Reads in data in the form of the output of Arduino 1
+	// Reads in data in the form of the output of Arduino 1 (make sure to delete the last, incomplete line in the file)
 	// Prints out data in a useable format
 	public static void arduino1() {
 		// time in 1st position, data in 2nd position of double[]
@@ -130,7 +130,7 @@ public class Balloon {
 	    return Math.sqrt(distance);
 	}
 	
-	
+	// Reads in the output from Arduino 2 (delete the first line from the raw output)
 	public static void arduino2() {
 		ArrayList<double[]> pressureData = new ArrayList<double[]>(); // time, pressure
 		ArrayList<double[]> solarData = new ArrayList<double[]>(); // time, without, with
