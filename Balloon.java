@@ -64,9 +64,6 @@ public class Balloon {
 			// Find the lines with GPS data
 			if (input.substring(input.indexOf(")") + 1, input.indexOf(")") + 2).equals("L")) {
 				altitude = Double.parseDouble(input.substring(input.indexOf("Alt") + 5, input.indexOf("(mm)")))/1000;
-//				if (altitude<=-200 || altitude>100) { // Filters out weird values
-//					altitude = altitudeData.get(altitudeData.size()-1)[1]; // then just take the previous reading
-//				}
 				altitudeData.add(new double[]{ time, altitude });
 
 				lat = Double.parseDouble(input.substring(input.indexOf("Lat") + 5, input.indexOf("Long")))/10000000;
@@ -86,6 +83,8 @@ public class Balloon {
 			double el2 = altitudeData.get(i+1)[1];
 			double distance = distance(lat1, lat2, lon1, lon2, el1, el2);
 			double timeElapsed = positionData.get(i+1)[0]-positionData.get(i)[0];
+			// The speed is calculated based on the position at two points in time, 
+			// so we use the halfway point between those two times for the "time" coordinate of the speed
 			double timeMid = (positionData.get(i+1)[0]+positionData.get(i)[0])*0.5;
 			if (distance/timeElapsed>1000) {
 				speedData.add(new double[] {timeMid, speedData.get(i-1)[1]});
@@ -137,13 +136,14 @@ public class Balloon {
 		ArrayList<double[]> humidityData = new ArrayList<double[]>(); // time, humidity
 		ArrayList<String[]> CO2Data = new ArrayList<String[]>(); // time, CO2 (is a string of "<400ppm")
 		
-		double time = 0;
-		double pressure = 0;
+		double time = 0; // s
+		double pressure = 0; // mbar
 		double solarWithout = 0;
 		double solarWith = 0;
-		double humidity = 0;
-		String CO2;
+		double humidity = 0; // in %
+		String CO2; // string indicating the CO2 level (all of which happen to be "<400ppm")
 		
+		// Same structure as the arduino1() method
 		while (CONSOLE.hasNextLine()) {
 			String input = CONSOLE.nextLine();
 			if (input.length()==0) {
@@ -157,7 +157,6 @@ public class Balloon {
 				pressure = pressure*1.00249 - 9.96392; // uncalibrate the pressure >:(
 				if (pressure <= 0 || pressure > 1500) { // Filters out weird values
 					pressure = pressureData.get(pressureData.size() - 1)[1]; // then just take the previous reading
-
 				}
 				pressureData.add(new double[] { time, pressure });
 			}
@@ -184,6 +183,7 @@ public class Balloon {
 			}
 		}
 		
+		// Output can be modified as necessary
 		System.out.println("Time");
 		for (int i = 0; i < pressureData.size(); i++){
 			System.out.println(pressureData.get(i)[0]);
